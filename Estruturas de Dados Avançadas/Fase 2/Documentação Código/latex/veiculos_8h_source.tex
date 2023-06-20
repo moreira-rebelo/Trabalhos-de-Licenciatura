@@ -1,0 +1,115 @@
+\doxysection{veiculos.\+h}
+\hypertarget{veiculos_8h_source}{}\label{veiculos_8h_source}\index{C:/Users/morei/Desktop/Estruturas-\/de-\/Dados-\/Avancadas/a16443\_a21990\_Fase2/Code/Veiculos/veiculos.h@{C:/Users/morei/Desktop/Estruturas-\/de-\/Dados-\/Avancadas/a16443\_a21990\_Fase2/Code/Veiculos/veiculos.h}}
+\mbox{\hyperlink{veiculos_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <stdbool.h>}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#ifndef\ Z}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#define\ Z}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#define\ MAX\_VERTICES\ 100}}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#pragma\ region\ Structs}}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct__veiculo}{\_veiculo}}}
+\DoxyCodeLine{00024\ \{}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct__veiculo_a83fadc3bb5a054b37d2f318f7d5c7ae5}{idVeiculo}};}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct__veiculo_a913ffe6a1b92facf1adf87d5190445bc}{tipo}};}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct__veiculo_a876d08c1d21086e4fd228744da10d028}{estado}};}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct__veiculo_af343ecaa57ceda970f703b84a6cd75d3}{autonomia}};}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{struct__veiculo_aaf809de80fb5178c0791806280d86767}{geoCodigo}}[20];}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{struct__veiculo_a9eab260e2868a95ead53da165da68261}{preco}};}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct__veiculo_a42cd64244a918a5ac7790523e97d1181}{peso}};}
+\DoxyCodeLine{00032\ \}\ \mbox{\hyperlink{veiculos_8h_aab95cda4bcbc41867453ac30a585d779}{Veiculo}};}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00037\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct__veiculo_node}{\_veiculoNode}}}
+\DoxyCodeLine{00038\ \{}
+\DoxyCodeLine{00039\ \ \ \ \ \mbox{\hyperlink{struct__veiculo}{Veiculo}}\ *\mbox{\hyperlink{struct__veiculo_node_a416928b79f0d09e6b0d64c8de38a9b95}{veiculo}};}
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct__veiculo_node}{\_veiculoNode}}*\ \mbox{\hyperlink{struct__veiculo_node_a3050b30c12f0cdc039de6d05c7c71f74}{seguinte}};}
+\DoxyCodeLine{00041\ \}\ \mbox{\hyperlink{veiculos_8h_a6a08df9ba84d9d5c8cdbd6bc83308130}{VeiculoNode}};}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00046\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct__lista_veiculos}{\_listaVeiculos}}}
+\DoxyCodeLine{00047\ \{}
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct__veiculo_node}{\_veiculoNode}}\ *\mbox{\hyperlink{struct__lista_veiculos_a94725e05652bf1fc1ad05cf2588c5e50}{head}};}
+\DoxyCodeLine{00049\ \}\ \mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{ListaVeiculos}};}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00054\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct__vertice}{\_vertice}}}
+\DoxyCodeLine{00055\ \{}
+\DoxyCodeLine{00056\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{struct__vertice_aaf809de80fb5178c0791806280d86767}{geoCodigo}}[20];}
+\DoxyCodeLine{00057\ \ \ \ \ \mbox{\hyperlink{struct__veiculo}{Veiculo}}*\ \mbox{\hyperlink{struct__vertice_a416928b79f0d09e6b0d64c8de38a9b95}{veiculo}};}
+\DoxyCodeLine{00058\ \}\ \mbox{\hyperlink{veiculos_8h_a17351fdc98d93157ac88b1cd8549f6df}{Vertice}};}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00063\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct__aresta}{\_aresta}}}
+\DoxyCodeLine{00064\ \{}
+\DoxyCodeLine{00065\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct__aresta_a42cd64244a918a5ac7790523e97d1181}{peso}};}
+\DoxyCodeLine{00066\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct__aresta_a583d2f46deeb28bd698635d183a70c38}{origem}};}
+\DoxyCodeLine{00067\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct__aresta_ae4750a1284233bf245581419efd611dd}{destino}};}
+\DoxyCodeLine{00068\ \}\ \mbox{\hyperlink{veiculos_8h_ae00af795c9aa0f486f7638f028a9a476}{Aresta}};}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00073\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct__grafo}{\_grafo}}}
+\DoxyCodeLine{00074\ \{}
+\DoxyCodeLine{00075\ \ \ \ \ \mbox{\hyperlink{struct__vertice}{Vertice}}\ \mbox{\hyperlink{struct__grafo_a277ebd2423d49562673a21540ef89868}{vertices}}[\mbox{\hyperlink{veiculos_8h_a0fdb7b933ef091574ff57d1f36dd4167}{MAX\_VERTICES}}];}
+\DoxyCodeLine{00076\ \ \ \ \ \mbox{\hyperlink{struct__aresta}{Aresta}}\ \mbox{\hyperlink{struct__grafo_a970f70ebe263bcb6e2d1174e65bfda37}{arestas}}[\mbox{\hyperlink{veiculos_8h_a0fdb7b933ef091574ff57d1f36dd4167}{MAX\_VERTICES}}\ *\ (\mbox{\hyperlink{veiculos_8h_a0fdb7b933ef091574ff57d1f36dd4167}{MAX\_VERTICES}}\ -\/\ 1)\ /\ 2];\ \textcolor{comment}{//\ Grafo\ completo}}
+\DoxyCodeLine{00077\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct__grafo_a29cac0aff7e6d15e55e9a8285799fe87}{numVertices}};}
+\DoxyCodeLine{00078\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct__grafo_a7fea8337e363c0e4b5ac41cd53f19d45}{numArestas}};}
+\DoxyCodeLine{00079\ \}\ \mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}};}
+\DoxyCodeLine{00080\ }
+\DoxyCodeLine{00081\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00083\ \textcolor{preprocessor}{\#pragma\ region\ Funcoes}}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00085\ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\ VEICULOS\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{00086\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{veiculos_8h_a1ea137c0557f8f1881b8c4bd7c568cfc}{AddVeiculo}}(\mbox{\hyperlink{struct__veiculo_node}{VeiculoNode}}\ *veiculoNode,\ \mbox{\hyperlink{struct__lista_veiculos}{ListaVeiculos}}\ *list);}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00088\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{veiculos_8h_a08b7783c348bb2d2ad21dacdac61dd67}{LerVeiculos}}(\textcolor{keywordtype}{char}*\ fileName,\ \mbox{\hyperlink{struct__lista_veiculos}{ListaVeiculos}}\ *listaVeiculos,\ \mbox{\hyperlink{struct__grafo}{Grafo}}*\ grafo);}
+\DoxyCodeLine{00089\ }
+\DoxyCodeLine{00090\ \mbox{\hyperlink{struct__lista_veiculos}{ListaVeiculos}}\ *\ \mbox{\hyperlink{veiculos_8h_a1f8541b3a8e8f1911f6e6f0b0cbd8fc1}{CriarListaVeiculos}}();}
+\DoxyCodeLine{00091\ }
+\DoxyCodeLine{00092\ \mbox{\hyperlink{struct__veiculo_node}{VeiculoNode}}*\ \mbox{\hyperlink{veiculos_8h_a5767fbf2539dff263155996a95482c0c}{CreateNodeVeiculo}}(\mbox{\hyperlink{struct__veiculo}{Veiculo}}\ *data);}
+\DoxyCodeLine{00093\ }
+\DoxyCodeLine{00094\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{veiculos_8h_a34daacddf261bcf7a5301f61efe32ce0}{PrintVeiculos}}(\mbox{\hyperlink{struct__lista_veiculos}{ListaVeiculos}}\ *list);}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00096\ }
+\DoxyCodeLine{00097\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{veiculos_8h_a5037367cf73de798530abf3857c8cf76}{ApagarVeiculo}}(\textcolor{keywordtype}{int}\ idVeiculo,\ \mbox{\hyperlink{struct__lista_veiculos}{ListaVeiculos}}\ *list);}
+\DoxyCodeLine{00098\ }
+\DoxyCodeLine{00099\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{veiculos_8h_af2445f8e82d3a11eba2bad6659f6ea8e}{AlterarVeiculo}}(\mbox{\hyperlink{struct__lista_veiculos}{ListaVeiculos}}\ *list,\ \textcolor{keywordtype}{int}\ idVeiculo,\ \textcolor{keywordtype}{int}\ tipo,\ \textcolor{keywordtype}{int}\ estado,\ \textcolor{keywordtype}{int}\ autonomia,\ \textcolor{keywordtype}{char}\ geoCodigo[20],\ \textcolor{keywordtype}{double}\ preco);}
+\DoxyCodeLine{00100\ }
+\DoxyCodeLine{00101\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{veiculos_8h_a8b94cb1517dc69fd78fbd2168f702c51}{GuardaListaVeiculos}}(\mbox{\hyperlink{struct__lista_veiculos}{ListaVeiculos}}\ *lista);}
+\DoxyCodeLine{00102\ }
+\DoxyCodeLine{00103\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{veiculos_8h_a4f6dbd341addf84291aebf8be4fab4b8}{AtualizaDadosVeiculos}}(\textcolor{keywordtype}{char}*\ fileName,\ \mbox{\hyperlink{struct__lista_veiculos}{ListaVeiculos}}\ *lista);}
+\DoxyCodeLine{00104\ }
+\DoxyCodeLine{00105\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{veiculos_8h_adf2b5d40275917b3c668df44f20e780f}{QttVeiculosLocalizacao}}(\mbox{\hyperlink{struct__lista_veiculos}{ListaVeiculos}}\ *list,\ \textcolor{keywordtype}{char}\ geoCodigo[20]);}
+\DoxyCodeLine{00106\ }
+\DoxyCodeLine{00107\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{veiculos_8h_a98fda8e27fe5a33b0a45135e3c4c77c3}{ListarAutonomiasDecrescente}}(\mbox{\hyperlink{struct__lista_veiculos}{ListaVeiculos}}\ *list);}
+\DoxyCodeLine{00108\ }
+\DoxyCodeLine{00109\ }
+\DoxyCodeLine{00110\ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/\ GRAFO\ -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{00111\ \mbox{\hyperlink{struct__grafo}{Grafo}}*\ \mbox{\hyperlink{veiculos_8h_af5cf618621b693d94215a263da3ba5ff}{criarGrafo}}();}
+\DoxyCodeLine{00112\ }
+\DoxyCodeLine{00113\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{veiculos_8h_a94370a3e9bb432db322ab8122c2d49aa}{adicionarVertice}}(\mbox{\hyperlink{struct__grafo}{Grafo}}*\ grafo,\ \textcolor{keywordtype}{char}\ geoCodigo[20],\ \mbox{\hyperlink{struct__veiculo}{Veiculo}}*\ veiculo);}
+\DoxyCodeLine{00114\ }
+\DoxyCodeLine{00115\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{veiculos_8h_addb765778a0cb2ef6d47968f487ffedb}{adicionarAresta}}(\mbox{\hyperlink{struct__grafo}{Grafo}}*\ grafo,\ \textcolor{keywordtype}{int}\ peso,\ \textcolor{keywordtype}{int}\ origem,\ \textcolor{keywordtype}{int}\ destino);}
+\DoxyCodeLine{00116\ }
+\DoxyCodeLine{00117\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{veiculos_8h_a087e8cb7a74f4dde922cc2b8f91f370b}{imprimirGrafo}}(\mbox{\hyperlink{struct__grafo}{Grafo}}*\ grafo);}
+\DoxyCodeLine{00118\ }
+\DoxyCodeLine{00119\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{veiculos_8h_aa65c2bf0df1e92edb1c2237c96da2096}{listarVeiculosPorTipoERaio}}(\mbox{\hyperlink{struct__grafo}{Grafo}}*\ grafo,\ \textcolor{keywordtype}{char}*\ clienteGeoCodigo,\ \textcolor{keywordtype}{int}\ tipoVeiculo,\ \textcolor{keywordtype}{int}\ pesoCentro,\ \textcolor{keywordtype}{double}\ raioMaximo);}
+\DoxyCodeLine{00120\ }
+\DoxyCodeLine{00121\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{veiculos_8h_a270b017bd201f3d7970486734cd3b1c0}{calcularDistancia}}(\textcolor{keywordtype}{int}\ pesoCentro,\ \mbox{\hyperlink{struct__vertice}{Vertice}}\ vertice);}
+\DoxyCodeLine{00122\ }
+\DoxyCodeLine{00123\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{veiculos_8h_a2d302171e9a6cace5580b62665c98d88}{encontrarVerticeMaisProximo}}(\mbox{\hyperlink{struct__grafo}{Grafo}}*\ grafo,\ \textcolor{keywordtype}{bool}\ visitado[],\ \textcolor{keywordtype}{int}\ verticeAtual);}
+\DoxyCodeLine{00124\ }
+\DoxyCodeLine{00125\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{veiculos_8h_aa625edb80f41ff9b1103702440761976}{encontrarCaminhoMenorDistancia}}(\mbox{\hyperlink{struct__grafo}{Grafo}}*\ grafo,\ \textcolor{keywordtype}{int}\ verticeInicial);}
+\DoxyCodeLine{00126\ }
+\DoxyCodeLine{00127\ }
+\DoxyCodeLine{00128\ }
+\DoxyCodeLine{00129\ }
+\DoxyCodeLine{00130\ }
+\DoxyCodeLine{00131\ }
+\DoxyCodeLine{00132\ }
+\DoxyCodeLine{00133\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00134\ }
+\DoxyCodeLine{00135\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

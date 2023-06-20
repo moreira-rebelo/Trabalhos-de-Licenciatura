@@ -1,0 +1,8 @@
+1,1,0,100,pastelaria.refina.eolico,0.05,20
+2,2,1,25,pastelaria.refina.eolico,0.05,10
+3,1,1,1,pastelaria.refina.eolico,0.05,50
+4,1,0,75,pastelaria.refina.eolico,0.05,5
+5,2,0,47,pastelaria.refina.eolico,0.05,2
+6,2,0,90,vire.abrasadora.agiu,0.05,90
+7,1,1,23,///vire.abrasadora.agiu,0.05,7
+

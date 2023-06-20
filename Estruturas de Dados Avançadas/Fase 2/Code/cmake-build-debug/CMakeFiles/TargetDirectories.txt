@@ -1,0 +1,3 @@
+C:/Users/morei/Desktop/Estruturas-de-Dados-Avancadas/a16443_a21990_Fase2/Code/cmake-build-debug/CMakeFiles/a16443_a21990_Fase2.dir
+C:/Users/morei/Desktop/Estruturas-de-Dados-Avancadas/a16443_a21990_Fase2/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/morei/Desktop/Estruturas-de-Dados-Avancadas/a16443_a21990_Fase2/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

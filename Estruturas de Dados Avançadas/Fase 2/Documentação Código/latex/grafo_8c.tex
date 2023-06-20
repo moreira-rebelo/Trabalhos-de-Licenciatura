@@ -1,0 +1,205 @@
+\doxysection{C\+:/\+Users/morei/\+Desktop/\+Estruturas-\/de-\/\+Dados-\/\+Avancadas/a16443\+\_\+a21990\+\_\+\+Fase2/\+Code/\+Grafo/grafo.c File Reference}
+\hypertarget{grafo_8c}{}\label{grafo_8c}\index{C:/Users/morei/Desktop/Estruturas-\/de-\/Dados-\/Avancadas/a16443\_a21990\_Fase2/Code/Grafo/grafo.c@{C:/Users/morei/Desktop/Estruturas-\/de-\/Dados-\/Avancadas/a16443\_a21990\_Fase2/Code/Grafo/grafo.c}}
+
+
+Local onde est{\ucr}o definidas todas as fun{\ucr}{\ucr}es relativas aos grafos.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$float.\+h$>$}\newline
+{\ttfamily \#include \"{}../\+Veiculos/veiculos.\+h\"{}}\newline
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{grafo_8c_a0fdb7b933ef091574ff57d1f36dd4167}{MAX\+\_\+\+VERTICES}}~100
+\item 
+\#define \mbox{\hyperlink{grafo_8c_a406fffe32cdaa5ca2dda352c9202459f}{RAIO\+\_\+\+MAXIMO}}~10
+\item 
+\#define \mbox{\hyperlink{grafo_8c_a755525a5c43d9b1a89b21da34569e0c7}{CAPACIDADE\+\_\+\+CAMINHAO}}~200
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{grafo_8c_af5cf618621b693d94215a263da3ba5ff}{criar\+Grafo}} ()
+\begin{DoxyCompactList}\small\item\em Criar grafo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{grafo_8c_a94370a3e9bb432db322ab8122c2d49aa}{adicionar\+Vertice}} (\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}grafo, char geo\+Codigo\mbox{[}20\mbox{]}, \mbox{\hyperlink{veiculos_8h_aab95cda4bcbc41867453ac30a585d779}{Veiculo}} \texorpdfstring{$\ast$}{*}veiculo)
+\begin{DoxyCompactList}\small\item\em Adicionar vértice ao grafo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{grafo_8c_addb765778a0cb2ef6d47968f487ffedb}{adicionar\+Aresta}} (\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}grafo, int peso, int origem, int destino)
+\begin{DoxyCompactList}\small\item\em Adicionar aresta ao grafo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{grafo_8c_a087e8cb7a74f4dde922cc2b8f91f370b}{imprimir\+Grafo}} (\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}grafo)
+\begin{DoxyCompactList}\small\item\em Imprimir grafo. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{grafo_8c_a270b017bd201f3d7970486734cd3b1c0}{calcular\+Distancia}} (int peso\+Centro, \mbox{\hyperlink{veiculos_8h_a17351fdc98d93157ac88b1cd8549f6df}{Vertice}} vertice)
+\begin{DoxyCompactList}\small\item\em Calcula a distância entre dois vertices. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{grafo_8c_aa65c2bf0df1e92edb1c2237c96da2096}{listar\+Veiculos\+Por\+Tipo\+ERaio}} (\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}grafo, char \texorpdfstring{$\ast$}{*}cliente\+Geo\+Codigo, int tipo\+Veiculo, int peso\+Centro, double raio\+Maximo)
+\begin{DoxyCompactList}\small\item\em Listar veiculos por raio. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{grafo_8c_a2d302171e9a6cace5580b62665c98d88}{encontrar\+Vertice\+Mais\+Proximo}} (\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}grafo, bool visitado\mbox{[}$\,$\mbox{]}, int vertice\+Atual)
+\item 
+void \mbox{\hyperlink{grafo_8c_aa625edb80f41ff9b1103702440761976}{encontrar\+Caminho\+Menor\+Distancia}} (\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}grafo, int vertice\+Inicial)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Local onde est{\ucr}o definidas todas as fun{\ucr}{\ucr}es relativas aos grafos. 
+
+\begin{DoxyAuthor}{Author}
+Allan Aleluia \& Francisco Reb{\ucr}lo (\href{mailto:a21990@alunos.ipca.pt}{\texttt{ a21990@alunos.\+ipca.\+pt}}, \href{mailto:a16443@alunos.ipca.pt}{\texttt{ a16443@alunos.\+ipca.\+pt}}) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023/05/23 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{grafo_8c_a755525a5c43d9b1a89b21da34569e0c7}\label{grafo_8c_a755525a5c43d9b1a89b21da34569e0c7} 
+\index{grafo.c@{grafo.c}!CAPACIDADE\_CAMINHAO@{CAPACIDADE\_CAMINHAO}}
+\index{CAPACIDADE\_CAMINHAO@{CAPACIDADE\_CAMINHAO}!grafo.c@{grafo.c}}
+\doxysubsubsection{\texorpdfstring{CAPACIDADE\_CAMINHAO}{CAPACIDADE\_CAMINHAO}}
+{\footnotesize\ttfamily \#define CAPACIDADE\+\_\+\+CAMINHAO~200}
+
+\Hypertarget{grafo_8c_a0fdb7b933ef091574ff57d1f36dd4167}\label{grafo_8c_a0fdb7b933ef091574ff57d1f36dd4167} 
+\index{grafo.c@{grafo.c}!MAX\_VERTICES@{MAX\_VERTICES}}
+\index{MAX\_VERTICES@{MAX\_VERTICES}!grafo.c@{grafo.c}}
+\doxysubsubsection{\texorpdfstring{MAX\_VERTICES}{MAX\_VERTICES}}
+{\footnotesize\ttfamily \#define MAX\+\_\+\+VERTICES~100}
+
+\Hypertarget{grafo_8c_a406fffe32cdaa5ca2dda352c9202459f}\label{grafo_8c_a406fffe32cdaa5ca2dda352c9202459f} 
+\index{grafo.c@{grafo.c}!RAIO\_MAXIMO@{RAIO\_MAXIMO}}
+\index{RAIO\_MAXIMO@{RAIO\_MAXIMO}!grafo.c@{grafo.c}}
+\doxysubsubsection{\texorpdfstring{RAIO\_MAXIMO}{RAIO\_MAXIMO}}
+{\footnotesize\ttfamily \#define RAIO\+\_\+\+MAXIMO~10}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{grafo_8c_addb765778a0cb2ef6d47968f487ffedb}\label{grafo_8c_addb765778a0cb2ef6d47968f487ffedb} 
+\index{grafo.c@{grafo.c}!adicionarAresta@{adicionarAresta}}
+\index{adicionarAresta@{adicionarAresta}!grafo.c@{grafo.c}}
+\doxysubsubsection{\texorpdfstring{adicionarAresta()}{adicionarAresta()}}
+{\footnotesize\ttfamily void adicionar\+Aresta (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo,  }\item[{int}]{peso,  }\item[{int}]{origem,  }\item[{int}]{destino }\end{DoxyParamCaption})}
+
+
+
+Adicionar aresta ao grafo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grafo} & \\
+\hline
+{\em peso} & \\
+\hline
+{\em origem} & \\
+\hline
+{\em destino} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{grafo_8c_a94370a3e9bb432db322ab8122c2d49aa}\label{grafo_8c_a94370a3e9bb432db322ab8122c2d49aa} 
+\index{grafo.c@{grafo.c}!adicionarVertice@{adicionarVertice}}
+\index{adicionarVertice@{adicionarVertice}!grafo.c@{grafo.c}}
+\doxysubsubsection{\texorpdfstring{adicionarVertice()}{adicionarVertice()}}
+{\footnotesize\ttfamily void adicionar\+Vertice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo,  }\item[{char}]{geo\+Codigo\mbox{[}20\mbox{]},  }\item[{\mbox{\hyperlink{veiculos_8h_aab95cda4bcbc41867453ac30a585d779}{Veiculo}} \texorpdfstring{$\ast$}{*}}]{veiculo }\end{DoxyParamCaption})}
+
+
+
+Adicionar vértice ao grafo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grafo} & \\
+\hline
+{\em geo\+Codigo} & \\
+\hline
+{\em veiculo} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{grafo_8c_a270b017bd201f3d7970486734cd3b1c0}\label{grafo_8c_a270b017bd201f3d7970486734cd3b1c0} 
+\index{grafo.c@{grafo.c}!calcularDistancia@{calcularDistancia}}
+\index{calcularDistancia@{calcularDistancia}!grafo.c@{grafo.c}}
+\doxysubsubsection{\texorpdfstring{calcularDistancia()}{calcularDistancia()}}
+{\footnotesize\ttfamily double calcular\+Distancia (\begin{DoxyParamCaption}\item[{int}]{peso\+Centro,  }\item[{\mbox{\hyperlink{veiculos_8h_a17351fdc98d93157ac88b1cd8549f6df}{Vertice}}}]{vertice }\end{DoxyParamCaption})}
+
+
+
+Calcula a distância entre dois vertices. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em peso\+Centro} & \\
+\hline
+{\em vertice} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{grafo_8c_af5cf618621b693d94215a263da3ba5ff}\label{grafo_8c_af5cf618621b693d94215a263da3ba5ff} 
+\index{grafo.c@{grafo.c}!criarGrafo@{criarGrafo}}
+\index{criarGrafo@{criarGrafo}!grafo.c@{grafo.c}}
+\doxysubsubsection{\texorpdfstring{criarGrafo()}{criarGrafo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*} criar\+Grafo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Criar grafo. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{grafo_8c_aa625edb80f41ff9b1103702440761976}\label{grafo_8c_aa625edb80f41ff9b1103702440761976} 
+\index{grafo.c@{grafo.c}!encontrarCaminhoMenorDistancia@{encontrarCaminhoMenorDistancia}}
+\index{encontrarCaminhoMenorDistancia@{encontrarCaminhoMenorDistancia}!grafo.c@{grafo.c}}
+\doxysubsubsection{\texorpdfstring{encontrarCaminhoMenorDistancia()}{encontrarCaminhoMenorDistancia()}}
+{\footnotesize\ttfamily void encontrar\+Caminho\+Menor\+Distancia (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo,  }\item[{int}]{vertice\+Inicial }\end{DoxyParamCaption})}
+
+\Hypertarget{grafo_8c_a2d302171e9a6cace5580b62665c98d88}\label{grafo_8c_a2d302171e9a6cace5580b62665c98d88} 
+\index{grafo.c@{grafo.c}!encontrarVerticeMaisProximo@{encontrarVerticeMaisProximo}}
+\index{encontrarVerticeMaisProximo@{encontrarVerticeMaisProximo}!grafo.c@{grafo.c}}
+\doxysubsubsection{\texorpdfstring{encontrarVerticeMaisProximo()}{encontrarVerticeMaisProximo()}}
+{\footnotesize\ttfamily int encontrar\+Vertice\+Mais\+Proximo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo,  }\item[{bool}]{visitado\mbox{[}$\,$\mbox{]},  }\item[{int}]{vertice\+Atual }\end{DoxyParamCaption})}
+
+\Hypertarget{grafo_8c_a087e8cb7a74f4dde922cc2b8f91f370b}\label{grafo_8c_a087e8cb7a74f4dde922cc2b8f91f370b} 
+\index{grafo.c@{grafo.c}!imprimirGrafo@{imprimirGrafo}}
+\index{imprimirGrafo@{imprimirGrafo}!grafo.c@{grafo.c}}
+\doxysubsubsection{\texorpdfstring{imprimirGrafo()}{imprimirGrafo()}}
+{\footnotesize\ttfamily void imprimir\+Grafo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo }\end{DoxyParamCaption})}
+
+
+
+Imprimir grafo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grafo} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{grafo_8c_aa65c2bf0df1e92edb1c2237c96da2096}\label{grafo_8c_aa65c2bf0df1e92edb1c2237c96da2096} 
+\index{grafo.c@{grafo.c}!listarVeiculosPorTipoERaio@{listarVeiculosPorTipoERaio}}
+\index{listarVeiculosPorTipoERaio@{listarVeiculosPorTipoERaio}!grafo.c@{grafo.c}}
+\doxysubsubsection{\texorpdfstring{listarVeiculosPorTipoERaio()}{listarVeiculosPorTipoERaio()}}
+{\footnotesize\ttfamily void listar\+Veiculos\+Por\+Tipo\+ERaio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo,  }\item[{char \texorpdfstring{$\ast$}{*}}]{cliente\+Geo\+Codigo,  }\item[{int}]{tipo\+Veiculo,  }\item[{int}]{peso\+Centro,  }\item[{double}]{raio\+Maximo }\end{DoxyParamCaption})}
+
+
+
+Listar veiculos por raio. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grafo} & \\
+\hline
+{\em cliente\+Geo\+Codigo} & \\
+\hline
+{\em tipo\+Veiculo} & \\
+\hline
+{\em peso\+Centro} & \\
+\hline
+{\em raio\+Maximo} & \\
+\hline
+\end{DoxyParams}

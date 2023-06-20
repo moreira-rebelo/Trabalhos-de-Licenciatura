@@ -1,0 +1,129 @@
+\hypertarget{class_bus_i_p_c_a_1_1_passes}{}\doxysection{Bus\+IPCA.\+Passes Class Reference}
+\label{class_bus_i_p_c_a_1_1_passes}\index{BusIPCA.Passes@{BusIPCA.Passes}}
+
+
+Classe PASSES -\/ Para criação e gerenciamento da lista de passes   
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bus_i_p_c_a_1_1_passes_a5d298467e834127ca746164a44f2e756}\label{class_bus_i_p_c_a_1_1_passes_a5d298467e834127ca746164a44f2e756}} 
+{\bfseries Passes} ()
+\begin{DoxyCompactList}\small\item\em Construtor por defeito de \mbox{\hyperlink{class_bus_i_p_c_a_1_1_passes}{Passes}}  \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_bus_i_p_c_a_1_1_passes_a5593c4f589c95f4e4e1d1322feaceaf5}{Add\+Passes}} (\mbox{\hyperlink{class_bus_i_p_c_a_1_1_passe}{Passe}} p)
+\begin{DoxyCompactList}\small\item\em Método que incrementa o total de passes da lista  \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_bus_i_p_c_a_1_1_passes}{Passes}} \mbox{\hyperlink{class_bus_i_p_c_a_1_1_passes_a10c7b6f1649057124fa80431b1057dfb}{Procura\+Passe}} (int nidpasse)
+\begin{DoxyCompactList}\small\item\em Método que procura novos passes para adicionar a lista  \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_bus_i_p_c_a_1_1_passes_a32473ce2bcb47442d83cd390a0af51ae}{Lista\+Passes}} ()
+\begin{DoxyCompactList}\small\item\em Método para gerar uma lista com os passes através do idpasse, uma vez que a lista não esteja vazia.  \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bus_i_p_c_a_1_1_passes_abe6bfd61746cbb85c61e03be51692eb6}\label{class_bus_i_p_c_a_1_1_passes_abe6bfd61746cbb85c61e03be51692eb6}} 
+int {\bfseries Id\+Passe}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_bus_i_p_c_a_1_1_passes_a123dc7183c98751bb7ba24b7d1f818fb}\label{class_bus_i_p_c_a_1_1_passes_a123dc7183c98751bb7ba24b7d1f818fb}} 
+\mbox{\hyperlink{class_bus_i_p_c_a_1_1_passe}{Passe}} {\bfseries Dados\+Passe}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_bus_i_p_c_a_1_1_passes_afbda7e872be682079f32203309516036}{Gerador\+Id}} (int v)
+\begin{DoxyCompactList}\small\item\em Método que incrementa a variável id\+Passe, para que seja sequêncial a criação dos id\textquotesingle{}s  \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bus_i_p_c_a_1_1_passes_ac8abf6bbcd70190135dff8f745c9ccbe}\label{class_bus_i_p_c_a_1_1_passes_ac8abf6bbcd70190135dff8f745c9ccbe}} 
+int {\bfseries id\+Passe}
+\item 
+\mbox{\Hypertarget{class_bus_i_p_c_a_1_1_passes_a18219edfda446480a355d92c4e19d110}\label{class_bus_i_p_c_a_1_1_passes_a18219edfda446480a355d92c4e19d110}} 
+List$<$ \mbox{\hyperlink{class_bus_i_p_c_a_1_1_passes}{Passes}} $>$ {\bfseries lista\+Passes}
+\item 
+\mbox{\Hypertarget{class_bus_i_p_c_a_1_1_passes_a8672392e91dc4badabd3207bb82cd6e0}\label{class_bus_i_p_c_a_1_1_passes_a8672392e91dc4badabd3207bb82cd6e0}} 
+\mbox{\hyperlink{class_bus_i_p_c_a_1_1_passe}{Passe}} {\bfseries dados\+Passe}
+\item 
+\mbox{\Hypertarget{class_bus_i_p_c_a_1_1_passes_a7e110af1d1be37a0b15b0533d363499c}\label{class_bus_i_p_c_a_1_1_passes_a7e110af1d1be37a0b15b0533d363499c}} 
+int {\bfseries total\+Passes}
+\item 
+\mbox{\Hypertarget{class_bus_i_p_c_a_1_1_passes_aade3ad060374cc796885075138a0afef}\label{class_bus_i_p_c_a_1_1_passes_aade3ad060374cc796885075138a0afef}} 
+int {\bfseries ultimo\+Id\+Passe}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe PASSES -\/ Para criação e gerenciamento da lista de passes  
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bus_i_p_c_a_1_1_passes_a5593c4f589c95f4e4e1d1322feaceaf5}\label{class_bus_i_p_c_a_1_1_passes_a5593c4f589c95f4e4e1d1322feaceaf5}} 
+\index{BusIPCA.Passes@{BusIPCA.Passes}!AddPasses@{AddPasses}}
+\index{AddPasses@{AddPasses}!BusIPCA.Passes@{BusIPCA.Passes}}
+\doxysubsubsection{\texorpdfstring{AddPasses()}{AddPasses()}}
+{\footnotesize\ttfamily int Bus\+IPCA.\+Passes.\+Add\+Passes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bus_i_p_c_a_1_1_passe}{Passe}}}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método que incrementa o total de passes da lista  
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bus_i_p_c_a_1_1_passes_afbda7e872be682079f32203309516036}\label{class_bus_i_p_c_a_1_1_passes_afbda7e872be682079f32203309516036}} 
+\index{BusIPCA.Passes@{BusIPCA.Passes}!GeradorId@{GeradorId}}
+\index{GeradorId@{GeradorId}!BusIPCA.Passes@{BusIPCA.Passes}}
+\doxysubsubsection{\texorpdfstring{GeradorId()}{GeradorId()}}
+{\footnotesize\ttfamily int Bus\+IPCA.\+Passes.\+Gerador\+Id (\begin{DoxyParamCaption}\item[{int}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Método que incrementa a variável id\+Passe, para que seja sequêncial a criação dos id\textquotesingle{}s  
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bus_i_p_c_a_1_1_passes_a32473ce2bcb47442d83cd390a0af51ae}\label{class_bus_i_p_c_a_1_1_passes_a32473ce2bcb47442d83cd390a0af51ae}} 
+\index{BusIPCA.Passes@{BusIPCA.Passes}!ListaPasses@{ListaPasses}}
+\index{ListaPasses@{ListaPasses}!BusIPCA.Passes@{BusIPCA.Passes}}
+\doxysubsubsection{\texorpdfstring{ListaPasses()}{ListaPasses()}}
+{\footnotesize\ttfamily bool Bus\+IPCA.\+Passes.\+Lista\+Passes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método para gerar uma lista com os passes através do idpasse, uma vez que a lista não esteja vazia.  
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_bus_i_p_c_a_1_1_passes_a10c7b6f1649057124fa80431b1057dfb}\label{class_bus_i_p_c_a_1_1_passes_a10c7b6f1649057124fa80431b1057dfb}} 
+\index{BusIPCA.Passes@{BusIPCA.Passes}!ProcuraPasse@{ProcuraPasse}}
+\index{ProcuraPasse@{ProcuraPasse}!BusIPCA.Passes@{BusIPCA.Passes}}
+\doxysubsubsection{\texorpdfstring{ProcuraPasse()}{ProcuraPasse()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_bus_i_p_c_a_1_1_passes}{Passes}} Bus\+IPCA.\+Passes.\+Procura\+Passe (\begin{DoxyParamCaption}\item[{int}]{nidpasse }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Método que procura novos passes para adicionar a lista  
+
+
+\begin{DoxyParams}{Parameters}
+{\em nidpasse} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/morei/\+Desktop/\+Bus\+IPCA\+\_\+\+FINAL/\+Bus\+IPCA/\+Bus\+IPCA/Passes.\+cs\end{DoxyCompactItemize}

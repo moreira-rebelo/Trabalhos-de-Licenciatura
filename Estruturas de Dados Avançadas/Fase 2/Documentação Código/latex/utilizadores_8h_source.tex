@@ -1,0 +1,59 @@
+\doxysection{utilizadores.\+h}
+\hypertarget{utilizadores_8h_source}{}\label{utilizadores_8h_source}\index{C:/Users/morei/Desktop/Estruturas-\/de-\/Dados-\/Avancadas/a16443\_a21990\_Fase2/Code/Utilizadores/utilizadores.h@{C:/Users/morei/Desktop/Estruturas-\/de-\/Dados-\/Avancadas/a16443\_a21990\_Fase2/Code/Utilizadores/utilizadores.h}}
+\mbox{\hyperlink{utilizadores_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#ifndef\ Y}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#define\ Y}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#pragma\ region\ Structs}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00020\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct__utilizador}{\_utilizador}}}
+\DoxyCodeLine{00021\ \{}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct__utilizador_a2dc1bbe1e5fc62132e23f85fd0986607}{idUtilizador}};}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct__utilizador_adf4ec67aa9a1ed6902c71bb8dd7c1dd3}{permissao}};}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct__utilizador_ad68c6985dce5a3d709f854778dedee19}{nif}};}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{struct__utilizador_a9ccb3b1009c0baf8e49e38488c83732a}{nome}}[20];}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{struct__utilizador_a04c3d675489ed42a229bff87f72dfca4}{saldo}};}
+\DoxyCodeLine{00027\ \}\ \mbox{\hyperlink{utilizadores_8h_a832d83d63e1cc909be49d376a4a7b84b}{Utilizador}};}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00032\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct__utilizador_node}{\_utilizadorNode}}}
+\DoxyCodeLine{00033\ \{}
+\DoxyCodeLine{00034\ \ \ \ \ \mbox{\hyperlink{struct__utilizador}{Utilizador}}\ *\mbox{\hyperlink{struct__utilizador_node_a932d0a3e36d22a3fcae14ae8d245596c}{utilizador}};}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct__utilizador_node}{\_utilizadorNode}}\ *\mbox{\hyperlink{struct__utilizador_node_a0c8e580ecff46c5e2514175786082c42}{seguinte}};}
+\DoxyCodeLine{00036\ \}\ \mbox{\hyperlink{utilizadores_8h_a73e1dc70a1829242d29bc036431ff2ec}{UtilizadorNode}};}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00041\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct__lista_utilizadores}{\_listaUtilizadores}}}
+\DoxyCodeLine{00042\ \{}
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct__utilizador_node}{\_utilizadorNode}}\ *\mbox{\hyperlink{struct__lista_utilizadores_a7a0d8eda535cf5042000e6d45c5f9cad}{head}};}
+\DoxyCodeLine{00044\ \}\ \mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{ListaUtilizadores}};}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00048\ \textcolor{preprocessor}{\#pragma\ region\ Funcoes}}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{utilizadores_8h_a25b96d05c2ca8154b2881e72459cfde0}{AddUtilizador}}(\mbox{\hyperlink{struct__utilizador}{Utilizador}}\ *\mbox{\hyperlink{struct__utilizador_node_a932d0a3e36d22a3fcae14ae8d245596c}{utilizador}},\ \mbox{\hyperlink{struct__lista_utilizadores}{ListaUtilizadores}}\ *list);}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00052\ \mbox{\hyperlink{struct__lista_utilizadores}{ListaUtilizadores}}\ *\mbox{\hyperlink{utilizadores_8h_ab9132ff400e8a844a33295153f868ab8}{CriarListaUtilizadores}}();}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ \mbox{\hyperlink{struct__utilizador_node}{UtilizadorNode}}\ *\mbox{\hyperlink{utilizadores_8h_ae9b0ac787ec9336f6f532cc83122a620}{CreateNode}}(\mbox{\hyperlink{struct__utilizador}{Utilizador}}\ *data);}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00056\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{utilizadores_8h_a12235fed71638c72edededae8a121515}{PrintUtilizadores}}(\mbox{\hyperlink{struct__lista_utilizadores}{ListaUtilizadores}}\ *list);}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{utilizadores_8h_a2ef1bb09af4fea4e654bc81218b60efc}{LerUtilizadores}}(\textcolor{keywordtype}{char}\ *filename,\ \mbox{\hyperlink{struct__lista_utilizadores}{ListaUtilizadores}}\ *listaUtilizadores);}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00060\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{utilizadores_8h_af348292a1cc5af3704a857f7b30cdefc}{ApagarUtilizador}}(\textcolor{keywordtype}{int}\ idUtilizador,\ \mbox{\hyperlink{struct__lista_utilizadores}{ListaUtilizadores}}\ *list);}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00062\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{utilizadores_8h_a430ea5653d83d3d8d9916955c2f34af2}{AlterarUtilizador}}(\mbox{\hyperlink{struct__lista_utilizadores}{ListaUtilizadores}}\ *list,\ \textcolor{keywordtype}{int}\ idUtilizador,\ \textcolor{keywordtype}{int}\ permissao,\ \textcolor{keywordtype}{char}\ nome[20],\ \textcolor{keywordtype}{int}\ nif,\ \textcolor{keywordtype}{double}\ saldo);}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{utilizadores_8h_a2f017801c6d0c7a6c3f54d9dd217ef08}{GuardaListaUtilizadores}}(\mbox{\hyperlink{struct__lista_utilizadores}{ListaUtilizadores}}\ *listaUtilizadores);}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{utilizadores_8h_a769f171268faf3097871d2cd5fb0d8d3}{AtualizaDadosUtilizadores}}(\textcolor{keywordtype}{char}\ *fileName,\ \mbox{\hyperlink{struct__lista_utilizadores}{ListaUtilizadores}}\ *lista);}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00068\ \textcolor{preprocessor}{\#pragma\ endregion}}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00070\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

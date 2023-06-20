@@ -1,0 +1,1 @@
+export * from '../../../inscription/domain/validators/document-validator'

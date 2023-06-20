@@ -1,0 +1,3 @@
+C:/Users/morei/Desktop/EDA/a16443_Fase1/cmake-build-debug/CMakeFiles/a16443_Fase1.dir
+C:/Users/morei/Desktop/EDA/a16443_Fase1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/morei/Desktop/EDA/a16443_Fase1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

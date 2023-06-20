@@ -1,0 +1,234 @@
+\doxysection{C\+:/\+Users/morei/\+Desktop/\+Estruturas-\/de-\/\+Dados-\/\+Avancadas/a16443\+\_\+a21990\+\_\+\+Fase2/\+Code/\+Veiculos/veiculos.c File Reference}
+\hypertarget{veiculos_8c}{}\label{veiculos_8c}\index{C:/Users/morei/Desktop/Estruturas-\/de-\/Dados-\/Avancadas/a16443\_a21990\_Fase2/Code/Veiculos/veiculos.c@{C:/Users/morei/Desktop/Estruturas-\/de-\/Dados-\/Avancadas/a16443\_a21990\_Fase2/Code/Veiculos/veiculos.c}}
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \"{}../\+Veiculos/veiculos.\+h\"{}}\newline
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{veiculos_8c_af08ec37a8c99d747fb60fa15bc28678b}{\+\_\+\+CRT\+\_\+\+SECURE\+\_\+\+NO\+\_\+\+WARNINGS}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{veiculos_8c_a08b7783c348bb2d2ad21dacdac61dd67}{Ler\+Veiculos}} (char \texorpdfstring{$\ast$}{*}file\+Name, \mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}lista\+Veiculos, \mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}grafo)
+\begin{DoxyCompactList}\small\item\em L{\ucr} os veiculos do ficheiro txt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{veiculos_8c_a1ea137c0557f8f1881b8c4bd7c568cfc}{Add\+Veiculo}} (\mbox{\hyperlink{veiculos_8h_a6a08df9ba84d9d5c8cdbd6bc83308130}{Veiculo\+Node}} \texorpdfstring{$\ast$}{*}veiculo\+Node, \mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}list)
+\begin{DoxyCompactList}\small\item\em Fun{\ucr}{\ucr}o para adicionar um veiculo a uma lista de veiculos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{veiculos_8h_a6a08df9ba84d9d5c8cdbd6bc83308130}{Veiculo\+Node}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{veiculos_8c_a5767fbf2539dff263155996a95482c0c}{Create\+Node\+Veiculo}} (\mbox{\hyperlink{veiculos_8h_aab95cda4bcbc41867453ac30a585d779}{Veiculo}} \texorpdfstring{$\ast$}{*}data)
+\begin{DoxyCompactList}\small\item\em Fun{\ucr}{\ucr}o para criar um n{\ucr} que aponta para o pr{\ucr}ximo veiculo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{veiculos_8c_a1f8541b3a8e8f1911f6e6f0b0cbd8fc1}{Criar\+Lista\+Veiculos}} ()
+\begin{DoxyCompactList}\small\item\em Fun{\ucr}{\ucr}o para criar uma lista de veiculos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{veiculos_8c_a5037367cf73de798530abf3857c8cf76}{Apagar\+Veiculo}} (int id\+Veiculo, \mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}list)
+\begin{DoxyCompactList}\small\item\em Fun{\ucr}{\ucr}o que apaga um veiculo de uma lista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{veiculos_8c_af2445f8e82d3a11eba2bad6659f6ea8e}{Alterar\+Veiculo}} (\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}list, int id\+Veiculo, int tipo, int estado, int autonomia, char geo\+Codigo\mbox{[}20\mbox{]}, double preco)
+\begin{DoxyCompactList}\small\item\em Fun{\ucr}{\ucr}o que altera dados de um veiculo numa lista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{veiculos_8c_a34daacddf261bcf7a5301f61efe32ce0}{Print\+Veiculos}} (\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}list)
+\begin{DoxyCompactList}\small\item\em Fun{\ucr}{\ucr}o para imprimir a lista de veiculos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{veiculos_8c_a8b94cb1517dc69fd78fbd2168f702c51}{Guarda\+Lista\+Veiculos}} (\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}lista)
+\begin{DoxyCompactList}\small\item\em Fun{\ucr}{\ucr}o para guardar a lista de utilizadores num ficheiro bin{\ucr}rio. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{veiculos_8c_a4f6dbd341addf84291aebf8be4fab4b8}{Atualiza\+Dados\+Veiculos}} (char \texorpdfstring{$\ast$}{*}file\+Name, \mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}lista)
+\begin{DoxyCompactList}\small\item\em Fun{\ucr}{\ucr}o para atualizar os veiculos no ficheiro txt. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{veiculos_8c_adf2b5d40275917b3c668df44f20e780f}{Qtt\+Veiculos\+Localizacao}} (\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}list, char geo\+Codigo\mbox{[}20\mbox{]})
+\begin{DoxyCompactList}\small\item\em Conta o n{\ucr}mero de ve{\ucr}culos numa determinada localiza{\ucr}{\ucr}o. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{veiculos_8c_a98fda8e27fe5a33b0a45135e3c4c77c3}{Listar\+Autonomias\+Decrescente}} (\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}list)
+\begin{DoxyCompactList}\small\item\em Lista a autonomia dos veiculos do menorr para o maior. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{veiculos_8c_af08ec37a8c99d747fb60fa15bc28678b}\label{veiculos_8c_af08ec37a8c99d747fb60fa15bc28678b} 
+\index{veiculos.c@{veiculos.c}!\_CRT\_SECURE\_NO\_WARNINGS@{\_CRT\_SECURE\_NO\_WARNINGS}}
+\index{\_CRT\_SECURE\_NO\_WARNINGS@{\_CRT\_SECURE\_NO\_WARNINGS}!veiculos.c@{veiculos.c}}
+\doxysubsubsection{\texorpdfstring{\_CRT\_SECURE\_NO\_WARNINGS}{\_CRT\_SECURE\_NO\_WARNINGS}}
+{\footnotesize\ttfamily \#define \+\_\+\+CRT\+\_\+\+SECURE\+\_\+\+NO\+\_\+\+WARNINGS}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{veiculos_8c_a1ea137c0557f8f1881b8c4bd7c568cfc}\label{veiculos_8c_a1ea137c0557f8f1881b8c4bd7c568cfc} 
+\index{veiculos.c@{veiculos.c}!AddVeiculo@{AddVeiculo}}
+\index{AddVeiculo@{AddVeiculo}!veiculos.c@{veiculos.c}}
+\doxysubsubsection{\texorpdfstring{AddVeiculo()}{AddVeiculo()}}
+{\footnotesize\ttfamily void Add\+Veiculo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{veiculos_8h_a6a08df9ba84d9d5c8cdbd6bc83308130}{Veiculo\+Node}} \texorpdfstring{$\ast$}{*}}]{veiculo\+Node,  }\item[{\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+
+
+Fun{\ucr}{\ucr}o para adicionar um veiculo a uma lista de veiculos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & \\
+\hline
+{\em veiculo} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{veiculos_8c_af2445f8e82d3a11eba2bad6659f6ea8e}\label{veiculos_8c_af2445f8e82d3a11eba2bad6659f6ea8e} 
+\index{veiculos.c@{veiculos.c}!AlterarVeiculo@{AlterarVeiculo}}
+\index{AlterarVeiculo@{AlterarVeiculo}!veiculos.c@{veiculos.c}}
+\doxysubsubsection{\texorpdfstring{AlterarVeiculo()}{AlterarVeiculo()}}
+{\footnotesize\ttfamily void Alterar\+Veiculo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}}]{list,  }\item[{int}]{id\+Veiculo,  }\item[{int}]{tipo,  }\item[{int}]{estado,  }\item[{int}]{autonomia,  }\item[{char}]{geo\+Codigo\mbox{[}20\mbox{]},  }\item[{double}]{preco }\end{DoxyParamCaption})}
+
+
+
+Fun{\ucr}{\ucr}o que altera dados de um veiculo numa lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & \\
+\hline
+{\em id\+Veiculo} & \\
+\hline
+{\em tipo} & \\
+\hline
+{\em estado} & \\
+\hline
+{\em autonomia} & \\
+\hline
+{\em geo\+Codigo} & \\
+\hline
+{\em preco} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{veiculos_8c_a5037367cf73de798530abf3857c8cf76}\label{veiculos_8c_a5037367cf73de798530abf3857c8cf76} 
+\index{veiculos.c@{veiculos.c}!ApagarVeiculo@{ApagarVeiculo}}
+\index{ApagarVeiculo@{ApagarVeiculo}!veiculos.c@{veiculos.c}}
+\doxysubsubsection{\texorpdfstring{ApagarVeiculo()}{ApagarVeiculo()}}
+{\footnotesize\ttfamily void Apagar\+Veiculo (\begin{DoxyParamCaption}\item[{int}]{id\+Veiculo,  }\item[{\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+
+
+Fun{\ucr}{\ucr}o que apaga um veiculo de uma lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Veiculo} & \\
+\hline
+{\em list} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{veiculos_8c_a4f6dbd341addf84291aebf8be4fab4b8}\label{veiculos_8c_a4f6dbd341addf84291aebf8be4fab4b8} 
+\index{veiculos.c@{veiculos.c}!AtualizaDadosVeiculos@{AtualizaDadosVeiculos}}
+\index{AtualizaDadosVeiculos@{AtualizaDadosVeiculos}!veiculos.c@{veiculos.c}}
+\doxysubsubsection{\texorpdfstring{AtualizaDadosVeiculos()}{AtualizaDadosVeiculos()}}
+{\footnotesize\ttfamily void Atualiza\+Dados\+Veiculos (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{file\+Name,  }\item[{\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}}]{lista }\end{DoxyParamCaption})}
+
+
+
+Fun{\ucr}{\ucr}o para atualizar os veiculos no ficheiro txt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & \\
+\hline
+{\em lista\+Veiculos} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{veiculos_8c_a5767fbf2539dff263155996a95482c0c}\label{veiculos_8c_a5767fbf2539dff263155996a95482c0c} 
+\index{veiculos.c@{veiculos.c}!CreateNodeVeiculo@{CreateNodeVeiculo}}
+\index{CreateNodeVeiculo@{CreateNodeVeiculo}!veiculos.c@{veiculos.c}}
+\doxysubsubsection{\texorpdfstring{CreateNodeVeiculo()}{CreateNodeVeiculo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{veiculos_8h_a6a08df9ba84d9d5c8cdbd6bc83308130}{Veiculo\+Node}} \texorpdfstring{$\ast$}{*} Create\+Node\+Veiculo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{veiculos_8h_aab95cda4bcbc41867453ac30a585d779}{Veiculo}} \texorpdfstring{$\ast$}{*}}]{data }\end{DoxyParamCaption})}
+
+
+
+Fun{\ucr}{\ucr}o para criar um n{\ucr} que aponta para o pr{\ucr}ximo veiculo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{veiculos_8c_a1f8541b3a8e8f1911f6e6f0b0cbd8fc1}\label{veiculos_8c_a1f8541b3a8e8f1911f6e6f0b0cbd8fc1} 
+\index{veiculos.c@{veiculos.c}!CriarListaVeiculos@{CriarListaVeiculos}}
+\index{CriarListaVeiculos@{CriarListaVeiculos}!veiculos.c@{veiculos.c}}
+\doxysubsubsection{\texorpdfstring{CriarListaVeiculos()}{CriarListaVeiculos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*} Criar\+Lista\+Veiculos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Fun{\ucr}{\ucr}o para criar uma lista de veiculos. 
+
+\Hypertarget{veiculos_8c_a8b94cb1517dc69fd78fbd2168f702c51}\label{veiculos_8c_a8b94cb1517dc69fd78fbd2168f702c51} 
+\index{veiculos.c@{veiculos.c}!GuardaListaVeiculos@{GuardaListaVeiculos}}
+\index{GuardaListaVeiculos@{GuardaListaVeiculos}!veiculos.c@{veiculos.c}}
+\doxysubsubsection{\texorpdfstring{GuardaListaVeiculos()}{GuardaListaVeiculos()}}
+{\footnotesize\ttfamily void Guarda\+Lista\+Veiculos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}}]{lista }\end{DoxyParamCaption})}
+
+
+
+Fun{\ucr}{\ucr}o para guardar a lista de utilizadores num ficheiro bin{\ucr}rio. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Veiculos} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{veiculos_8c_a08b7783c348bb2d2ad21dacdac61dd67}\label{veiculos_8c_a08b7783c348bb2d2ad21dacdac61dd67} 
+\index{veiculos.c@{veiculos.c}!LerVeiculos@{LerVeiculos}}
+\index{LerVeiculos@{LerVeiculos}!veiculos.c@{veiculos.c}}
+\doxysubsubsection{\texorpdfstring{LerVeiculos()}{LerVeiculos()}}
+{\footnotesize\ttfamily void Ler\+Veiculos (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{file\+Name,  }\item[{\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}}]{lista\+Veiculos,  }\item[{\mbox{\hyperlink{veiculos_8h_a7f3aab9b765263de629ba9c44f887b0f}{Grafo}} \texorpdfstring{$\ast$}{*}}]{grafo }\end{DoxyParamCaption})}
+
+
+
+L{\ucr} os veiculos do ficheiro txt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & \\
+\hline
+{\em lista\+Veiculos} & \\
+\hline
+{\em grafo} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{veiculos_8c_a98fda8e27fe5a33b0a45135e3c4c77c3}\label{veiculos_8c_a98fda8e27fe5a33b0a45135e3c4c77c3} 
+\index{veiculos.c@{veiculos.c}!ListarAutonomiasDecrescente@{ListarAutonomiasDecrescente}}
+\index{ListarAutonomiasDecrescente@{ListarAutonomiasDecrescente}!veiculos.c@{veiculos.c}}
+\doxysubsubsection{\texorpdfstring{ListarAutonomiasDecrescente()}{ListarAutonomiasDecrescente()}}
+{\footnotesize\ttfamily void Listar\+Autonomias\+Decrescente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+
+
+Lista a autonomia dos veiculos do menorr para o maior. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{veiculos_8c_a34daacddf261bcf7a5301f61efe32ce0}\label{veiculos_8c_a34daacddf261bcf7a5301f61efe32ce0} 
+\index{veiculos.c@{veiculos.c}!PrintVeiculos@{PrintVeiculos}}
+\index{PrintVeiculos@{PrintVeiculos}!veiculos.c@{veiculos.c}}
+\doxysubsubsection{\texorpdfstring{PrintVeiculos()}{PrintVeiculos()}}
+{\footnotesize\ttfamily void Print\+Veiculos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+
+
+Fun{\ucr}{\ucr}o para imprimir a lista de veiculos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{veiculos_8c_adf2b5d40275917b3c668df44f20e780f}\label{veiculos_8c_adf2b5d40275917b3c668df44f20e780f} 
+\index{veiculos.c@{veiculos.c}!QttVeiculosLocalizacao@{QttVeiculosLocalizacao}}
+\index{QttVeiculosLocalizacao@{QttVeiculosLocalizacao}!veiculos.c@{veiculos.c}}
+\doxysubsubsection{\texorpdfstring{QttVeiculosLocalizacao()}{QttVeiculosLocalizacao()}}
+{\footnotesize\ttfamily int Qtt\+Veiculos\+Localizacao (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{veiculos_8h_a66995322d89cbf52ffa163200dda18ba}{Lista\+Veiculos}} \texorpdfstring{$\ast$}{*}}]{list,  }\item[{char}]{geo\+Codigo\mbox{[}20\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Conta o n{\ucr}mero de ve{\ucr}culos numa determinada localiza{\ucr}{\ucr}o. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & \\
+\hline
+{\em geo\+Codigo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}

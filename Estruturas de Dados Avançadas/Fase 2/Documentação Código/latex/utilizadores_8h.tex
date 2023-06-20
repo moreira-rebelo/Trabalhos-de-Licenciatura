@@ -1,0 +1,254 @@
+\doxysection{C\+:/\+Users/morei/\+Desktop/\+Estruturas-\/de-\/\+Dados-\/\+Avancadas/a16443\+\_\+a21990\+\_\+\+Fase2/\+Code/\+Utilizadores/utilizadores.h File Reference}
+\hypertarget{utilizadores_8h}{}\label{utilizadores_8h}\index{C:/Users/morei/Desktop/Estruturas-\/de-\/Dados-\/Avancadas/a16443\_a21990\_Fase2/Code/Utilizadores/utilizadores.h@{C:/Users/morei/Desktop/Estruturas-\/de-\/Dados-\/Avancadas/a16443\_a21990\_Fase2/Code/Utilizadores/utilizadores.h}}
+
+
+Ficheiro header utilizadores.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\doxysubsubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct__utilizador}{\+\_\+utilizador}}
+\begin{DoxyCompactList}\small\item\em Struct de utilizador. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct__utilizador_node}{\+\_\+utilizador\+Node}}
+\begin{DoxyCompactList}\small\item\em Guarda o número de utilizador seguinte. \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct__lista_utilizadores}{\+\_\+lista\+Utilizadores}}
+\begin{DoxyCompactList}\small\item\em Lista de utilizadores. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{struct__utilizador}{\+\_\+utilizador}} \mbox{\hyperlink{utilizadores_8h_a832d83d63e1cc909be49d376a4a7b84b}{Utilizador}}
+\begin{DoxyCompactList}\small\item\em Struct de utilizador. \end{DoxyCompactList}\item 
+typedef struct \mbox{\hyperlink{struct__utilizador_node}{\+\_\+utilizador\+Node}} \mbox{\hyperlink{utilizadores_8h_a73e1dc70a1829242d29bc036431ff2ec}{Utilizador\+Node}}
+\begin{DoxyCompactList}\small\item\em Guarda o número de utilizador seguinte. \end{DoxyCompactList}\item 
+typedef struct \mbox{\hyperlink{struct__lista_utilizadores}{\+\_\+lista\+Utilizadores}} \mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}}
+\begin{DoxyCompactList}\small\item\em Lista de utilizadores. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{utilizadores_8h_a25b96d05c2ca8154b2881e72459cfde0}{Add\+Utilizador}} (\mbox{\hyperlink{utilizadores_8h_a832d83d63e1cc909be49d376a4a7b84b}{Utilizador}} \texorpdfstring{$\ast$}{*}utilizador, \mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}list)
+\begin{DoxyCompactList}\small\item\em Função para adicionar um utilizador a uma lista de utilizadores. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{utilizadores_8h_ab9132ff400e8a844a33295153f868ab8}{Criar\+Lista\+Utilizadores}} ()
+\begin{DoxyCompactList}\small\item\em Função para criar uma lista de utilizadores. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{utilizadores_8h_a73e1dc70a1829242d29bc036431ff2ec}{Utilizador\+Node}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{utilizadores_8h_ae9b0ac787ec9336f6f532cc83122a620}{Create\+Node}} (\mbox{\hyperlink{utilizadores_8h_a832d83d63e1cc909be49d376a4a7b84b}{Utilizador}} \texorpdfstring{$\ast$}{*}data)
+\begin{DoxyCompactList}\small\item\em Função para criar um nó que aponta para o próximo utilizador. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{utilizadores_8h_a12235fed71638c72edededae8a121515}{Print\+Utilizadores}} (\mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}list)
+\begin{DoxyCompactList}\small\item\em Função para imprimir a lista de utilizadores. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{utilizadores_8h_a2ef1bb09af4fea4e654bc81218b60efc}{Ler\+Utilizadores}} (char \texorpdfstring{$\ast$}{*}filename, \mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}lista\+Utilizadores)
+\begin{DoxyCompactList}\small\item\em Lê os utilizadores do ficheiro txt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{utilizadores_8h_af348292a1cc5af3704a857f7b30cdefc}{Apagar\+Utilizador}} (int id\+Utilizador, \mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}list)
+\begin{DoxyCompactList}\small\item\em Função que apaga um utilizador de uma lista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{utilizadores_8h_a430ea5653d83d3d8d9916955c2f34af2}{Alterar\+Utilizador}} (\mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}list, int id\+Utilizador, int permissao, char nome\mbox{[}20\mbox{]}, int nif, double saldo)
+\begin{DoxyCompactList}\small\item\em Função que altera dados de um utilizador numa lista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{utilizadores_8h_a2f017801c6d0c7a6c3f54d9dd217ef08}{Guarda\+Lista\+Utilizadores}} (\mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}lista\+Utilizadores)
+\begin{DoxyCompactList}\small\item\em Função para guardar a lista de utilizadores num ficheiro binário. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{utilizadores_8h_a769f171268faf3097871d2cd5fb0d8d3}{Atualiza\+Dados\+Utilizadores}} (char \texorpdfstring{$\ast$}{*}file\+Name, \mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}lista)
+\begin{DoxyCompactList}\small\item\em Função para atualizar os utilizadores no ficheiro txt. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ficheiro header utilizadores. 
+
+\begin{DoxyAuthor}{Author}
+Allan Aleluia \& Francisco Reb{\ucr}lo (\href{mailto:a21990@alunos.ipca.pt}{\texttt{ a21990@alunos.\+ipca.\+pt}}, \href{mailto:a16443@alunos.ipca.pt}{\texttt{ a16443@alunos.\+ipca.\+pt}}) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2023/05/23 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2023 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Typedef Documentation}
+\Hypertarget{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}\label{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d} 
+\index{utilizadores.h@{utilizadores.h}!ListaUtilizadores@{ListaUtilizadores}}
+\index{ListaUtilizadores@{ListaUtilizadores}!utilizadores.h@{utilizadores.h}}
+\doxysubsubsection{\texorpdfstring{ListaUtilizadores}{ListaUtilizadores}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{struct__lista_utilizadores}{\+\_\+lista\+Utilizadores}} \mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}}}
+
+
+
+Lista de utilizadores. 
+
+\Hypertarget{utilizadores_8h_a832d83d63e1cc909be49d376a4a7b84b}\label{utilizadores_8h_a832d83d63e1cc909be49d376a4a7b84b} 
+\index{utilizadores.h@{utilizadores.h}!Utilizador@{Utilizador}}
+\index{Utilizador@{Utilizador}!utilizadores.h@{utilizadores.h}}
+\doxysubsubsection{\texorpdfstring{Utilizador}{Utilizador}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{struct__utilizador}{\+\_\+utilizador}} \mbox{\hyperlink{utilizadores_8h_a832d83d63e1cc909be49d376a4a7b84b}{Utilizador}}}
+
+
+
+Struct de utilizador. 
+
+\Hypertarget{utilizadores_8h_a73e1dc70a1829242d29bc036431ff2ec}\label{utilizadores_8h_a73e1dc70a1829242d29bc036431ff2ec} 
+\index{utilizadores.h@{utilizadores.h}!UtilizadorNode@{UtilizadorNode}}
+\index{UtilizadorNode@{UtilizadorNode}!utilizadores.h@{utilizadores.h}}
+\doxysubsubsection{\texorpdfstring{UtilizadorNode}{UtilizadorNode}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{struct__utilizador_node}{\+\_\+utilizador\+Node}} \mbox{\hyperlink{utilizadores_8h_a73e1dc70a1829242d29bc036431ff2ec}{Utilizador\+Node}}}
+
+
+
+Guarda o número de utilizador seguinte. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{utilizadores_8h_a25b96d05c2ca8154b2881e72459cfde0}\label{utilizadores_8h_a25b96d05c2ca8154b2881e72459cfde0} 
+\index{utilizadores.h@{utilizadores.h}!AddUtilizador@{AddUtilizador}}
+\index{AddUtilizador@{AddUtilizador}!utilizadores.h@{utilizadores.h}}
+\doxysubsubsection{\texorpdfstring{AddUtilizador()}{AddUtilizador()}}
+{\footnotesize\ttfamily void Add\+Utilizador (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{utilizadores_8h_a832d83d63e1cc909be49d376a4a7b84b}{Utilizador}} \texorpdfstring{$\ast$}{*}}]{utilizador,  }\item[{\mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+
+
+Função para adicionar um utilizador a uma lista de utilizadores. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em utilizador} & Utilizador a ser adicionado \\
+\hline
+{\em list} & Lista de utilizadores \\
+\hline
+\end{DoxyParams}
+\Hypertarget{utilizadores_8h_a430ea5653d83d3d8d9916955c2f34af2}\label{utilizadores_8h_a430ea5653d83d3d8d9916955c2f34af2} 
+\index{utilizadores.h@{utilizadores.h}!AlterarUtilizador@{AlterarUtilizador}}
+\index{AlterarUtilizador@{AlterarUtilizador}!utilizadores.h@{utilizadores.h}}
+\doxysubsubsection{\texorpdfstring{AlterarUtilizador()}{AlterarUtilizador()}}
+{\footnotesize\ttfamily void Alterar\+Utilizador (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}}]{list,  }\item[{int}]{id\+Utilizador,  }\item[{int}]{permissao,  }\item[{char}]{nome\mbox{[}20\mbox{]},  }\item[{int}]{nif,  }\item[{double}]{saldo }\end{DoxyParamCaption})}
+
+
+
+Função que altera dados de um utilizador numa lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & Lista de utilizadores \\
+\hline
+{\em id\+Utilizador} & ID do utilizador a ser alterado \\
+\hline
+{\em permissao} & Nova permissao \\
+\hline
+{\em nome} & Novo nome \\
+\hline
+{\em nif} & Novo NIF \\
+\hline
+{\em saldo} & Novo saldo \\
+\hline
+\end{DoxyParams}
+\Hypertarget{utilizadores_8h_af348292a1cc5af3704a857f7b30cdefc}\label{utilizadores_8h_af348292a1cc5af3704a857f7b30cdefc} 
+\index{utilizadores.h@{utilizadores.h}!ApagarUtilizador@{ApagarUtilizador}}
+\index{ApagarUtilizador@{ApagarUtilizador}!utilizadores.h@{utilizadores.h}}
+\doxysubsubsection{\texorpdfstring{ApagarUtilizador()}{ApagarUtilizador()}}
+{\footnotesize\ttfamily void Apagar\+Utilizador (\begin{DoxyParamCaption}\item[{int}]{id\+Utilizador,  }\item[{\mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+
+
+Função que apaga um utilizador de uma lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id\+Utilizador} & ID do utilizador a ser apagado \\
+\hline
+{\em list} & Lista de utilizadores \\
+\hline
+\end{DoxyParams}
+\Hypertarget{utilizadores_8h_a769f171268faf3097871d2cd5fb0d8d3}\label{utilizadores_8h_a769f171268faf3097871d2cd5fb0d8d3} 
+\index{utilizadores.h@{utilizadores.h}!AtualizaDadosUtilizadores@{AtualizaDadosUtilizadores}}
+\index{AtualizaDadosUtilizadores@{AtualizaDadosUtilizadores}!utilizadores.h@{utilizadores.h}}
+\doxysubsubsection{\texorpdfstring{AtualizaDadosUtilizadores()}{AtualizaDadosUtilizadores()}}
+{\footnotesize\ttfamily void Atualiza\+Dados\+Utilizadores (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{file\+Name,  }\item[{\mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}}]{lista }\end{DoxyParamCaption})}
+
+
+
+Função para atualizar os utilizadores no ficheiro txt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Nome do ficheiro \\
+\hline
+{\em lista\+Utilizadores} & Lista de utilizadores \\
+\hline
+\end{DoxyParams}
+\Hypertarget{utilizadores_8h_ae9b0ac787ec9336f6f532cc83122a620}\label{utilizadores_8h_ae9b0ac787ec9336f6f532cc83122a620} 
+\index{utilizadores.h@{utilizadores.h}!CreateNode@{CreateNode}}
+\index{CreateNode@{CreateNode}!utilizadores.h@{utilizadores.h}}
+\doxysubsubsection{\texorpdfstring{CreateNode()}{CreateNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{utilizadores_8h_a73e1dc70a1829242d29bc036431ff2ec}{Utilizador\+Node}} \texorpdfstring{$\ast$}{*} Create\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{utilizadores_8h_a832d83d63e1cc909be49d376a4a7b84b}{Utilizador}} \texorpdfstring{$\ast$}{*}}]{data }\end{DoxyParamCaption})}
+
+
+
+Função para criar um nó que aponta para o próximo utilizador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Utilizador a ser armazenado no nó \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ponteiro para o nó criado 
+\end{DoxyReturn}
+\Hypertarget{utilizadores_8h_ab9132ff400e8a844a33295153f868ab8}\label{utilizadores_8h_ab9132ff400e8a844a33295153f868ab8} 
+\index{utilizadores.h@{utilizadores.h}!CriarListaUtilizadores@{CriarListaUtilizadores}}
+\index{CriarListaUtilizadores@{CriarListaUtilizadores}!utilizadores.h@{utilizadores.h}}
+\doxysubsubsection{\texorpdfstring{CriarListaUtilizadores()}{CriarListaUtilizadores()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*} Criar\+Lista\+Utilizadores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Função para criar uma lista de utilizadores. 
+
+\begin{DoxyReturn}{Returns}
+Ponteiro para a lista de utilizadores criada 
+\end{DoxyReturn}
+\Hypertarget{utilizadores_8h_a2f017801c6d0c7a6c3f54d9dd217ef08}\label{utilizadores_8h_a2f017801c6d0c7a6c3f54d9dd217ef08} 
+\index{utilizadores.h@{utilizadores.h}!GuardaListaUtilizadores@{GuardaListaUtilizadores}}
+\index{GuardaListaUtilizadores@{GuardaListaUtilizadores}!utilizadores.h@{utilizadores.h}}
+\doxysubsubsection{\texorpdfstring{GuardaListaUtilizadores()}{GuardaListaUtilizadores()}}
+{\footnotesize\ttfamily void Guarda\+Lista\+Utilizadores (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}}]{lista }\end{DoxyParamCaption})}
+
+
+
+Função para guardar a lista de utilizadores num ficheiro binário. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Utilizadores} & Lista de utilizadores a ser guardada \\
+\hline
+\end{DoxyParams}
+\Hypertarget{utilizadores_8h_a2ef1bb09af4fea4e654bc81218b60efc}\label{utilizadores_8h_a2ef1bb09af4fea4e654bc81218b60efc} 
+\index{utilizadores.h@{utilizadores.h}!LerUtilizadores@{LerUtilizadores}}
+\index{LerUtilizadores@{LerUtilizadores}!utilizadores.h@{utilizadores.h}}
+\doxysubsubsection{\texorpdfstring{LerUtilizadores()}{LerUtilizadores()}}
+{\footnotesize\ttfamily void Ler\+Utilizadores (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{file\+Name,  }\item[{\mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}}]{lista\+Utilizadores }\end{DoxyParamCaption})}
+
+
+
+Lê os utilizadores do ficheiro txt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & Caminho do ficheiro \\
+\hline
+{\em lista\+Utilizadores} & Ponteiro para a lista de utilizadores \\
+\hline
+\end{DoxyParams}
+\Hypertarget{utilizadores_8h_a12235fed71638c72edededae8a121515}\label{utilizadores_8h_a12235fed71638c72edededae8a121515} 
+\index{utilizadores.h@{utilizadores.h}!PrintUtilizadores@{PrintUtilizadores}}
+\index{PrintUtilizadores@{PrintUtilizadores}!utilizadores.h@{utilizadores.h}}
+\doxysubsubsection{\texorpdfstring{PrintUtilizadores()}{PrintUtilizadores()}}
+{\footnotesize\ttfamily void Print\+Utilizadores (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{utilizadores_8h_a5dd19474118e3eac8bf255b648e8574d}{Lista\+Utilizadores}} \texorpdfstring{$\ast$}{*}}]{list }\end{DoxyParamCaption})}
+
+
+
+Função para imprimir a lista de utilizadores. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & Lista de utilizadores a ser impressa \\
+\hline
+\end{DoxyParams}

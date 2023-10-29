@@ -1,0 +1,1001 @@
+room_number,temperature,humidity,timestamp,sensor_id,occupancy_status,power_status,fan_speed,window_open,heating_status,cooling_status,thermostat_mode,set_temperature,energy_consumption,occupant_name,occupant_age,occupant_gender,occupant_nationality,occupant_email,occupant_phone,occupant_address
+1,86.75,99.21,8/1/2022,2,maintenance,true,1,false,true,true,heat,78.7,414.56,Missie Lestrange,58,Female,Cuba,mlestrange0@weebly.com,764-817-4837,78 Shelley Center
+2,54.69,21.42,1/9/2022,9,occupied,false,4,false,false,true,cool,75.6,305.17,Mel McGowan,44,Male,Philippines,mmcgowan1@si.edu,753-209-0666,035 Morningstar Trail
+3,57.52,80.59,11/16/2022,3,vacant,true,5,true,false,true,heat,68.5,744.57,Brennen Mussotti,58,Male,Croatia,bmussotti2@nba.com,246-110-1710,8 Transport Place
+4,82.23,88.83,9/15/2022,8,occupied,true,2,false,false,true,cool,60.8,399.78,Elwyn Lendon,28,Male,Poland,elendon3@furl.net,550-983-2072,32 Stephen Center
+5,53.89,99.61,11/16/2022,1,vacant,false,2,true,true,true,auto,73.7,918.61,Katuscha Lindholm,97,Female,Portugal,klindholm4@e-recht24.de,890-350-4373,49 Blackbird Trail
+6,5.71,67.91,1/2/2022,2,vacant,true,3,false,false,true,auto,76.5,110.69,Fulton Hyndman,74,Male,Indonesia,fhyndman5@thetimes.co.uk,151-738-4602,72 Warbler Parkway
+7,92.95,86.95,5/18/2022,2,maintenance,true,1,true,true,false,cool,75.1,538.92,Darleen Dulinty,42,Female,Finland,ddulinty6@narod.ru,738-575-1247,45305 Buell Parkway
+8,78.81,23.82,7/27/2022,8,vacant,true,5,false,false,false,auto,67.2,127.0,Emmet Favela,94,Male,Cyprus,efavela7@opensource.org,201-681-0502,17 Tomscot Circle
+9,99.68,43.81,5/24/2022,7,occupied,true,2,true,true,false,cool,61.0,552.85,Jessalin Rihanek,41,Genderfluid,Brazil,jrihanek8@walmart.com,792-863-1312,7 Hoffman Way
+10,69.48,5.98,2/9/2022,3,vacant,false,5,true,true,true,cool,67.7,778.43,Mehetabel Carnalan,65,Female,Slovakia,mcarnalan9@europa.eu,208-381-9237,5 Corscot Park
+11,74.6,91.08,1/7/2022,3,maintenance,true,4,true,false,false,auto,73.1,941.05,Franky O'Driscole,20,Male,Indonesia,fodriscolea@redcross.org,780-495-6660,70 Prentice Terrace
+12,76.51,95.63,8/8/2022,6,vacant,true,5,false,true,false,cool,66.0,585.18,Felicity Astin,83,Polygender,Macedonia,fastinb@smh.com.au,473-363-7134,804 Randy Junction
+13,27.57,10.13,3/25/2022,4,occupied,false,3,true,true,true,auto,64.2,614.35,Judye Bayston,51,Female,Indonesia,jbaystonc@mapquest.com,766-672-9588,92 Eastwood Park
+14,4.76,56.35,7/12/2022,7,vacant,true,5,false,false,false,heat,60.9,207.2,Sonny Everleigh,21,Male,Poland,severleighd@ehow.com,770-216-5048,590 Mcbride Parkway
+15,6.4,96.92,9/28/2022,5,occupied,false,3,true,true,false,heat,75.5,736.32,Yehudit Momford,93,Male,Finland,ymomforde@webnode.com,197-629-7033,8479 Birchwood Plaza
+16,80.86,5.03,5/16/2022,7,vacant,false,5,false,false,false,heat,77.2,169.82,Malcolm Rubke,19,Male,China,mrubkef@shutterfly.com,545-120-9347,5 Twin Pines Trail
+17,7.08,66.7,4/14/2022,2,vacant,true,1,true,false,false,heat,65.9,649.82,Bliss Hinrichs,24,Female,Philippines,bhinrichsg@nbcnews.com,867-334-3700,9 1st Place
+18,63.87,66.27,12/22/2022,8,vacant,true,4,true,false,true,heat,79.8,197.38,Ines Pillman,94,Polygender,China,ipillmanh@google.nl,907-804-0682,2611 Nova Center
+19,2.24,14.46,1/3/2022,4,vacant,true,5,true,false,true,auto,77.8,140.76,Ladonna Madsen,31,Female,Brazil,lmadseni@eventbrite.com,345-537-4705,83 Pankratz Trail
+20,57.69,36.28,4/11/2022,9,maintenance,true,4,false,true,false,auto,72.5,161.1,Cathy Lackmann,94,Female,Indonesia,clackmannj@goodreads.com,772-927-2970,0 Browning Junction
+21,68.06,16.2,9/29/2022,10,vacant,true,4,true,true,true,cool,70.5,731.43,Jayme Tosh,45,Female,Poland,jtoshk@npr.org,130-129-8608,246 Bowman Place
+22,6.63,73.36,10/13/2022,7,occupied,true,4,false,false,false,cool,76.0,610.11,Verna Dudin,76,Female,Syria,vdudinl@furl.net,528-120-1307,3 Northfield Circle
+23,90.92,88.71,8/9/2022,5,occupied,true,2,true,true,false,cool,68.5,547.93,Reba Coon,42,Female,China,rcoonm@163.com,903-828-2857,79 Moland Center
+24,44.56,88.87,8/22/2022,10,maintenance,true,2,true,true,true,heat,61.4,924.7,Welch Monk,79,Male,Philippines,wmonkn@umich.edu,138-884-1186,681 Nevada Avenue
+25,30.82,88.36,10/29/2022,1,maintenance,true,1,false,true,true,heat,78.2,997.03,Tonie Epton,55,Female,Philippines,teptono@ca.gov,946-849-1748,7 Ridge Oak Crossing
+26,92.98,64.63,4/29/2022,10,vacant,true,3,false,false,true,cool,63.2,124.81,Antone Andryunin,63,Male,Poland,aandryuninp@engadget.com,458-990-7325,19 Steensland Point
+27,5.26,74.52,4/3/2022,6,vacant,false,1,true,true,false,cool,61.2,546.42,Felicio Allmond,91,Male,Russia,fallmondq@squidoo.com,663-896-6197,7696 Stoughton Junction
+28,4.82,35.29,11/7/2022,9,maintenance,false,3,true,false,false,cool,73.9,246.13,Cleavland Cordie,56,Male,Mexico,ccordier@nba.com,908-801-6875,6 Bay Circle
+29,82.52,18.17,5/5/2022,7,maintenance,false,2,true,false,true,auto,68.6,946.83,Charmine Sawforde,100,Female,Japan,csawfordes@accuweather.com,953-169-4614,23 Buell Street
+30,27.13,43.19,9/10/2022,6,vacant,true,1,false,false,true,cool,73.3,82.53,Nevile Olesen,79,Male,Argentina,nolesent@cpanel.net,581-662-8079,66 Corben Drive
+31,26.87,27.16,6/1/2022,2,occupied,false,4,false,false,false,auto,65.5,446.45,Moses Pellant,47,Male,China,mpellantu@google.pl,973-426-1340,4072 Coolidge Plaza
+32,56.35,30.41,10/26/2022,10,maintenance,true,5,false,true,false,cool,72.5,327.84,Uri Leverett,89,Male,Poland,uleverettv@devhub.com,593-750-1528,0640 Kedzie Terrace
+33,5.9,37.85,8/14/2022,6,maintenance,true,2,false,false,true,heat,77.5,332.66,Harrison Munnion,63,Male,Laos,hmunnionw@earthlink.net,511-686-4136,67229 Westridge Hill
+34,49.91,7.25,1/7/2022,8,vacant,false,3,true,false,true,heat,72.3,878.36,Arvin Telega,51,Male,Madagascar,atelegax@elpais.com,597-127-4509,8 Bobwhite Trail
+35,25.52,4.97,2/2/2022,2,occupied,true,4,false,false,true,heat,73.5,72.75,Beatrisa Myatt,25,Female,Guam,bmyatty@ocn.ne.jp,228-130-2892,7590 Carberry Park
+36,28.76,18.89,12/12/2022,5,maintenance,false,4,false,false,true,auto,67.3,847.91,Stefano Wrotchford,50,Male,Palestinian Territory,swrotchfordz@xing.com,946-435-8270,3 Southridge Hill
+37,39.28,78.53,3/12/2022,3,maintenance,false,3,true,false,false,heat,71.1,492.32,Findlay Edgington,61,Male,Iraq,fedgington10@answers.com,789-321-0917,0543 Kinsman Trail
+38,36.36,38.58,7/1/2022,5,maintenance,true,2,false,true,true,auto,76.5,310.71,Olag Daouze,58,Male,Bahamas,odaouze11@earthlink.net,844-512-3953,8 Spohn Park
+39,93.76,88.84,7/26/2022,5,occupied,false,2,false,true,true,auto,67.7,846.96,Lars Aulsford,61,Non-binary,France,laulsford12@yellowpages.com,587-208-4332,7 Transport Point
+40,61.76,72.15,3/26/2022,10,vacant,false,3,false,false,false,auto,67.6,3.04,Urban Doeg,94,Male,Estonia,udoeg13@wsj.com,651-334-4831,43727 Fair Oaks Crossing
+41,85.44,10.38,1/28/2022,5,occupied,true,1,false,true,true,cool,63.6,151.9,Gearalt Walkinshaw,23,Male,Colombia,gwalkinshaw14@bigcartel.com,683-178-2973,867 Express Park
+42,6.14,9.32,3/24/2022,3,maintenance,false,1,false,false,true,cool,76.6,381.78,Romain Newarte,91,Male,China,rnewarte15@photobucket.com,604-826-7856,64474 Graedel Road
+43,13.59,32.39,12/29/2022,1,vacant,true,2,false,false,true,heat,69.2,749.32,Gizela Amar,61,Female,Greece,gamar16@time.com,955-906-0865,51 Butterfield Way
+44,87.34,8.72,9/18/2022,7,occupied,true,3,false,true,false,heat,78.6,358.77,Evaleen Ganford,83,Female,China,eganford17@4shared.com,407-880-0487,18669 Cody Center
+45,56.98,53.37,9/21/2022,10,maintenance,false,5,true,false,true,cool,78.6,8.65,Fredrika Sergeaunt,20,Female,Syria,fsergeaunt18@jigsy.com,422-517-0672,41076 8th Plaza
+46,39.11,51.44,8/28/2022,8,occupied,true,1,false,true,true,heat,78.0,342.42,Suellen Daber,73,Female,Thailand,sdaber19@linkedin.com,821-410-2574,9 Kenwood Park
+47,58.28,10.97,6/30/2022,9,maintenance,false,4,true,true,false,auto,63.6,51.81,Gunther Stops,22,Male,China,gstops1a@goo.gl,147-692-5698,9 Jay Trail
+48,85.28,12.46,9/24/2022,4,maintenance,true,1,true,false,true,heat,79.0,603.46,Archer Rochell,42,Male,China,arochell1b@cbsnews.com,726-666-8889,258 Meadow Vale Street
+49,95.68,14.53,3/18/2022,9,occupied,false,4,true,true,false,heat,73.6,229.58,Lonee Cousans,91,Female,Tajikistan,lcousans1c@msu.edu,778-783-1912,8609 Oneill Terrace
+50,88.68,98.76,4/3/2022,10,vacant,true,3,true,false,true,cool,74.9,197.13,Morganne Muffen,19,Female,Argentina,mmuffen1d@oakley.com,330-402-4417,16756 Marcy Point
+51,95.99,48.28,2/17/2022,6,occupied,true,4,false,false,false,heat,60.8,667.25,Else Larrington,47,Female,United States,elarrington1e@linkedin.com,225-964-8660,36 Grim Terrace
+52,93.64,96.69,8/4/2022,8,vacant,true,4,true,true,true,auto,65.2,460.48,Dru Flood,68,Female,China,dflood1f@biglobe.ne.jp,886-890-7427,03 Lukken Park
+53,67.25,78.65,4/1/2022,3,vacant,false,5,true,false,false,cool,72.5,880.26,Freddy Witt,81,Male,Philippines,fwitt1g@zimbio.com,258-404-0940,2 Ruskin Court
+54,85.98,7.67,10/22/2022,5,maintenance,false,4,false,true,false,heat,66.6,738.5,Neille Groome,20,Agender,Portugal,ngroome1h@so-net.ne.jp,605-413-2749,8212 Raven Avenue
+55,19.83,24.32,8/30/2022,6,maintenance,false,4,true,true,true,cool,67.7,866.6,Venus Forshaw,90,Female,Russia,vforshaw1i@wired.com,958-695-3991,8042 Brickson Park Way
+56,32.34,28.96,12/9/2022,8,maintenance,true,5,true,true,false,cool,72.6,252.4,Ellette Vedyasov,64,Female,Indonesia,evedyasov1j@cpanel.net,173-129-8607,371 Village Place
+57,50.35,70.98,11/28/2022,2,vacant,false,2,false,true,true,heat,76.5,138.66,Marena Hadgraft,42,Female,Mexico,mhadgraft1k@weather.com,264-893-8468,17 Main Place
+58,43.66,1.67,9/18/2022,5,occupied,true,4,false,true,true,auto,70.3,930.41,Dani Ilyushkin,78,Female,Colombia,dilyushkin1l@springer.com,577-242-7695,93534 Luster Hill
+59,85.56,98.36,4/27/2022,7,maintenance,false,5,true,false,false,cool,78.5,36.51,Cyndi Darwood,96,Female,Russia,cdarwood1m@irs.gov,550-562-3342,8 Atwood Avenue
+60,61.62,73.42,6/24/2022,9,vacant,false,1,false,true,false,cool,72.2,901.24,Otis Pratten,74,Male,China,opratten1n@ucoz.ru,866-714-6664,3172 Calypso Park
+61,20.16,9.85,4/18/2022,6,vacant,true,4,false,false,true,heat,61.8,803.98,Gifford Mowles,35,Male,Russia,gmowles1o@amazon.co.uk,620-581-4698,4185 Graceland Circle
+62,60.44,60.83,3/5/2022,2,occupied,false,5,false,true,true,cool,66.1,514.14,Guillaume Beric,80,Male,China,gberic1p@howstuffworks.com,234-110-6661,980 Eliot Pass
+63,66.04,14.41,4/20/2022,6,vacant,false,2,true,false,true,heat,71.1,763.7,Estrella Stockau,86,Female,Portugal,estockau1q@cdbaby.com,979-214-1502,21208 Prairie Rose Street
+64,67.1,7.37,4/4/2022,7,maintenance,false,1,false,false,true,heat,68.2,430.75,Travis Buncher,28,Male,Croatia,tbuncher1r@msu.edu,792-219-4242,527 Shoshone Trail
+65,28.07,96.1,11/26/2022,10,vacant,true,1,true,true,false,heat,73.5,102.75,Rutter Rape,29,Male,Ukraine,rrape1s@who.int,707-222-4492,5 Kim Lane
+66,30.0,4.36,1/26/2022,9,vacant,true,3,false,false,false,cool,73.4,368.97,Bobby Cantopher,82,Male,China,bcantopher1t@spiegel.de,468-279-0109,76 Carpenter Lane
+67,40.52,15.54,10/29/2022,9,vacant,true,3,false,false,true,auto,70.7,540.34,Parnell Houten,92,Male,Venezuela,phouten1u@senate.gov,977-657-5901,725 Artisan Hill
+68,59.0,18.9,7/29/2022,8,maintenance,true,2,true,false,true,heat,70.1,261.65,Early Wyatt,27,Male,Turkmenistan,ewyatt1v@samsung.com,203-479-6878,7 Cardinal Street
+69,64.81,62.49,8/31/2022,5,maintenance,false,2,false,true,true,auto,72.8,868.36,Sumner Dorbin,55,Male,Iran,sdorbin1w@webmd.com,627-730-1270,17 Glendale Junction
+70,72.1,44.12,5/4/2022,5,maintenance,false,4,true,false,true,auto,70.4,976.45,Birgit Lettsom,74,Female,Portugal,blettsom1x@eventbrite.com,616-867-3327,05 Merrick Lane
+71,25.64,59.14,9/5/2022,5,maintenance,true,5,false,true,true,cool,73.4,694.36,Lissy Self,78,Female,Portugal,lself1y@dailymail.co.uk,230-991-9763,5 Redwing Park
+72,93.15,40.0,4/27/2022,10,occupied,false,1,false,true,false,cool,67.0,75.63,Lucilia Hillum,46,Female,Thailand,lhillum1z@imdb.com,451-104-4843,772 Marcy Circle
+73,34.46,59.53,2/16/2022,4,occupied,false,1,false,true,false,auto,74.6,943.88,Alan Cloute,57,Male,China,acloute20@icq.com,264-215-0855,01 Linden Lane
+74,83.34,3.38,3/30/2022,9,vacant,true,5,true,true,false,auto,74.6,169.62,Horace Gurling,67,Male,Philippines,hgurling21@free.fr,253-811-0589,94692 Namekagon Pass
+75,39.9,84.06,11/14/2022,10,maintenance,true,3,false,false,false,cool,64.5,359.8,Petunia Chedgey,62,Female,France,pchedgey22@slideshare.net,726-946-5604,37 La Follette Road
+76,64.21,51.62,10/10/2022,6,maintenance,true,5,true,false,true,heat,75.9,322.24,Todd Wright,81,Male,Indonesia,twright23@mapquest.com,580-902-9264,6391 Sunbrook Circle
+77,12.23,21.0,2/10/2022,7,occupied,true,2,true,true,false,heat,68.2,853.17,Buckie Keely,66,Male,Argentina,bkeely24@pen.io,559-233-9882,007 Carpenter Park
+78,96.64,10.4,12/9/2022,9,vacant,true,2,false,true,false,heat,78.8,987.88,Mareah Keane,64,Female,Dominican Republic,mkeane25@aol.com,252-842-2569,67571 Dennis Lane
+79,73.36,20.36,3/13/2022,9,maintenance,false,5,true,false,true,cool,71.7,840.97,Gennifer Offen,70,Non-binary,Russia,goffen26@ucoz.ru,686-690-6272,74310 Mesta Plaza
+80,1.53,51.54,8/16/2022,2,vacant,false,4,false,true,true,auto,79.5,585.61,Kirsten Leman,60,Female,Montenegro,kleman27@businesswire.com,259-266-0676,7 Clarendon Alley
+81,65.16,81.14,3/18/2022,6,occupied,false,2,true,false,true,auto,60.7,685.56,Vicky Ligertwood,74,Female,Kenya,vligertwood28@mtv.com,672-411-4364,486 Paget Lane
+82,20.75,49.94,8/29/2022,2,vacant,true,3,true,true,false,auto,61.3,128.44,Del Arnatt,41,Male,China,darnatt29@reddit.com,369-579-4966,87529 Spaight Way
+83,84.92,51.82,8/4/2022,6,vacant,true,1,true,true,false,auto,63.8,920.93,Amberly Dunn,99,Female,Indonesia,adunn2a@mlb.com,775-605-7492,96127 Jackson Road
+84,26.9,14.15,4/16/2022,9,occupied,false,3,true,true,true,cool,72.4,764.07,Chilton Boycott,84,Male,Philippines,cboycott2b@nbcnews.com,902-572-7868,9210 Sycamore Plaza
+85,46.16,27.81,5/4/2022,6,occupied,false,4,false,true,true,cool,66.3,508.97,Job Rao,95,Male,Pakistan,jrao2c@wikia.com,338-423-9881,94 Kim Road
+86,39.61,32.33,9/1/2022,3,vacant,true,1,false,false,true,cool,70.3,507.23,Lesli Snoxall,35,Female,China,lsnoxall2d@yellowbook.com,683-333-2873,4653 Carpenter Pass
+87,98.39,81.6,5/17/2022,10,maintenance,true,3,false,true,false,auto,77.3,296.25,Noel Danilishin,64,Male,Philippines,ndanilishin2e@a8.net,564-123-3986,17 Manley Circle
+88,82.52,25.19,9/18/2022,2,vacant,true,4,false,true,false,cool,63.1,590.3,Annabela Linfoot,78,Female,Russia,alinfoot2f@discuz.net,903-277-0461,67566 Northview Pass
+89,22.52,29.93,6/15/2022,4,occupied,false,3,false,false,true,heat,75.7,462.02,Judye Ferneley,40,Female,China,jferneley2g@diigo.com,467-194-5280,4482 Barby Avenue
+90,19.16,69.04,7/25/2022,1,vacant,true,4,false,false,false,heat,63.9,824.37,Marcie Jeppensen,52,Female,Georgia,mjeppensen2h@narod.ru,595-241-9058,70 Eggendart Place
+91,40.25,24.47,11/8/2022,3,occupied,true,2,true,true,false,auto,61.2,119.91,Tallia Feye,56,Female,Finland,tfeye2i@1688.com,981-601-4093,25472 Kensington Court
+92,81.85,42.46,7/26/2022,6,maintenance,false,1,false,true,false,cool,60.1,705.84,Jess Shefton,93,Female,France,jshefton2j@pen.io,971-602-0916,94085 Charing Cross Crossing
+93,89.19,90.54,11/23/2022,8,maintenance,false,2,true,true,true,auto,69.3,307.46,Viviene Cobbledick,23,Bigender,Honduras,vcobbledick2k@va.gov,744-612-8315,81 Little Fleur Circle
+94,63.5,1.67,6/28/2022,9,occupied,false,3,true,false,false,heat,75.5,433.01,Waldon Coat,93,Male,Russia,wcoat2l@illinois.edu,702-994-0944,87 Crest Line Crossing
+95,94.09,93.99,5/31/2022,1,vacant,false,3,true,false,true,heat,62.3,859.66,Truda Coules,65,Female,Canada,tcoules2m@guardian.co.uk,600-274-1091,63 Prairieview Crossing
+96,33.62,37.4,9/7/2022,4,vacant,true,3,true,true,false,auto,75.4,156.13,Tucker Stockings,43,Male,Russia,tstockings2n@mozilla.org,776-300-4130,785 Cody Circle
+97,29.79,76.03,5/20/2022,1,maintenance,false,3,true,true,true,auto,67.8,718.8,Winston Eidler,36,Male,Colombia,weidler2o@so-net.ne.jp,604-991-6921,273 Magdeline Court
+98,95.12,27.6,3/13/2022,10,maintenance,false,2,false,false,false,heat,78.5,261.91,Corena Arpur,75,Female,Nigeria,carpur2p@ted.com,578-345-8992,4 Shelley Parkway
+99,11.34,31.27,2/11/2022,9,occupied,false,4,false,false,true,auto,75.2,538.43,Coleman Toth,33,Male,China,ctoth2q@icio.us,425-281-4135,03 Little Fleur Junction
+100,49.97,74.62,1/4/2022,10,vacant,true,5,false,true,true,cool,61.6,787.62,Timi Kensall,85,Female,Venezuela,tkensall2r@drupal.org,404-434-9867,1490 Corscot Way
+101,3.99,11.68,1/2/2022,9,maintenance,true,4,true,true,false,auto,62.0,127.26,Ryan Dreschler,68,Male,Peru,rdreschler2s@patch.com,432-706-5170,9873 Dapin Place
+102,93.96,77.38,12/18/2022,9,maintenance,true,4,true,false,false,cool,73.1,308.17,Elle Nussgen,25,Female,Greece,enussgen2t@goo.gl,976-689-4700,2370 Macpherson Hill
+103,33.2,62.49,11/5/2022,1,occupied,true,1,true,false,true,heat,60.9,815.99,Cathyleen Batstone,53,Female,Albania,cbatstone2u@shareasale.com,610-507-8836,79 Marcy Crossing
+104,15.8,25.25,11/4/2022,2,occupied,true,2,true,false,false,cool,71.3,711.69,Tony Campey,19,Female,Colombia,tcampey2v@fc2.com,113-877-8853,7922 Donald Road
+105,21.02,98.32,5/28/2022,2,vacant,false,5,true,false,true,cool,73.2,63.07,Verne Mazdon,79,Male,Japan,vmazdon2w@miitbeian.gov.cn,119-572-4000,812 Trailsway Alley
+106,85.87,78.24,6/25/2022,8,occupied,true,3,true,false,false,heat,79.3,521.36,Kai Lievesley,68,Female,Colombia,klievesley2x@bloglines.com,306-348-1920,5 Clove Avenue
+107,25.46,94.22,6/13/2022,1,vacant,true,5,false,false,false,auto,64.9,538.61,Hermann Schinetti,22,Male,China,hschinetti2y@google.com.au,386-947-5631,6663 Carberry Drive
+108,34.31,0.56,2/22/2022,9,vacant,false,2,false,false,false,heat,70.1,249.04,Giavani Krikorian,70,Male,Portugal,gkrikorian2z@bbb.org,746-954-9514,95068 Waubesa Plaza
+109,7.14,72.17,1/21/2022,6,occupied,true,3,false,true,true,cool,70.0,88.71,Martie Besemer,45,Female,China,mbesemer30@skype.com,933-828-2386,210 Granby Circle
+110,98.72,18.3,11/24/2022,1,occupied,true,4,false,true,false,auto,72.3,930.86,Merrili Huitson,45,Female,Nigeria,mhuitson31@wisc.edu,520-810-4767,21 Rutledge Junction
+111,4.1,62.0,1/10/2022,7,maintenance,true,5,true,false,true,cool,61.7,765.94,Eustace Reinbach,69,Male,Brazil,ereinbach32@netvibes.com,920-125-9949,4 Westerfield Alley
+112,99.81,13.62,5/19/2022,4,maintenance,true,2,false,true,true,auto,76.0,403.74,Adena Margiotta,86,Female,Indonesia,amargiotta33@unblog.fr,491-909-5133,2 Sunnyside Plaza
+113,31.94,55.32,7/7/2022,1,occupied,true,3,true,true,false,heat,69.9,563.25,Danya Culverhouse,75,Male,Colombia,dculverhouse34@photobucket.com,784-564-2872,72066 Carberry Park
+114,21.53,88.23,12/11/2022,7,occupied,false,4,true,true,false,cool,66.3,359.77,Fraser Le Brom,85,Male,Philippines,fle35@cargocollective.com,959-403-3813,453 Washington Park
+115,29.3,88.5,3/14/2022,5,occupied,false,5,true,false,false,auto,69.5,70.68,Stanislas Wetherburn,49,Male,Serbia,swetherburn36@marketwatch.com,101-810-1710,5 Corscot Drive
+116,99.75,4.25,3/9/2022,8,maintenance,false,3,false,false,false,heat,76.1,645.03,Merill Hirschmann,97,Male,Indonesia,mhirschmann37@purevolume.com,580-792-3087,5 Nelson Junction
+117,22.79,92.02,3/7/2022,4,maintenance,false,5,false,true,true,cool,63.1,200.02,Ruthy Phippin,18,Female,Chile,rphippin38@aol.com,560-591-2591,0765 Sauthoff Court
+118,46.28,7.12,12/26/2022,1,occupied,true,2,false,false,true,auto,63.3,518.45,Vikky Marriott,25,Genderqueer,Colombia,vmarriott39@dagondesign.com,903-531-5159,06 Burrows Point
+119,35.42,88.59,6/17/2022,9,vacant,true,3,false,true,true,heat,65.4,732.23,Gustaf Rout,21,Male,United States,grout3a@addtoany.com,717-150-7108,70 Gateway Terrace
+120,99.89,14.69,9/26/2022,8,maintenance,false,5,true,false,false,auto,74.6,269.81,Missy Marl,21,Female,Russia,mmarl3b@mapquest.com,825-517-3673,02 Everett Pass
+121,42.28,85.42,4/21/2022,7,occupied,false,1,true,false,true,heat,70.4,150.82,Paten Lyles,56,Genderfluid,France,plyles3c@de.vu,169-141-8276,6 Northfield Way
+122,80.91,66.98,12/27/2022,9,occupied,false,2,false,true,true,heat,70.9,851.0,Jamima Durdan,46,Female,Afghanistan,jdurdan3d@salon.com,117-957-1269,6 Lyons Terrace
+123,2.7,7.75,7/21/2022,1,occupied,false,5,false,true,true,auto,62.6,378.78,Debby Klimkov,25,Female,Nigeria,dklimkov3e@drupal.org,758-543-9223,2 Merry Trail
+124,74.26,36.77,12/11/2022,7,occupied,true,1,false,false,false,auto,70.9,887.45,Chere Jirak,93,Female,Thailand,cjirak3f@icio.us,773-519-6986,50 Schurz Circle
+125,37.33,43.07,9/14/2022,2,maintenance,false,2,false,true,true,heat,78.0,993.83,Opaline Fackrell,58,Female,China,ofackrell3g@digg.com,801-857-5311,7 Vidon Hill
+126,23.74,22.06,4/7/2022,7,occupied,false,1,false,true,false,auto,69.5,361.06,Rhody Astman,92,Female,China,rastman3h@hibu.com,432-517-4663,3 Nancy Hill
+127,28.17,3.85,6/27/2022,2,vacant,true,2,false,false,false,heat,60.9,360.04,Ashley Margrett,82,Male,Malaysia,amargrett3i@cdbaby.com,674-883-9711,3 Melrose Terrace
+128,21.71,26.07,1/4/2022,3,vacant,true,5,true,true,false,heat,67.4,60.11,Jenilee Devonald,19,Female,Philippines,jdevonald3j@dell.com,220-833-6619,52 Algoma Avenue
+129,12.53,46.56,3/16/2022,5,vacant,false,4,true,false,false,auto,64.9,717.48,Caitlin Dominka,86,Female,Peru,cdominka3k@shutterfly.com,949-579-0700,29 Pankratz Court
+130,36.87,99.28,1/26/2022,4,vacant,false,3,true,true,true,auto,61.9,420.09,Jonell Ormiston,86,Genderfluid,Canada,jormiston3l@topsy.com,798-105-3650,53326 Wayridge Court
+131,47.52,34.58,10/13/2022,7,maintenance,true,3,true,false,false,cool,77.7,114.11,Vidovik Stavers,58,Male,Yemen,vstavers3m@samsung.com,541-516-4315,65239 Steensland Point
+132,51.87,43.78,10/9/2022,7,occupied,false,5,false,false,true,auto,77.3,775.67,Cchaddie Goult,44,Male,Sweden,cgoult3n@mozilla.com,485-606-1213,01 Glacier Hill Terrace
+133,41.96,40.27,6/16/2022,4,vacant,true,3,false,true,true,cool,60.4,136.92,Ezmeralda Roney,68,Female,Colombia,eroney3o@phpbb.com,572-673-2081,2 Bobwhite Drive
+134,18.12,14.99,5/29/2022,1,vacant,true,4,false,false,false,heat,71.7,427.92,Marty Linck,72,Bigender,Spain,mlinck3p@canalblog.com,618-132-0005,3 Ridge Oak Avenue
+135,7.83,15.26,8/18/2022,1,maintenance,true,1,false,false,true,cool,60.3,911.14,Phoebe Kobsch,57,Female,United States,pkobsch3q@apache.org,562-702-5669,69976 Waxwing Road
+136,58.17,20.53,7/28/2022,6,occupied,true,5,true,true,true,heat,72.2,290.83,Tibold Wildish,65,Male,Bosnia and Herzegovina,twildish3r@friendfeed.com,225-379-0729,35572 Orin Alley
+137,57.38,18.23,3/23/2022,8,vacant,false,1,true,false,false,auto,66.3,632.89,Hobey Alenshev,62,Male,Vietnam,halenshev3s@biglobe.ne.jp,135-336-5812,6 Utah Circle
+138,21.51,69.47,10/21/2022,4,occupied,false,4,true,true,true,cool,71.0,112.41,Boycie Garraway,68,Male,Colombia,bgarraway3t@springer.com,870-594-1081,388 Talisman Point
+139,24.83,27.21,10/4/2022,6,maintenance,false,3,false,true,false,auto,61.2,187.68,Patricia Iacopini,99,Non-binary,Portugal,piacopini3u@mit.edu,690-515-0527,1542 Rieder Point
+140,64.13,2.41,6/6/2022,8,occupied,true,1,true,true,false,heat,72.0,706.22,Bryn Peskin,32,Polygender,China,bpeskin3v@reference.com,369-390-9263,74 Portage Road
+141,60.18,60.4,4/19/2022,10,occupied,true,4,true,true,true,cool,77.3,535.22,Doro Donaway,23,Female,China,ddonaway3w@apache.org,232-281-0869,23993 Graceland Junction
+142,22.57,52.63,5/20/2022,7,maintenance,true,3,false,false,true,cool,72.6,336.78,Johnna Eborn,91,Female,China,jeborn3x@vimeo.com,716-273-9391,377 Nova Terrace
+143,80.65,63.5,4/10/2022,10,maintenance,true,4,true,false,true,auto,78.7,68.13,Jacquette Blackburn,82,Female,Indonesia,jblackburn3y@webnode.com,757-904-9693,93 Upham Parkway
+144,17.36,35.96,7/2/2022,9,vacant,false,5,false,false,false,heat,63.3,332.08,Adrianne Mewitt,50,Female,Thailand,amewitt3z@ezinearticles.com,247-154-1937,49780 Algoma Avenue
+145,78.49,10.12,5/2/2022,7,maintenance,false,1,false,true,true,auto,69.5,260.12,Danika Thomesson,67,Bigender,United States,dthomesson40@cafepress.com,719-954-1260,1891 La Follette Terrace
+146,76.22,2.85,11/15/2022,4,vacant,false,1,false,false,false,heat,76.8,506.18,Taylor Koppens,21,Male,Panama,tkoppens41@dropbox.com,630-283-0305,9823 Buhler Parkway
+147,51.92,42.12,4/2/2022,1,maintenance,true,1,false,true,false,heat,76.3,377.67,Mattheus Kornel,23,Genderqueer,Georgia,mkornel42@unesco.org,658-656-5329,854 Bowman Avenue
+148,75.77,49.83,11/27/2022,10,maintenance,false,3,true,true,false,cool,75.7,119.39,Parnell Bridgement,76,Male,Japan,pbridgement43@timesonline.co.uk,309-630-0283,71 Dennis Trail
+149,17.75,0.63,7/3/2022,5,vacant,false,2,false,false,false,auto,65.2,153.02,Minette Yanov,34,Female,Chad,myanov44@noaa.gov,919-670-9478,6363 Linden Plaza
+150,77.62,80.04,6/7/2022,3,occupied,true,2,true,true,true,heat,61.2,731.73,Kenny Relton,84,Male,South Korea,krelton45@smugmug.com,975-607-7245,017 Luster Place
+151,26.14,66.61,8/15/2022,7,occupied,true,4,true,false,true,cool,60.7,878.71,Artemis Cassin,58,Male,Indonesia,acassin46@nps.gov,178-111-8262,056 Vera Junction
+152,9.45,32.51,6/5/2022,3,vacant,false,4,true,false,false,heat,61.4,985.62,Adrien Murphey,21,Male,Russia,amurphey47@youtube.com,941-195-4318,52 Ruskin Drive
+153,23.8,97.18,10/15/2022,3,maintenance,true,3,true,true,true,cool,67.8,200.36,Shena Lenchenko,18,Female,Russia,slenchenko48@un.org,382-697-0900,7698 Oak Street
+154,74.74,75.57,10/19/2022,2,maintenance,false,1,true,false,true,cool,71.4,746.79,Shalne Rainger,27,Female,Poland,srainger49@va.gov,168-358-4018,2 Lakeland Center
+155,69.89,87.02,4/9/2022,4,maintenance,false,2,false,false,true,heat,68.2,738.42,Winifred Creer,75,Agender,Guatemala,wcreer4a@indiatimes.com,889-346-0382,15 Farwell Hill
+156,89.62,53.91,12/30/2022,6,vacant,false,1,true,true,false,auto,69.4,167.24,Henrietta Elgood,40,Female,Palestinian Territory,helgood4b@google.ca,945-445-3125,07262 Quincy Center
+157,41.04,43.99,11/28/2022,1,occupied,false,3,false,false,true,heat,70.9,226.15,Reinaldos Bentjens,74,Male,Brazil,rbentjens4c@yellowbook.com,664-227-3064,07573 Miller Drive
+158,3.99,79.56,11/23/2022,7,vacant,true,5,false,true,false,heat,61.2,464.54,Mabel Danielovitch,67,Female,China,mdanielovitch4d@weebly.com,124-620-3406,15 Banding Terrace
+159,15.74,14.35,4/15/2022,7,maintenance,true,4,true,true,true,auto,60.1,826.22,Corry Milner,26,Female,Cambodia,cmilner4e@examiner.com,441-194-7920,48 Bay Circle
+160,89.82,20.09,5/1/2022,5,maintenance,false,3,false,true,false,cool,75.1,450.91,Jinny McNellis,81,Female,Brazil,jmcnellis4f@ifeng.com,183-340-6073,22 Graedel Pass
+161,54.38,32.85,4/15/2022,7,maintenance,true,3,false,false,true,heat,72.0,911.7,Theressa OIlier,63,Female,Brazil,toilier4g@rambler.ru,777-479-0967,26 Cascade Center
+162,58.4,82.73,6/13/2022,8,vacant,true,1,true,false,false,auto,76.7,453.53,Aubree Panichelli,19,Female,China,apanichelli4h@chicagotribune.com,356-265-6369,7 Cardinal Crossing
+163,88.71,32.66,7/19/2022,6,vacant,true,1,false,false,false,auto,64.2,484.43,Fiona Dungay,63,Female,China,fdungay4i@google.com.hk,438-397-0888,789 Clarendon Center
+164,37.3,73.3,3/14/2022,9,vacant,false,2,false,true,true,heat,69.5,656.15,Merla Perazzo,34,Female,Russia,mperazzo4j@toplist.cz,597-613-7614,93108 Sugar Street
+165,54.25,20.37,5/2/2022,8,vacant,false,2,false,true,true,heat,71.7,936.96,Chlo McLewd,79,Female,Finland,cmclewd4k@fastcompany.com,798-317-6107,52394 Mcbride Way
+166,68.96,20.97,1/9/2022,4,vacant,true,2,true,false,false,heat,60.1,858.64,Sadella Groveham,64,Female,Bosnia and Herzegovina,sgroveham4l@freewebs.com,948-627-9430,172 Armistice Court
+167,68.23,87.57,11/25/2022,1,occupied,true,4,true,true,false,auto,71.6,949.57,Doris Gillogley,85,Female,China,dgillogley4m@skyrock.com,205-672-8675,57578 Algoma Lane
+168,64.53,98.05,9/21/2022,10,vacant,false,5,false,true,false,cool,70.2,343.57,Ara Markwelley,28,Genderqueer,China,amarkwelley4n@technorati.com,834-123-3370,6117 Thierer Place
+169,50.57,97.84,9/18/2022,6,maintenance,true,5,false,false,true,cool,65.3,767.7,Paolo Arnason,88,Male,Peru,parnason4o@earthlink.net,422-411-7987,4 Schmedeman Street
+170,30.76,5.91,8/23/2022,6,maintenance,false,3,false,false,false,cool,78.1,988.74,Nita Hansman,61,Non-binary,Tanzania,nhansman4p@cbsnews.com,904-374-3283,680 Summer Ridge Parkway
+171,97.51,38.74,5/19/2022,4,vacant,true,1,true,false,false,auto,65.5,30.22,Lydon Pruce,81,Male,Yemen,lpruce4q@paypal.com,614-542-7630,17411 Norway Maple Crossing
+172,30.2,18.95,4/15/2022,7,occupied,true,2,false,false,false,heat,66.3,324.28,Haley Holdin,43,Female,Indonesia,hholdin4r@soundcloud.com,885-824-3430,14181 2nd Trail
+173,82.47,63.13,12/17/2022,1,vacant,true,5,false,false,true,auto,77.8,883.64,Sidnee Butterfield,32,Male,Benin,sbutterfield4s@networksolutions.com,192-479-6602,7231 Brickson Park Avenue
+174,95.15,53.4,9/22/2022,1,vacant,false,5,false,true,false,cool,78.8,777.23,Collie Antyukhin,58,Female,Uruguay,cantyukhin4t@istockphoto.com,751-460-3960,502 8th Street
+175,24.16,29.49,5/14/2022,9,vacant,true,2,false,false,true,heat,68.5,424.4,Shirlee Filby,30,Female,Poland,sfilby4u@meetup.com,478-944-2945,82 Summit Parkway
+176,68.37,90.83,1/20/2022,3,vacant,true,5,true,true,false,cool,63.5,818.06,Randall Iwanicki,46,Male,Germany,riwanicki4v@theguardian.com,170-778-3207,170 Drewry Park
+177,34.27,49.49,4/30/2022,4,occupied,true,2,false,false,false,auto,71.3,493.13,Fidelio Lacroix,65,Male,China,flacroix4w@ebay.com,646-481-5719,3 Ludington Way
+178,5.65,11.51,12/26/2022,1,vacant,false,2,true,false,false,auto,69.2,994.06,Renie Wentworth,22,Female,China,rwentworth4x@time.com,948-547-2339,553 Bultman Crossing
+179,70.95,90.74,9/9/2022,7,vacant,false,4,false,true,false,heat,76.2,389.83,Timmi Garcia,47,Female,Colombia,tgarcia4y@diigo.com,976-410-8017,858 Victoria Trail
+180,25.45,21.58,1/18/2022,10,occupied,false,1,false,true,true,auto,73.5,535.08,Georgy Grogor,29,Male,Slovenia,ggrogor4z@sfgate.com,478-513-6299,0 Oxford Park
+181,24.63,84.21,10/6/2022,1,maintenance,false,2,false,true,true,heat,77.9,770.53,Clareta Bargery,77,Agender,Afghanistan,cbargery50@oaic.gov.au,340-901-0144,565 Carioca Street
+182,66.43,93.14,9/10/2022,9,maintenance,true,3,true,false,true,auto,76.8,284.01,Fowler Markovich,29,Male,China,fmarkovich51@quantcast.com,592-812-4994,421 Sheridan Street
+183,51.27,86.43,9/21/2022,8,vacant,true,2,true,false,false,auto,66.0,886.81,Jelene Lansley,99,Female,Argentina,jlansley52@chicagotribune.com,751-463-3467,5325 Carioca Park
+184,33.16,17.07,12/22/2022,2,maintenance,true,2,false,false,false,cool,70.1,45.93,Aline Cahillane,90,Non-binary,Nepal,acahillane53@cpanel.net,247-426-5758,65 Bluejay Road
+185,48.06,12.92,5/10/2022,1,maintenance,false,1,true,false,true,cool,65.4,580.53,Kimmy Van de Velde,99,Female,Indonesia,kvan54@dmoz.org,986-392-0757,3952 Cody Hill
+186,16.67,66.66,11/20/2022,3,vacant,true,4,true,false,false,heat,71.6,579.68,Dulcia Muzzlewhite,75,Female,Peru,dmuzzlewhite55@rambler.ru,866-117-8583,3214 Schurz Circle
+187,97.17,73.29,7/29/2022,5,occupied,true,2,false,true,true,auto,79.1,940.35,Concordia Ryman,72,Female,Ukraine,cryman56@yahoo.co.jp,362-774-5089,339 Goodland Way
+188,31.37,11.15,11/23/2022,1,maintenance,true,3,false,false,true,auto,69.0,859.4,Alon Hainning,72,Polygender,Czech Republic,ahainning57@europa.eu,683-310-5555,187 Bowman Terrace
+189,40.92,50.6,8/1/2022,3,occupied,true,1,true,false,true,auto,71.1,974.47,Gabriel Bilham,75,Male,Afghanistan,gbilham58@yellowpages.com,554-967-3093,8688 Huxley Terrace
+190,55.58,70.61,5/29/2022,5,vacant,true,2,false,true,true,cool,65.4,542.6,Cecilio Catterill,69,Male,Philippines,ccatterill59@columbia.edu,608-426-4775,7 Cardinal Point
+191,14.73,74.91,4/30/2022,5,vacant,false,3,true,true,true,cool,66.3,904.32,Perl Durno,48,Female,Guatemala,pdurno5a@fema.gov,980-722-0911,85331 Huxley Trail
+192,11.91,50.12,12/9/2022,3,maintenance,true,3,false,false,false,heat,61.2,558.45,Mela Perton,99,Agender,Canada,mperton5b@hugedomains.com,568-126-9531,014 Gulseth Avenue
+193,94.34,71.68,11/20/2022,1,occupied,false,5,false,true,false,heat,70.2,163.09,Lincoln Danit,55,Male,Afghanistan,ldanit5c@nbcnews.com,755-508-8387,22978 Valley Edge Street
+194,74.07,47.03,2/14/2022,9,vacant,true,2,false,true,false,cool,79.3,20.79,Kerry Stickford,19,Female,Argentina,kstickford5d@icio.us,828-374-6495,9 Nelson Court
+195,50.66,70.2,9/29/2022,4,maintenance,false,4,true,true,false,cool,71.9,628.48,Cello Cranke,49,Male,Marshall Islands,ccranke5e@cafepress.com,745-961-3617,4 Lake View Hill
+196,7.23,32.15,12/7/2022,1,maintenance,true,3,true,true,true,auto,77.6,424.15,Karlotta Fishleigh,86,Female,Hungary,kfishleigh5f@msn.com,942-511-7963,33 Anthes Crossing
+197,50.35,79.6,9/24/2022,5,maintenance,true,1,false,true,false,cool,68.0,53.31,Reinhold Mitkcov,48,Male,China,rmitkcov5g@about.com,755-134-5889,427 Moland Center
+198,41.22,5.05,2/11/2022,2,occupied,false,1,false,false,false,cool,79.4,609.48,Ker Jantzen,53,Male,Portugal,kjantzen5h@un.org,914-555-1448,9282 Monument Terrace
+199,57.43,51.37,7/11/2022,10,maintenance,false,1,true,false,true,cool,76.5,849.38,Napoleon Kenewel,96,Male,Belarus,nkenewel5i@ebay.co.uk,462-608-5581,82 Miller Alley
+200,26.54,83.49,11/5/2022,7,occupied,true,4,false,true,true,auto,77.5,792.24,Romeo Probetts,72,Male,Chile,rprobetts5j@constantcontact.com,187-336-1120,25 Knutson Alley
+201,46.07,20.55,9/7/2022,3,maintenance,true,4,true,false,true,cool,79.0,920.83,Alejandrina Ormrod,74,Female,Indonesia,aormrod5k@nsw.gov.au,507-926-2459,7221 Moland Lane
+202,38.87,54.58,7/12/2022,1,maintenance,true,5,true,false,false,heat,74.5,721.92,Virgilio Daout,23,Male,United States,vdaout5l@ning.com,702-797-8376,4781 Helena Hill
+203,50.22,26.46,7/11/2022,8,maintenance,false,2,false,false,true,heat,71.5,64.23,Alysia Nowell,43,Female,Kenya,anowell5m@indiegogo.com,592-616-2867,3 Artisan Hill
+204,65.82,18.31,8/18/2022,5,maintenance,true,3,false,false,true,cool,69.6,703.38,Percival Boylund,72,Male,Russia,pboylund5n@symantec.com,597-956-9118,13595 Arrowood Hill
+205,31.68,69.99,6/23/2022,5,maintenance,false,5,true,false,false,auto,63.4,613.34,Conan Kelk,93,Male,Brazil,ckelk5o@photobucket.com,255-506-0141,55658 Coleman Parkway
+206,43.63,65.23,2/3/2022,3,maintenance,true,3,true,true,false,heat,62.1,170.33,Bryon Albro,52,Male,France,balbro5p@smh.com.au,300-770-9250,013 Melvin Parkway
+207,52.64,74.7,4/15/2022,8,occupied,true,3,false,true,false,auto,65.1,121.61,Sayre Buchan,63,Female,Nigeria,sbuchan5q@businessweek.com,371-969-1932,77839 Maple Plaza
+208,68.6,96.77,8/1/2022,2,vacant,false,4,true,true,false,auto,64.2,326.9,Filide Cressor,21,Female,Madagascar,fcressor5r@google.com.au,732-948-3839,25847 Everett Court
+209,0.67,64.25,12/20/2022,9,vacant,true,3,true,true,false,cool,76.4,301.22,Barrie Purvess,51,Male,Palestinian Territory,bpurvess5s@gov.uk,610-524-5929,624 Starling Pass
+210,25.84,79.77,11/23/2022,6,occupied,false,2,true,false,true,auto,64.9,200.87,Zacherie Clementet,32,Male,Paraguay,zclementet5t@delicious.com,347-354-5121,90 Cambridge Park
+211,86.59,2.69,6/29/2022,10,maintenance,false,4,true,false,true,auto,76.6,209.54,Karyn Gaveltone,48,Female,Japan,kgaveltone5u@yahoo.com,443-949-6010,9 Harper Court
+212,60.24,98.79,4/30/2022,8,maintenance,false,2,false,true,true,heat,76.2,201.24,Morton Petracek,92,Male,China,mpetracek5v@upenn.edu,600-277-4123,359 Steensland Parkway
+213,87.24,7.52,7/11/2022,5,vacant,true,3,false,true,true,cool,79.5,356.79,Holly-anne Boynton,28,Female,Poland,hboynton5w@google.cn,595-193-5778,2 Bonner Road
+214,94.88,10.31,1/18/2022,5,vacant,true,5,false,true,false,heat,68.0,569.87,Zechariah Lefwich,35,Male,Iran,zlefwich5x@meetup.com,669-570-6507,993 Shelley Circle
+215,57.4,17.13,11/6/2022,5,vacant,true,2,false,false,false,heat,69.1,694.45,Raeann Wellfare,98,Female,Indonesia,rwellfare5y@ameblo.jp,590-250-5405,93663 Pankratz Plaza
+216,28.12,29.11,11/18/2022,2,vacant,true,4,false,false,true,heat,72.5,166.09,Pearline Yakovliv,45,Female,Indonesia,pyakovliv5z@ft.com,543-756-7748,771 Mallory Place
+217,14.06,6.12,11/16/2022,4,maintenance,true,1,true,true,true,heat,68.1,330.19,Kelsi Scandrick,56,Female,Morocco,kscandrick60@so-net.ne.jp,499-110-2398,3193 Springview Avenue
+218,74.62,75.46,5/9/2022,5,maintenance,false,2,true,false,true,heat,75.5,690.36,Ellissa De Witt,80,Female,China,ede61@army.mil,269-231-5460,51 Bay Crossing
+219,58.76,74.19,9/22/2022,5,occupied,false,1,false,false,true,heat,65.4,981.53,Elsie O'Docherty,64,Female,Brazil,eodocherty62@reference.com,306-781-1242,04136 Holmberg Hill
+220,6.76,42.82,4/14/2022,6,maintenance,false,2,false,true,true,cool,75.8,490.72,Port Cahillane,53,Male,Bolivia,pcahillane63@wsj.com,962-366-8387,19 Fairfield Crossing
+221,11.49,51.17,7/14/2022,4,maintenance,false,3,true,true,true,cool,60.3,523.85,Rogerio Schurcke,21,Male,China,rschurcke64@lycos.com,166-885-7866,9 Vermont Parkway
+222,62.83,49.31,3/30/2022,4,maintenance,false,3,false,true,false,heat,73.7,36.91,Jordon Apperley,86,Male,China,japperley65@fotki.com,133-851-5577,51 Ridgeview Crossing
+223,16.57,26.11,11/1/2022,9,occupied,false,5,true,true,true,heat,79.5,142.71,Adrian Van der Son,78,Male,Thailand,avan66@wsj.com,128-438-6495,86 Fulton Place
+224,7.75,78.28,12/22/2022,8,occupied,true,3,false,false,true,heat,63.3,958.76,Rosemonde Windham,93,Female,Portugal,rwindham67@cpanel.net,547-296-6255,97 Blue Bill Park Center
+225,89.98,13.72,6/5/2022,4,occupied,false,2,true,true,true,cool,66.1,181.72,Estell Olwen,41,Female,Guinea,eolwen68@addthis.com,969-896-8109,715 Dottie Circle
+226,10.77,40.55,6/8/2022,3,maintenance,true,1,true,true,false,heat,74.8,714.05,Kali Balharrie,21,Female,Poland,kbalharrie69@google.com.au,714-665-0108,76 Heffernan Way
+227,61.03,82.47,5/21/2022,8,vacant,true,2,true,false,true,heat,70.6,311.43,Warren Hedgeman,24,Male,Indonesia,whedgeman6a@privacy.gov.au,887-754-9394,14579 Center Pass
+228,86.55,23.02,11/14/2022,9,vacant,true,1,false,false,false,heat,64.9,104.42,Olvan Joesbury,36,Male,Armenia,ojoesbury6b@wordpress.org,710-366-7607,049 Lawn Crossing
+229,14.69,4.2,5/14/2022,9,maintenance,false,4,false,false,true,cool,65.7,909.38,Ozzy Hrinchishin,77,Male,Portugal,ohrinchishin6c@nps.gov,549-552-1066,6 Meadow Ridge Terrace
+230,58.82,38.43,5/5/2022,7,occupied,true,2,false,false,false,heat,78.8,927.53,Blondie Stillwell,80,Female,Nigeria,bstillwell6d@webmd.com,925-170-3907,5135 Kipling Point
+231,28.9,61.97,8/26/2022,6,vacant,true,5,false,true,false,auto,66.2,137.64,Odell Ballantyne,99,Male,Indonesia,oballantyne6e@vimeo.com,293-122-1446,27 Pine View Parkway
+232,68.37,70.66,8/28/2022,2,vacant,true,5,false,true,false,auto,63.9,400.47,Michal Dallyn,82,Male,China,mdallyn6f@dagondesign.com,127-610-7714,3 Dovetail Circle
+233,40.21,10.47,6/16/2022,4,vacant,false,5,true,true,true,auto,65.4,86.73,Elihu Vivash,31,Male,Indonesia,evivash6g@a8.net,944-570-2484,3994 Mosinee Trail
+234,18.0,33.37,6/9/2022,5,vacant,false,1,true,true,false,auto,77.2,490.58,Gianni Grivori,59,Male,Nepal,ggrivori6h@hatena.ne.jp,172-188-3849,2732 Mayer Road
+235,97.29,67.74,7/24/2022,5,occupied,false,5,false,false,true,auto,66.0,514.1,Gussi Philipsohn,37,Female,China,gphilipsohn6i@buzzfeed.com,726-308-2626,169 Sommers Junction
+236,35.46,37.24,11/23/2022,9,occupied,true,4,true,false,false,auto,64.4,148.54,Carce Hurd,93,Male,China,churd6j@psu.edu,819-343-5952,633 Oxford Crossing
+237,54.41,56.24,3/29/2022,10,occupied,true,5,true,true,false,heat,77.2,595.88,Jerrie Fullwood,95,Female,Albania,jfullwood6k@ning.com,596-194-2591,1 New Castle Pass
+238,94.68,18.05,9/7/2022,10,occupied,false,4,false,false,true,heat,69.2,848.31,Idette Blewitt,26,Female,South Korea,iblewitt6l@zimbio.com,566-415-4717,3003 Susan Place
+239,48.76,89.5,11/7/2022,3,maintenance,true,1,false,true,false,auto,77.3,311.69,Augustin Bernucci,45,Male,Argentina,abernucci6m@simplemachines.org,422-414-9397,75008 Elka Trail
+240,81.94,36.44,9/9/2022,3,occupied,true,4,true,true,false,heat,73.5,526.59,Juliette Chilcott,72,Female,China,jchilcott6n@cnn.com,766-881-9391,9 Oneill Pass
+241,45.29,50.13,8/9/2022,5,vacant,false,1,false,false,true,cool,78.0,340.35,Dianna Apfelmann,66,Female,Belarus,dapfelmann6o@macromedia.com,121-112-9870,08278 Brickson Park Pass
+242,28.78,27.09,2/16/2022,1,vacant,true,5,true,false,true,auto,77.5,6.74,Bobbette Strute,75,Female,Bolivia,bstrute6p@ca.gov,257-254-7467,0 Blackbird Drive
+243,43.63,85.02,8/5/2022,2,occupied,true,4,false,false,true,heat,75.8,771.95,Misti Piken,25,Female,Indonesia,mpiken6q@godaddy.com,354-352-8686,13262 Dorton Way
+244,36.99,44.23,3/2/2022,10,occupied,true,3,true,false,true,auto,68.3,909.05,Roslyn Caig,82,Female,Indonesia,rcaig6r@webs.com,957-730-6018,501 Dexter Park
+245,72.43,10.94,3/4/2022,3,occupied,true,2,true,true,false,heat,60.4,780.07,Codi MacAne,66,Male,Sweden,cmacane6s@360.cn,289-205-1415,7 American Ash Parkway
+246,36.73,99.01,2/19/2022,3,occupied,true,3,true,false,true,auto,77.6,333.41,Kat Colcomb,71,Female,Mexico,kcolcomb6t@google.ru,671-389-1998,22536 Hanover Parkway
+247,20.32,55.64,10/23/2022,3,maintenance,false,5,false,false,true,heat,61.3,902.09,Atlante Chomicki,87,Female,Jordan,achomicki6u@china.com.cn,949-189-3085,6483 Express Pass
+248,3.0,67.53,2/19/2022,3,maintenance,true,3,true,false,true,auto,79.8,183.14,Stefa Klampk,27,Genderqueer,Indonesia,sklampk6v@mac.com,796-526-8800,2 Cody Lane
+249,47.15,67.45,3/28/2022,4,vacant,true,1,false,false,false,heat,67.8,206.58,Brenna Ivashechkin,86,Female,Thailand,bivashechkin6w@elpais.com,871-908-8107,01 Nevada Street
+250,20.84,15.28,12/25/2022,3,vacant,false,5,false,false,false,auto,79.9,445.1,Montgomery Solomon,77,Male,Indonesia,msolomon6x@sitemeter.com,173-225-4678,9 Jenifer Center
+251,46.93,17.18,7/19/2022,6,maintenance,true,1,false,false,false,heat,62.1,745.66,Tera Hetterich,52,Female,Brazil,thetterich6y@bandcamp.com,644-676-9607,63502 Spohn Park
+252,60.02,69.37,2/7/2022,1,maintenance,true,4,true,false,false,cool,73.6,926.52,Sabine Bernucci,100,Female,China,sbernucci6z@com.com,664-263-7372,51245 Logan Crossing
+253,53.71,74.56,11/25/2022,5,vacant,true,4,false,true,true,auto,68.0,475.57,Demetri Layman,44,Male,China,dlayman70@zimbio.com,701-721-9050,6 Walton Alley
+254,36.42,99.08,10/8/2022,9,maintenance,true,2,true,false,false,auto,67.5,629.44,Ruttger Eakeley,68,Male,Philippines,reakeley71@mlb.com,647-551-7953,86401 Carpenter Avenue
+255,1.48,59.26,9/24/2022,6,vacant,true,2,true,true,false,cool,72.7,486.55,Malva Carrington,80,Female,Russia,mcarrington72@huffingtonpost.com,851-122-5164,01 Union Trail
+256,78.36,87.44,4/9/2022,7,occupied,false,3,false,false,false,heat,60.3,24.03,Mickie Ovington,42,Male,Brazil,movington73@edublogs.org,958-814-9401,7864 Forest Road
+257,4.93,23.9,5/1/2022,9,vacant,true,5,true,true,true,heat,77.4,177.6,Bendite Halpin,21,Non-binary,Brazil,bhalpin74@berkeley.edu,683-661-5166,37913 Clarendon Terrace
+258,55.03,81.68,10/13/2022,3,maintenance,true,4,true,false,false,cool,63.9,732.35,Micheal Binham,78,Male,China,mbinham75@slideshare.net,858-574-3214,87422 Golden Leaf Road
+259,54.91,89.09,6/24/2022,2,maintenance,false,3,false,true,false,cool,68.8,103.6,Zorina Bowerman,19,Female,Thailand,zbowerman76@cpanel.net,504-468-2517,8519 Mayfield Pass
+260,99.13,46.82,8/23/2022,9,occupied,false,3,true,false,true,cool,72.1,256.44,Benny Thorrold,61,Bigender,China,bthorrold77@ftc.gov,445-895-4208,6 Mandrake Circle
+261,73.92,38.12,1/16/2022,2,maintenance,false,5,false,false,true,heat,77.8,384.06,Zola Salisbury,80,Female,Norway,zsalisbury78@reverbnation.com,571-619-0989,4681 Clove Avenue
+262,87.33,95.5,7/30/2022,1,maintenance,true,4,true,true,true,cool,67.3,569.67,Zackariah Dowglass,25,Male,China,zdowglass79@hao123.com,528-964-5678,6 Londonderry Parkway
+263,28.69,44.44,1/5/2022,1,vacant,true,3,false,true,false,auto,79.2,812.64,Stanfield Connechie,82,Male,Dominican Republic,sconnechie7a@facebook.com,508-625-5721,603 Thackeray Pass
+264,1.49,65.17,3/27/2022,5,maintenance,false,5,false,true,false,auto,78.9,748.11,Vachel Simonetti,46,Genderqueer,Indonesia,vsimonetti7b@google.de,321-489-8625,9236 Carioca Lane
+265,83.03,77.04,3/28/2022,8,vacant,true,1,true,false,false,cool,70.8,52.7,Heindrick McGawn,40,Male,Poland,hmcgawn7c@thetimes.co.uk,128-502-8627,06919 Leroy Junction
+266,36.18,64.1,8/17/2022,8,vacant,true,1,false,false,true,heat,69.2,249.12,Katrina Fowley,54,Female,Portugal,kfowley7d@bloglovin.com,233-910-7269,67 Express Circle
+267,87.85,15.31,3/16/2022,4,maintenance,true,1,false,false,true,cool,64.5,541.58,Forster Rust,100,Male,China,frust7e@netscape.com,764-816-3306,679 Grim Road
+268,28.54,4.3,1/22/2022,7,occupied,false,1,false,false,true,heat,75.8,942.66,Keri Stokell,68,Genderfluid,Poland,kstokell7f@twitter.com,425-344-5934,4 Mcbride Hill
+269,82.77,2.18,12/26/2022,7,vacant,false,5,true,true,true,cool,79.4,59.26,Lorelle Burrell,48,Female,Russia,lburrell7g@businessinsider.com,233-850-1346,258 Lawn Pass
+270,47.8,69.91,5/18/2022,8,vacant,true,2,true,true,false,cool,63.3,125.05,Prentice Aiken,22,Male,Luxembourg,paiken7h@boston.com,835-474-1517,965 6th Circle
+271,24.75,59.73,9/4/2022,6,maintenance,true,3,false,false,false,cool,61.8,392.5,Sorcha Meads,30,Female,Azerbaijan,smeads7i@census.gov,158-431-5642,946 Acker Drive
+272,24.6,4.72,3/19/2022,3,occupied,true,4,false,true,false,cool,64.1,671.81,Penrod Oliffe,20,Male,China,poliffe7j@clickbank.net,846-483-0578,4 Lukken Court
+273,64.57,45.82,12/15/2022,10,occupied,false,4,false,false,true,cool,64.8,800.57,Wain Tiplady,70,Male,China,wtiplady7k@pbs.org,950-383-3564,53015 Talmadge Alley
+274,83.55,77.11,6/12/2022,2,occupied,true,2,false,false,true,cool,70.4,472.48,Hedvige Lyver,65,Female,Ukraine,hlyver7l@usatoday.com,537-500-6003,20 Barnett Junction
+275,25.33,82.74,12/27/2022,3,occupied,true,5,true,true,false,auto,62.9,589.08,Matthiew Worgen,86,Genderqueer,Czech Republic,mworgen7m@amazon.co.uk,466-158-7921,3403 Loeprich Crossing
+276,22.06,92.81,5/17/2022,10,vacant,false,4,false,true,true,cool,61.8,284.64,Farrell Kempson,81,Male,Indonesia,fkempson7n@webeden.co.uk,255-902-7990,86 Orin Park
+277,68.66,80.28,3/18/2022,8,maintenance,true,5,false,false,false,auto,68.9,949.12,Corrianne McGlue,62,Female,China,cmcglue7o@cisco.com,668-616-1174,42 Glacier Hill Hill
+278,73.37,35.51,1/7/2022,3,vacant,true,5,false,true,false,auto,65.7,320.44,Niall Olyunin,38,Male,Philippines,nolyunin7p@blog.com,208-153-8904,35111 Starling Street
+279,24.18,11.38,7/18/2022,5,occupied,true,2,true,false,false,heat,72.1,947.66,Cornie Klampt,90,Female,Guatemala,cklampt7q@upenn.edu,471-939-5133,967 East Point
+280,25.48,91.29,6/29/2022,4,vacant,true,1,false,true,true,heat,67.7,628.29,Bowie Colaton,71,Male,Poland,bcolaton7r@slate.com,302-277-7531,827 Granby Avenue
+281,65.29,28.04,6/25/2022,5,maintenance,true,3,true,true,true,cool,74.9,877.57,Jorge Semour,62,Male,Canada,jsemour7s@tmall.com,204-814-2618,66071 Transport Junction
+282,58.59,13.91,2/27/2022,5,maintenance,false,4,true,true,false,auto,72.0,773.8,Laird Winkle,91,Male,Philippines,lwinkle7t@google.pl,811-210-5378,30 Michigan Pass
+283,78.44,33.12,11/4/2022,6,occupied,true,5,false,false,true,auto,65.4,678.8,Olympia Barkshire,71,Female,Brazil,obarkshire7u@webmd.com,496-344-8597,979 Talmadge Hill
+284,32.86,49.18,12/13/2022,8,vacant,true,4,true,false,false,cool,73.4,127.85,Ulick Rozea,39,Male,Russia,urozea7v@pen.io,868-192-6740,2514 Mccormick Court
+285,27.15,12.1,4/6/2022,2,vacant,true,5,true,false,true,cool,63.7,790.88,Albertina Applewhaite,37,Female,Albania,aapplewhaite7w@psu.edu,331-188-2113,7 Reinke Junction
+286,79.53,99.2,6/18/2022,1,maintenance,false,3,true,true,false,cool,72.7,32.08,Mikael Wardrop,23,Male,Russia,mwardrop7x@scientificamerican.com,779-332-3996,9 Schurz Drive
+287,38.95,11.1,5/30/2022,3,maintenance,false,2,true,true,true,heat,68.6,351.73,Urson Jonuzi,81,Male,Indonesia,ujonuzi7y@cam.ac.uk,747-197-0744,83 Forest Run Place
+288,69.35,11.2,10/17/2022,3,occupied,true,2,true,false,false,auto,72.5,442.15,Clarice Gaymer,96,Female,Indonesia,cgaymer7z@angelfire.com,411-146-1792,110 Florence Junction
+289,40.54,68.31,12/4/2022,4,maintenance,true,1,false,true,true,heat,65.0,153.12,Vern Rawcliffe,95,Male,Philippines,vrawcliffe80@topsy.com,154-771-1167,5 Fair Oaks Place
+290,19.21,39.89,6/20/2022,6,occupied,true,1,false,true,true,auto,62.5,692.65,Arte Sneaker,39,Male,Kazakhstan,asneaker81@businesswire.com,535-695-5593,3912 Mallory Place
+291,28.66,90.59,3/28/2022,7,vacant,true,4,false,true,true,auto,63.4,984.17,Martin Mylchreest,25,Male,Ukraine,mmylchreest82@surveymonkey.com,512-249-6033,34639 Graceland Place
+292,15.24,0.4,5/22/2022,9,maintenance,true,3,false,true,true,heat,75.9,853.1,Mellicent Jones,66,Female,Indonesia,mjones83@vinaora.com,136-107-7769,79 Eagle Crest Road
+293,79.56,39.15,12/7/2022,9,vacant,true,4,true,false,true,heat,74.2,12.11,Anissa Logg,84,Female,China,alogg84@nature.com,233-594-6989,134 Carey Point
+294,68.96,22.4,2/23/2022,4,occupied,true,1,false,true,false,heat,71.8,476.73,Jules Whetnell,22,Male,Nigeria,jwhetnell85@slashdot.org,948-889-6867,5372 John Wall Pass
+295,82.73,51.14,3/20/2022,1,occupied,true,3,false,true,true,heat,76.2,255.67,Early Walch,67,Male,China,ewalch86@jigsy.com,267-769-9388,2149 Manitowish Park
+296,28.41,24.95,11/23/2022,2,vacant,true,2,true,true,false,heat,60.4,322.73,Vittoria Pomphrett,26,Female,Brazil,vpomphrett87@1688.com,858-821-8712,1 Ronald Regan Lane
+297,71.82,73.77,3/6/2022,9,occupied,false,1,true,false,false,auto,61.1,452.49,Annecorinne Crooke,28,Female,Nigeria,acrooke88@gravatar.com,311-319-5359,85 Rieder Park
+298,17.34,93.69,12/20/2022,7,occupied,true,2,true,false,false,cool,62.4,718.6,Reine Lowey,59,Female,China,rlowey89@mozilla.org,381-681-2585,777 Helena Hill
+299,57.45,68.85,8/17/2022,7,maintenance,true,3,false,false,true,heat,66.0,336.95,Leah Seville,100,Female,Iran,lseville8a@livejournal.com,321-865-8946,59 Algoma Place
+300,74.77,2.36,3/14/2022,8,occupied,false,4,true,false,true,cool,67.1,92.96,Nicolai Purkiss,100,Male,Indonesia,npurkiss8b@uiuc.edu,828-568-3531,412 Leroy Park
+301,68.54,53.2,9/12/2022,7,maintenance,false,4,false,true,true,heat,74.9,185.04,Cate Bille,36,Female,Japan,cbille8c@wikipedia.org,146-471-8011,47732 Spaight Crossing
+302,18.56,8.57,7/10/2022,3,maintenance,true,4,true,false,true,heat,77.2,280.02,Chiquita Rains,47,Female,Philippines,crains8d@cdbaby.com,546-382-7204,6653 Summit Point
+303,68.83,23.55,6/3/2022,9,maintenance,true,5,true,true,false,cool,72.2,429.93,Dunstan Blomefield,38,Male,Denmark,dblomefield8e@mozilla.com,366-665-3181,519 Autumn Leaf Plaza
+304,0.58,47.93,6/11/2022,4,occupied,false,2,false,false,true,auto,75.1,31.45,Shermy Cyples,54,Bigender,China,scyples8f@ow.ly,889-273-5733,4 Ohio Court
+305,8.75,32.22,11/17/2022,1,maintenance,true,2,true,true,false,auto,62.6,642.81,Francisco Bediss,78,Male,China,fbediss8g@blogs.com,303-920-3142,7174 Goodland Alley
+306,31.44,58.65,11/23/2022,9,maintenance,true,5,false,false,false,heat,63.6,194.68,Nadiya Vuitte,38,Female,Croatia,nvuitte8h@answers.com,521-142-0399,8909 Hooker Terrace
+307,28.11,89.42,6/7/2022,3,maintenance,false,4,true,true,true,auto,73.5,350.72,Ruperta Yakubovics,54,Genderqueer,Indonesia,ryakubovics8i@squarespace.com,451-370-5518,8 Stuart Circle
+308,35.33,99.03,11/1/2022,10,maintenance,true,5,true,true,true,auto,65.0,124.57,Gamaliel Weightman,25,Male,China,gweightman8j@bandcamp.com,478-944-9309,61351 Clove Plaza
+309,85.2,98.9,8/15/2022,9,maintenance,false,4,true,false,false,heat,62.6,117.11,Kristofor Nisbith,74,Male,Colombia,knisbith8k@nationalgeographic.com,504-318-7032,9 Lillian Street
+310,5.21,17.56,4/10/2022,9,occupied,true,1,false,true,false,cool,72.5,76.7,Aksel Rowntree,54,Male,Sweden,arowntree8l@accuweather.com,899-803-7627,8 Spohn Plaza
+311,61.13,67.27,8/22/2022,4,maintenance,false,4,false,true,false,heat,79.1,212.13,Trumann Noell,20,Male,Russia,tnoell8m@xinhuanet.com,306-565-0776,41945 Beilfuss Terrace
+312,6.68,22.02,12/25/2022,4,maintenance,true,1,true,false,true,cool,73.5,669.86,Joyan Blazynski,62,Female,Czech Republic,jblazynski8n@dell.com,301-656-8875,499 Burning Wood Place
+313,12.94,36.22,2/17/2022,5,vacant,true,4,false,true,false,cool,60.8,614.15,Abraham Polendine,75,Male,Peru,apolendine8o@rambler.ru,170-334-4890,4 Little Fleur Road
+314,75.04,75.72,1/30/2022,2,occupied,true,3,false,true,true,cool,73.3,761.8,Demetria MacHoste,53,Female,United States,dmachoste8p@wunderground.com,202-987-4498,46046 Westend Plaza
+315,92.03,38.75,8/25/2022,5,occupied,true,4,false,false,true,auto,66.9,149.26,Cornela Piggen,74,Female,Dominican Republic,cpiggen8q@hostgator.com,191-636-5626,90 Ronald Regan Court
+316,54.44,97.77,8/7/2022,8,maintenance,false,4,false,false,true,cool,64.9,768.53,Sandra Keynes,63,Polygender,Portugal,skeynes8r@indiegogo.com,896-148-3075,2 Carioca Plaza
+317,10.59,80.75,9/19/2022,1,vacant,true,2,true,true,false,cool,70.5,695.34,Abby Van Der Vlies,18,Male,Guatemala,avan8s@vk.com,588-447-5477,21 Warrior Road
+318,83.2,76.31,2/1/2022,2,vacant,true,4,true,true,true,auto,77.0,263.5,Nicolle Copes,28,Female,Poland,ncopes8t@princeton.edu,596-350-7825,02 Bashford Plaza
+319,64.36,59.45,1/16/2022,7,maintenance,false,2,false,false,false,auto,73.2,486.54,Andrea Amberg,29,Male,China,aamberg8u@lulu.com,119-585-7549,5147 Stoughton Alley
+320,71.72,12.59,5/1/2022,9,maintenance,false,1,true,true,false,auto,75.3,342.43,Parsifal Piers,75,Male,Brazil,ppiers8v@amazonaws.com,165-885-4172,06443 West Circle
+321,53.39,85.51,8/17/2022,5,vacant,false,5,true,true,false,heat,77.0,463.96,Cash Rigeby,29,Male,Guinea,crigeby8w@mac.com,816-963-6833,100 Hovde Road
+322,61.88,95.17,10/25/2022,4,occupied,true,1,true,true,false,heat,71.7,352.34,Saudra Trueman,50,Female,Philippines,strueman8x@issuu.com,572-162-7682,7 Logan Parkway
+323,47.83,96.64,5/3/2022,10,vacant,true,1,false,false,true,heat,73.2,223.13,Maxi Lugard,92,Female,Ukraine,mlugard8y@abc.net.au,778-319-2624,7664 Everett Center
+324,74.85,70.96,8/11/2022,3,occupied,false,2,false,false,false,cool,78.1,875.1,Whittaker Towhey,84,Male,China,wtowhey8z@google.de,427-406-0090,0 Scofield Circle
+325,59.44,57.42,6/6/2022,2,maintenance,false,2,true,true,false,cool,71.5,617.26,Willdon Coomer,67,Male,Saint Kitts and Nevis,wcoomer90@yandex.ru,883-119-4731,2340 Oxford Circle
+326,0.15,51.46,10/31/2022,3,occupied,false,4,false,false,true,heat,62.0,98.35,Rolf Shubotham,38,Male,China,rshubotham91@spiegel.de,880-824-9806,83670 Anzinger Plaza
+327,82.93,42.09,9/27/2022,10,occupied,false,4,true,true,false,cool,62.0,358.85,Gianni Martinolli,85,Male,Finland,gmartinolli92@google.cn,821-776-5680,2 Holy Cross Court
+328,25.89,73.6,3/11/2022,10,occupied,true,5,false,false,true,heat,77.0,193.4,Elinor Scholig,29,Female,Czech Republic,escholig93@tuttocitta.it,306-366-1905,74 Springs Lane
+329,29.77,55.13,5/27/2022,2,maintenance,false,3,false,true,false,cool,74.3,19.62,Melisa Sparwell,89,Female,Burundi,msparwell94@reverbnation.com,454-541-4221,3 Namekagon Park
+330,78.6,67.19,7/24/2022,1,occupied,false,3,true,true,false,cool,63.0,514.19,Rosina Blenkinsopp,56,Non-binary,China,rblenkinsopp95@nbcnews.com,878-632-8200,0 Nobel Park
+331,17.65,48.7,12/10/2022,3,occupied,false,3,false,true,false,cool,66.8,732.51,Benjamen Gabriely,25,Male,Cuba,bgabriely96@amazon.de,264-320-4177,7281 Quincy Street
+332,97.97,65.07,11/26/2022,10,occupied,false,4,false,true,false,cool,68.7,102.47,Ulises Dalinder,43,Male,Poland,udalinder97@slate.com,264-422-6233,91 Lillian Junction
+333,94.67,22.97,11/19/2022,5,vacant,true,4,true,false,true,heat,63.5,396.07,Jenica Beche,97,Female,Martinique,jbeche98@spotify.com,226-451-0888,00 Dixon Center
+334,97.33,7.25,4/20/2022,8,maintenance,true,4,false,false,false,heat,67.5,639.65,Margarethe Olivari,27,Female,Greenland,molivari99@arstechnica.com,486-470-8777,864 Blue Bill Park Avenue
+335,11.5,28.15,9/26/2022,2,occupied,true,4,false,false,true,auto,70.7,661.72,Lacey Witt,100,Female,France,lwitt9a@wikipedia.org,755-315-0741,60274 Saint Paul Circle
+336,55.65,95.58,9/7/2022,6,vacant,false,5,true,false,false,heat,71.2,656.22,Savina Ioan,54,Female,China,sioan9b@phoca.cz,525-808-7739,79 Sundown Way
+337,6.03,99.51,3/19/2022,2,vacant,false,1,true,false,false,cool,72.9,774.43,Keelby Petrushkevich,40,Bigender,China,kpetrushkevich9c@wikimedia.org,903-503-4129,21 Anderson Circle
+338,16.94,24.13,5/8/2022,6,occupied,false,4,false,false,false,cool,74.8,369.34,Murielle Loosely,72,Genderqueer,China,mloosely9d@phpbb.com,638-611-5488,38929 Marcy Center
+339,2.67,36.78,6/21/2022,5,maintenance,true,1,false,true,true,heat,69.0,652.67,Borden Zapater,47,Genderqueer,Peru,bzapater9e@msu.edu,742-588-4041,8 Hayes Place
+340,38.23,98.5,10/31/2022,9,vacant,false,3,true,true,false,heat,66.1,405.92,Brocky Luffman,87,Male,Argentina,bluffman9f@sphinn.com,713-863-3000,81 Stoughton Road
+341,86.13,47.1,4/17/2022,2,vacant,false,3,true,true,true,auto,75.2,876.39,Israel Stretton,100,Genderqueer,Portugal,istretton9g@woothemes.com,622-978-6467,752 Mockingbird Park
+342,50.88,39.49,3/8/2022,5,occupied,false,4,true,false,false,auto,64.1,996.44,Robinet Winsbury,95,Male,Mongolia,rwinsbury9h@arstechnica.com,953-282-2074,56338 Lukken Court
+343,74.77,85.87,3/22/2022,1,vacant,false,5,false,true,true,heat,78.6,521.35,Umberto Bunney,70,Male,Poland,ubunney9i@hp.com,796-204-5443,16247 American Ash Trail
+344,69.69,15.14,12/7/2022,3,occupied,false,4,true,false,false,cool,62.3,973.48,Blondelle Beadham,30,Female,China,bbeadham9j@com.com,651-185-1791,060 Anniversary Hill
+345,29.19,39.91,9/14/2022,2,vacant,false,4,false,true,true,cool,68.9,674.43,Janna Gillions,74,Female,Yemen,jgillions9k@skyrock.com,216-689-8226,0 Karstens Plaza
+346,62.56,31.22,8/7/2022,5,occupied,true,2,true,true,true,auto,77.5,846.88,Farlay Godmar,76,Male,Indonesia,fgodmar9l@exblog.jp,430-896-9653,28 Kensington Way
+347,92.63,23.03,11/9/2022,4,vacant,true,5,true,false,false,auto,66.0,526.05,Corrianne Pentecust,48,Female,China,cpentecust9m@nydailynews.com,868-682-1855,94384 Corry Terrace
+348,53.79,55.69,6/28/2022,6,vacant,true,3,true,false,true,cool,75.4,970.55,Frasquito Bergstram,86,Male,Russia,fbergstram9n@dot.gov,916-433-5735,5 Stephen Street
+349,38.9,13.51,1/31/2022,5,maintenance,true,3,true,true,true,auto,65.6,547.47,Taber Alekhov,82,Genderfluid,Jamaica,talekhov9o@opera.com,287-511-2303,63244 Bartillon Park
+350,7.97,91.24,9/20/2022,2,maintenance,true,4,true,true,true,cool,78.4,455.67,Archambault Tunn,86,Male,Ghana,atunn9p@1und1.de,346-348-7023,3 Mccormick Avenue
+351,20.25,41.78,10/2/2022,2,occupied,true,5,true,true,true,heat,72.0,357.18,Ede Vasyutin,76,Bigender,Sweden,evasyutin9q@tiny.cc,383-356-5714,493 Linden Center
+352,86.01,47.53,9/11/2022,2,occupied,true,5,false,true,true,cool,62.5,12.64,Lauretta Tobias,24,Female,Cuba,ltobias9r@miitbeian.gov.cn,346-892-3670,7319 Merry Hill
+353,70.25,79.0,2/17/2022,8,vacant,false,2,true,true,false,cool,70.9,926.99,Harrison Ellsom,69,Male,Russia,hellsom9s@guardian.co.uk,341-595-0664,085 Farmco Court
+354,36.7,59.05,8/12/2022,10,maintenance,false,3,false,true,false,cool,66.0,488.09,Mercy Brister,40,Polygender,Indonesia,mbrister9t@cloudflare.com,243-676-0868,90182 Warner Lane
+355,20.74,39.26,7/9/2022,6,vacant,false,1,true,true,true,auto,77.6,861.58,Hollyanne Kimblen,98,Female,United States,hkimblen9u@cdc.gov,831-253-7985,4865 Garrison Hill
+356,26.96,9.88,8/16/2022,5,maintenance,false,4,false,false,false,auto,67.8,113.23,Lorettalorna Mosco,98,Female,Indonesia,lmosco9v@hubpages.com,224-334-4522,18870 Bluestem Pass
+357,24.16,72.18,10/11/2022,10,occupied,true,4,true,false,false,heat,76.4,651.6,Jacinda Dann,99,Female,Cuba,jdann9w@businessweek.com,197-884-2153,34843 Clemons Drive
+358,87.11,3.03,1/19/2022,9,vacant,false,1,false,false,true,cool,72.0,428.59,Wernher Marsh,91,Genderfluid,Solomon Islands,wmarsh9x@cbslocal.com,655-430-6009,1750 Ruskin Parkway
+359,85.8,44.98,9/11/2022,1,occupied,true,4,false,false,false,heat,72.1,377.24,Brittani Gentsch,27,Female,Portugal,bgentsch9y@nifty.com,454-770-7455,51298 Upham Court
+360,0.56,20.96,2/12/2022,5,vacant,false,2,true,true,true,heat,65.9,464.39,Job Sleit,92,Male,Tanzania,jsleit9z@hp.com,389-103-4438,78876 Browning Center
+361,16.82,84.12,9/12/2022,7,occupied,true,2,true,true,true,heat,69.3,841.71,Spenser Innot,29,Male,Brazil,sinnota0@walmart.com,536-785-9436,8 Kedzie Terrace
+362,50.76,80.44,2/14/2022,8,occupied,true,3,false,false,true,heat,61.6,978.52,Charlot Lanaway,62,Female,Indonesia,clanawaya1@skype.com,924-978-9198,32248 Monument Point
+363,41.99,6.17,11/1/2022,5,maintenance,false,3,true,false,false,auto,63.0,126.85,Buddy Izod,37,Male,Brazil,bizoda2@ucoz.com,872-823-7902,4 Summerview Parkway
+364,72.05,65.91,6/25/2022,5,vacant,true,5,true,false,false,cool,61.8,706.58,Averell Whardley,60,Male,China,awhardleya3@businessweek.com,270-917-5658,197 Spaight Alley
+365,26.23,57.04,12/13/2022,5,occupied,false,4,false,true,true,heat,79.3,335.05,Petr Neill,77,Male,Israel,pneilla4@ted.com,504-564-6085,40076 Eliot Lane
+366,46.25,7.44,3/11/2022,8,maintenance,false,4,true,true,true,auto,73.6,303.23,Lorry Flaunier,92,Female,Sweden,lflauniera5@patch.com,886-400-9545,8 Old Gate Pass
+367,23.88,50.75,8/19/2022,7,maintenance,true,1,false,true,false,cool,68.8,147.66,Jena MacDwyer,21,Female,Indonesia,jmacdwyera6@umn.edu,238-536-0135,58 Reindahl Terrace
+368,46.81,21.7,9/7/2022,1,vacant,false,2,false,false,true,cool,62.4,887.72,Lou Soigoux,82,Male,Poland,lsoigouxa7@washington.edu,340-378-5497,62 Caliangt Hill
+369,29.28,93.39,12/19/2022,2,occupied,true,1,false,true,false,heat,75.7,142.89,Keene Savery,53,Male,China,ksaverya8@booking.com,205-850-7009,522 Kim Park
+370,67.36,60.59,7/18/2022,10,maintenance,false,5,false,false,false,auto,65.6,117.37,Eloise Fonzone,95,Female,Togo,efonzonea9@oracle.com,514-344-8962,22850 Morningstar Parkway
+371,40.9,63.83,7/6/2022,5,maintenance,true,5,true,false,true,auto,79.3,12.15,Rog Straffon,81,Genderfluid,Czech Republic,rstraffonaa@cbsnews.com,963-617-6696,932 Red Cloud Point
+372,37.48,28.78,7/9/2022,8,maintenance,false,5,true,false,false,cool,74.1,768.22,Nicolis Beebe,96,Male,Uruguay,nbeebeab@lulu.com,286-415-8422,44301 Stang Drive
+373,79.37,59.6,11/12/2022,6,occupied,true,4,false,false,false,heat,60.1,847.24,Klara Yedall,20,Polygender,Japan,kyedallac@dion.ne.jp,921-641-3915,3345 Hooker Junction
+374,61.81,40.26,1/10/2022,10,occupied,false,1,true,true,true,cool,73.5,61.51,Benn Sprott,65,Male,Poland,bsprottad@cargocollective.com,739-633-0472,6 Sloan Crossing
+375,15.38,7.0,12/15/2022,2,vacant,true,1,true,true,false,auto,72.3,216.53,Nerta Eland,96,Female,Argentina,nelandae@businesswire.com,862-207-1321,8 Mayfield Drive
+376,48.58,22.82,2/19/2022,3,occupied,false,4,true,true,false,heat,75.2,770.13,Dill Heynen,78,Male,Malaysia,dheynenaf@google.it,305-162-2261,4 Clarendon Road
+377,16.57,54.26,6/14/2022,7,vacant,true,3,false,false,true,cool,61.1,503.69,Fransisco Wenger,65,Male,Brazil,fwengerag@nasa.gov,471-627-2467,27328 Blaine Avenue
+378,19.35,17.8,1/17/2022,10,occupied,true,3,true,true,true,auto,71.8,926.64,Page Eadmeades,32,Female,Brazil,peadmeadesah@theguardian.com,215-178-7169,5768 Northfield Avenue
+379,53.0,1.51,6/23/2022,6,maintenance,false,3,true,false,true,auto,62.2,758.6,Taddeo Knight,62,Male,Kazakhstan,tknightai@sitemeter.com,876-122-0829,99 Schurz Avenue
+380,68.09,70.88,3/15/2022,3,occupied,true,2,true,false,true,heat,71.4,11.74,Rodolphe Michelle,30,Male,Indonesia,rmichelleaj@ucoz.com,568-947-3457,353 Mcbride Circle
+381,66.31,33.17,5/24/2022,5,maintenance,true,2,true,false,true,cool,78.3,660.52,Vivia Gerrill,66,Female,China,vgerrillak@macromedia.com,486-467-8702,48791 Moulton Circle
+382,13.78,94.58,7/23/2022,7,maintenance,true,4,true,true,false,heat,64.1,841.45,Lyndsay Mc Cahey,46,Female,Colombia,lmcal@illinois.edu,780-489-1405,27 Springs Park
+383,42.1,87.89,11/6/2022,3,vacant,false,1,true,false,false,cool,76.8,720.29,Teodoor Cullip,37,Male,China,tcullipam@mit.edu,189-312-8494,4 Vermont Terrace
+384,72.23,54.01,7/31/2022,7,vacant,false,3,true,true,false,cool,66.0,133.66,Jae Renneke,79,Male,Portugal,jrennekean@si.edu,996-980-5257,93 Clemons Trail
+385,72.29,89.65,1/9/2022,4,maintenance,false,5,false,true,true,heat,69.5,385.71,Wini Leehane,63,Female,Brazil,wleehaneao@paginegialle.it,616-401-6670,330 Meadow Vale Terrace
+386,17.57,49.88,10/25/2022,7,vacant,true,4,false,false,true,heat,67.2,31.57,Florie Murcutt,56,Female,Greece,fmurcuttap@arstechnica.com,587-599-0775,6 Caliangt Parkway
+387,58.35,47.3,10/1/2022,1,vacant,false,2,true,false,false,heat,65.1,328.94,Owen Beaves,79,Male,China,obeavesaq@latimes.com,186-195-1885,67 Springview Avenue
+388,95.78,75.19,11/22/2022,6,vacant,false,5,true,false,true,heat,63.4,454.05,Dona Messiter,76,Female,Brazil,dmessiterar@imageshack.us,742-919-0706,39 Basil Center
+389,94.86,48.31,3/18/2022,2,vacant,false,1,false,false,true,auto,79.6,61.51,Sofie McRorie,87,Female,Tanzania,smcrorieas@elegantthemes.com,805-887-8682,33010 Cody Plaza
+390,26.02,71.53,6/5/2022,6,occupied,true,1,false,true,true,auto,71.5,230.65,Bernardo Harwick,46,Male,Brazil,bharwickat@usgs.gov,144-682-8989,773 Northfield Way
+391,80.49,45.64,7/29/2022,4,maintenance,false,3,false,false,true,heat,79.1,9.38,Pierson Lenin,68,Male,Argentina,pleninau@xinhuanet.com,393-429-9086,22 Upham Park
+392,50.28,22.54,12/10/2022,9,occupied,false,1,true,true,false,heat,68.1,733.41,Gayelord Moodie,33,Male,Russia,gmoodieav@nature.com,188-903-1188,63971 Ohio Court
+393,31.08,55.23,8/8/2022,1,maintenance,true,2,false,false,false,heat,73.2,874.43,Hamish Tudhope,65,Male,Russia,htudhopeaw@people.com.cn,897-311-9528,904 Crest Line Road
+394,41.89,44.98,2/17/2022,5,vacant,false,5,true,false,true,heat,79.3,277.46,Sigismundo Ferencz,42,Male,China,sferenczax@netvibes.com,274-741-1501,8 Northport Point
+395,92.06,77.67,5/28/2022,6,maintenance,true,5,true,true,true,heat,75.3,601.89,Mariquilla Scimonelli,53,Female,Brazil,mscimonelliay@unesco.org,593-389-2806,07 Shopko Plaza
+396,76.51,15.74,4/21/2022,7,occupied,true,1,true,false,false,heat,65.3,326.99,Chance Pentony,41,Male,France,cpentonyaz@va.gov,620-546-3981,11 East Court
+397,97.49,95.87,11/29/2022,3,occupied,false,3,true,false,true,auto,70.1,200.46,Toinette North,23,Female,France,tnorthb0@omniture.com,842-750-4370,641 Kensington Crossing
+398,17.98,6.92,4/19/2022,6,vacant,true,5,true,true,true,cool,79.8,909.24,Jessy Otson,50,Female,Russia,jotsonb1@xing.com,145-886-8615,99 Loeprich Terrace
+399,53.74,80.8,1/21/2022,8,occupied,false,3,false,false,false,cool,66.8,264.45,Paquito Kirkam,22,Male,Indonesia,pkirkamb2@w3.org,761-894-4734,300 Shasta Junction
+400,73.25,9.26,9/4/2022,10,maintenance,true,4,true,false,false,heat,68.7,910.9,Daphene Wattam,74,Female,Mexico,dwattamb3@slideshare.net,691-659-3143,7 Hermina Drive
+401,90.13,14.6,3/2/2022,6,maintenance,true,3,true,true,false,auto,64.9,500.17,Clerkclaude Petrus,63,Male,South Africa,cpetrusb4@auda.org.au,473-427-4596,49423 Little Fleur Hill
+402,74.57,32.5,9/22/2022,1,vacant,true,5,false,true,false,heat,76.3,417.88,Annabelle Shillaker,58,Female,Egypt,ashillakerb5@simplemachines.org,650-645-5608,716 Algoma Center
+403,90.47,51.27,3/12/2022,5,vacant,true,1,false,false,true,heat,80.0,961.19,Ingra Bertram,41,Male,Nigeria,ibertramb6@weibo.com,472-489-4191,92241 Upham Place
+404,66.95,28.02,1/29/2022,7,vacant,true,4,false,true,true,heat,65.7,151.04,Marta Joplin,19,Female,Niger,mjoplinb7@symantec.com,262-846-2130,27 Rieder Terrace
+405,2.85,42.34,4/29/2022,7,vacant,false,5,true,true,true,heat,66.1,855.42,Ingrim Airton,96,Male,China,iairtonb8@indiatimes.com,583-899-9098,15642 Waywood Avenue
+406,31.48,39.8,6/29/2022,9,vacant,true,4,true,true,false,auto,77.0,778.01,Leroy Moubray,96,Male,Russia,lmoubrayb9@cdbaby.com,909-676-7207,77 Bluestem Place
+407,26.81,85.09,9/21/2022,4,maintenance,true,3,true,false,true,heat,76.6,893.8,Gamaliel Kitcher,48,Male,China,gkitcherba@webeden.co.uk,740-402-8073,411 Bay Road
+408,12.56,50.93,4/5/2022,3,occupied,true,3,true,false,false,auto,63.5,912.6,Claudetta Ronchka,26,Female,Indonesia,cronchkabb@rakuten.co.jp,753-877-7800,05925 Redwing Avenue
+409,59.69,36.33,9/27/2022,8,maintenance,false,4,true,false,true,heat,71.4,294.29,Zebulen O'Brogane,96,Male,United States,zobroganebc@ebay.com,513-926-2412,0243 Dunning Point
+410,30.6,81.61,7/14/2022,6,vacant,false,3,false,false,false,heat,68.6,583.57,Pen Keunemann,100,Genderqueer,China,pkeunemannbd@unc.edu,427-463-9201,7 Dwight Pass
+411,89.83,52.51,5/20/2022,1,occupied,true,3,false,false,false,auto,67.1,53.45,Eleen Ripley,22,Female,Russia,eripleybe@ustream.tv,735-130-8667,03 Melody Road
+412,4.68,17.51,8/10/2022,3,occupied,false,4,true,false,false,heat,64.9,582.36,Demetra Monnelly,91,Female,France,dmonnellybf@cocolog-nifty.com,548-460-4045,876 Russell Drive
+413,89.71,58.72,7/20/2022,2,occupied,false,2,false,false,true,auto,65.9,460.23,Aurthur Comizzoli,53,Male,Malawi,acomizzolibg@furl.net,297-589-4496,663 Garrison Point
+414,72.37,58.81,7/17/2022,8,maintenance,true,2,false,false,true,heat,60.1,901.72,Northrop Filon,35,Male,Portugal,nfilonbh@wikispaces.com,646-683-3455,1274 Pond Parkway
+415,18.29,17.14,1/1/2022,1,maintenance,false,5,false,false,true,auto,74.9,563.34,Nata Edington,100,Female,Poland,nedingtonbi@github.io,382-778-1152,05917 Division Street
+416,43.34,32.2,6/7/2022,7,vacant,true,1,true,false,false,heat,63.8,746.21,Ardeen Kamena,94,Female,Cameroon,akamenabj@mediafire.com,943-547-5990,7818 Sommers Junction
+417,82.22,76.05,7/17/2022,9,occupied,true,5,false,false,false,heat,76.6,56.92,Von Cervantes,81,Male,United States,vcervantesbk@eventbrite.com,315-256-0072,0 Westerfield Terrace
+418,6.98,78.45,5/12/2022,3,vacant,true,1,true,false,false,cool,77.7,789.67,Arlee Burkitt,69,Female,Sweden,aburkittbl@bing.com,508-751-6950,19388 Bayside Terrace
+419,4.7,80.73,12/5/2022,9,occupied,true,4,false,false,true,cool,79.8,972.33,Sigismond Tasseler,84,Male,Portugal,stasselerbm@narod.ru,712-702-8560,246 Mallory Street
+420,94.87,81.2,4/30/2022,1,occupied,false,2,false,true,true,auto,70.3,7.82,Emelda Cumes,68,Female,Guinea,ecumesbn@51.la,791-697-6026,769 Carberry Trail
+421,49.28,77.8,7/16/2022,10,occupied,false,2,true,true,false,heat,60.7,845.05,Gail Limeburn,95,Male,Ivory Coast,glimeburnbo@theatlantic.com,928-912-1638,2 Lunder Way
+422,95.96,31.69,6/14/2022,5,occupied,false,5,false,false,true,auto,73.7,515.54,Cyrill Ash,44,Male,Ukraine,cashbp@blinklist.com,169-106-5886,454 Kipling Avenue
+423,2.74,66.56,2/3/2022,6,maintenance,true,5,true,false,true,cool,73.6,167.27,Enrico Yeend,93,Male,Georgia,eyeendbq@ucsd.edu,554-785-6018,926 Drewry Center
+424,57.44,24.28,6/6/2022,6,maintenance,false,4,false,true,false,auto,64.5,320.44,Igor Waskett,36,Male,Bosnia and Herzegovina,iwaskettbr@slate.com,205-627-2635,2417 Monument Junction
+425,75.89,30.94,11/8/2022,5,maintenance,true,2,false,true,true,cool,78.1,376.37,Nerte Carnall,78,Female,China,ncarnallbs@patch.com,932-716-8242,4 American Street
+426,81.22,11.83,7/1/2022,4,occupied,false,3,false,true,false,cool,69.4,813.59,Tabatha Beals,51,Female,Indonesia,tbealsbt@drupal.org,248-418-3110,09529 Derek Pass
+427,94.05,51.49,1/5/2022,4,vacant,true,5,true,false,false,heat,70.7,167.8,Torrey Skamal,36,Male,Russia,tskamalbu@ucla.edu,930-740-5015,263 Lakewood Park
+428,84.86,68.97,7/1/2022,1,maintenance,false,4,true,false,true,cool,79.0,253.88,Hale Staples,52,Male,Portugal,hstaplesbv@free.fr,912-454-2336,739 Golf Course Junction
+429,16.27,5.42,12/16/2022,6,occupied,true,3,true,false,false,cool,70.2,541.77,Olag Duchesne,20,Male,Japan,oduchesnebw@independent.co.uk,112-735-2532,459 Sauthoff Lane
+430,92.41,62.82,2/18/2022,5,vacant,false,2,true,false,false,cool,67.8,96.74,Corinna Daid,79,Genderqueer,Brazil,cdaidbx@blog.com,744-541-6655,82823 Morrow Center
+431,68.24,91.72,4/8/2022,5,vacant,true,2,true,false,true,cool,77.0,897.07,Waiter Boerderman,47,Male,Russia,wboerdermanby@seattletimes.com,681-881-1828,16173 Hoffman Drive
+432,62.67,87.7,1/5/2022,5,vacant,false,5,false,false,true,auto,63.1,588.44,Aymer Hefferan,71,Male,France,ahefferanbz@businesswire.com,564-411-2118,6121 Thierer Plaza
+433,73.15,87.52,5/15/2022,9,occupied,true,4,true,false,false,auto,79.5,215.86,Jereme Cluley,74,Male,Japan,jcluleyc0@yahoo.com,637-869-9439,98 Eggendart Circle
+434,84.93,60.5,11/10/2022,2,maintenance,false,2,true,true,true,cool,72.5,714.76,Martica Bellocht,45,Female,Yemen,mbellochtc1@moonfruit.com,212-955-9854,06680 Fordem Pass
+435,51.77,13.56,2/12/2022,2,vacant,true,5,true,false,true,heat,69.7,402.35,Chadd Johnsey,81,Male,Indonesia,cjohnseyc2@house.gov,938-975-0370,03993 Sutherland Junction
+436,20.06,64.9,10/4/2022,2,occupied,false,5,true,false,true,heat,67.4,801.56,Avrit Siret,56,Female,Indonesia,asiretc3@devhub.com,128-291-1338,82 Pankratz Terrace
+437,92.06,50.15,1/28/2022,1,occupied,false,5,true,false,false,heat,73.8,511.42,Christiane Boulter,70,Female,Czech Republic,cboulterc4@topsy.com,287-921-4583,9866 Bluejay Court
+438,87.82,42.71,2/10/2022,3,maintenance,false,5,false,false,false,heat,78.6,722.35,Neille Erickson,24,Female,China,nericksonc5@engadget.com,813-843-1884,4 Messerschmidt Plaza
+439,39.69,54.77,12/17/2022,3,vacant,false,4,false,false,false,cool,77.2,713.71,Jessee Gilchrist,54,Male,Philippines,jgilchristc6@cbc.ca,141-142-8059,4550 Annamark Lane
+440,85.25,26.97,3/13/2022,3,maintenance,true,1,false,true,true,auto,67.2,742.39,Alvy Gilardone,70,Bigender,China,agilardonec7@gnu.org,525-835-9313,68 Loftsgordon Way
+441,4.83,97.07,12/6/2022,5,vacant,true,2,false,false,true,cool,72.4,813.82,Monte Gerrans,84,Male,Indonesia,mgerransc8@unblog.fr,918-123-1016,0188 Dexter Parkway
+442,75.3,95.56,2/18/2022,2,vacant,false,1,true,false,true,cool,62.3,369.68,Rhea Zambonini,41,Female,Suriname,rzamboninic9@i2i.jp,543-456-0277,79 Mayer Point
+443,34.92,75.08,9/20/2022,6,maintenance,false,5,false,false,true,auto,72.1,64.9,Arabel Opy,22,Female,Tunisia,aopyca@wix.com,346-937-1068,75291 Northwestern Park
+444,97.75,89.88,4/14/2022,1,occupied,true,3,true,true,true,heat,66.5,569.75,Boony Bettenay,66,Male,Sweden,bbettenaycb@reverbnation.com,313-609-5946,7514 Green Ridge Plaza
+445,60.41,73.92,12/3/2022,10,occupied,false,4,true,true,false,auto,75.7,983.77,Darrin Gremane,90,Male,Serbia,dgremanecc@gnu.org,408-433-0504,2 Columbus Alley
+446,33.27,86.06,9/30/2022,8,occupied,false,1,true,true,true,heat,61.2,873.12,Freeland Twinborough,21,Male,Panama,ftwinboroughcd@oracle.com,768-847-1326,6692 Kennedy Hill
+447,20.36,11.9,6/1/2022,8,vacant,false,1,false,true,false,cool,75.5,310.64,Ellswerth Downing,78,Male,Russia,edowningce@blogspot.com,116-194-1546,40664 Shasta Terrace
+448,28.45,92.68,11/19/2022,7,vacant,false,5,false,false,true,cool,76.2,41.47,Adena Larret,47,Female,Japan,alarretcf@github.com,442-735-2423,43583 Morrow Street
+449,39.48,21.01,12/18/2022,3,maintenance,false,5,false,false,true,heat,67.0,321.45,Aloysius Cottem,94,Male,Czech Republic,acottemcg@oracle.com,838-535-6385,7847 Carioca Lane
+450,85.92,35.7,1/13/2022,5,vacant,true,5,false,true,true,cool,65.7,746.67,Ricardo Jolliffe,100,Male,Indonesia,rjolliffech@yandex.ru,280-696-6453,5648 Warbler Parkway
+451,28.33,85.62,6/27/2022,9,vacant,false,1,false,false,true,auto,78.9,769.52,Lambert Tatem,25,Male,China,ltatemci@marriott.com,818-680-0652,504 Magdeline Point
+452,16.83,25.5,7/28/2022,7,vacant,false,4,true,false,false,heat,67.4,437.61,Raynard Delaprelle,93,Male,Vietnam,rdelaprellecj@dmoz.org,691-593-4286,8101 Brentwood Street
+453,14.34,39.49,6/21/2022,8,occupied,false,1,false,true,false,cool,61.2,610.06,Isacco Sill,36,Agender,Portugal,isillck@facebook.com,786-844-2097,5 Harbort Circle
+454,7.42,17.09,1/3/2022,4,occupied,true,1,false,true,false,auto,72.9,240.77,Hyacintha Camfield,91,Female,China,hcamfieldcl@uiuc.edu,396-738-6215,306 Union Lane
+455,52.43,86.64,10/12/2022,9,occupied,false,3,true,false,true,cool,65.1,366.61,Eliot Raitt,66,Male,Niger,eraittcm@alibaba.com,188-107-5880,871 Dahle Street
+456,62.58,94.52,6/20/2022,2,vacant,false,3,true,false,false,heat,62.2,863.51,Brewer Boissieux,72,Genderqueer,United States,bboissieuxcn@sun.com,718-169-0098,06529 Bayside Street
+457,9.09,37.87,3/25/2022,5,vacant,true,4,true,false,true,cool,76.6,601.54,Lucina Weymont,50,Genderqueer,Czech Republic,lweymontco@wordpress.org,453-916-5177,13 Kings Road
+458,56.92,26.39,6/11/2022,4,maintenance,true,3,true,true,false,heat,68.7,12.21,Saunder Rickhuss,94,Male,Canada,srickhusscp@vk.com,792-839-4965,82 Mandrake Park
+459,42.46,83.55,3/10/2022,7,vacant,true,1,false,true,true,cool,65.8,995.71,Stefan Currer,80,Male,Lithuania,scurrercq@businessinsider.com,705-937-0763,460 Main Hill
+460,5.76,86.89,3/30/2022,7,occupied,false,1,false,false,true,cool,67.2,636.64,Ruthann Tritten,42,Female,Philippines,rtrittencr@cpanel.net,291-786-1603,20 Spohn Crossing
+461,44.13,99.9,12/19/2022,3,maintenance,true,2,true,false,false,heat,61.3,814.44,Kerby Willshee,31,Male,Philippines,kwillsheecs@wikispaces.com,585-832-3129,5351 Hoepker Alley
+462,18.25,84.99,3/23/2022,6,vacant,true,4,true,false,true,heat,75.3,834.24,Chick Chastand,91,Polygender,China,cchastandct@privacy.gov.au,603-151-8534,559 Green Plaza
+463,30.02,84.42,6/22/2022,7,occupied,false,5,false,true,false,cool,67.2,847.6,Bunnie Housin,76,Female,Philippines,bhousincu@kickstarter.com,977-832-8041,38909 5th Place
+464,8.29,52.92,12/1/2022,6,occupied,true,2,false,true,true,auto,68.7,808.23,Manny Joselevitz,21,Male,Bangladesh,mjoselevitzcv@engadget.com,858-839-3400,5348 Hagan Crossing
+465,19.05,73.3,6/25/2022,5,occupied,true,2,false,true,true,auto,70.3,787.05,Wittie Giovanardi,23,Male,Spain,wgiovanardicw@sfgate.com,388-784-1509,84 Troy Place
+466,61.51,34.71,6/9/2022,1,occupied,false,1,true,true,true,heat,71.0,669.12,Zolly Crockley,82,Polygender,Iran,zcrockleycx@about.me,530-394-5950,7 American Parkway
+467,84.65,32.7,11/23/2022,4,maintenance,true,1,true,true,true,auto,70.0,66.1,Brantley Kleinhandler,26,Male,Colombia,bkleinhandlercy@spotify.com,308-110-0182,7 John Wall Trail
+468,83.28,16.8,11/3/2022,7,maintenance,true,1,true,false,false,heat,72.9,429.89,Zacharias Tonna,24,Male,Greece,ztonnacz@mtv.com,647-251-2226,4839 Everett Junction
+469,50.08,37.92,1/29/2022,6,maintenance,true,4,false,false,false,auto,74.0,610.86,Daune Baraja,93,Female,Ukraine,dbarajad0@techcrunch.com,524-196-1764,48 Bartelt Pass
+470,8.05,53.46,6/15/2022,3,occupied,true,1,true,false,true,heat,75.6,941.42,Gun Pedrol,58,Male,United States,gpedrold1@geocities.com,360-765-2464,01 Harbort Drive
+471,97.51,96.86,12/16/2022,1,vacant,true,5,true,false,false,heat,70.0,846.54,Boniface Housam,35,Male,China,bhousamd2@wufoo.com,433-540-9906,20409 Raven Place
+472,93.14,13.7,4/5/2022,1,vacant,false,3,false,true,true,cool,67.4,774.05,Alaster Kerwin,61,Male,Russia,akerwind3@icio.us,129-379-2668,28 Russell Court
+473,97.47,26.64,10/9/2022,5,maintenance,true,4,false,false,true,heat,70.8,517.07,Vladamir Bolzen,39,Male,Tanzania,vbolzend4@quantcast.com,928-743-0099,08994 Bluejay Trail
+474,36.53,11.64,11/11/2022,8,maintenance,false,3,false,false,false,auto,61.6,498.41,Carine Detheridge,91,Female,Sri Lanka,cdetheridged5@51.la,527-501-3724,27503 Lawn Pass
+475,13.61,76.1,9/30/2022,7,vacant,true,5,true,true,true,auto,73.5,281.84,Marysa Fearnley,97,Female,Poland,mfearnleyd6@blogspot.com,145-383-9572,354 Di Loreto Junction
+476,22.65,43.21,1/2/2022,5,vacant,false,2,true,true,true,auto,60.4,197.14,Anatola Mateu,68,Female,Philippines,amateud7@businessweek.com,114-152-7201,0088 Dayton Junction
+477,31.33,9.31,4/17/2022,2,occupied,true,3,false,false,true,cool,60.3,742.69,Zacharia Archbold,36,Male,Belarus,zarchboldd8@cnbc.com,367-422-6476,7 Havey Pass
+478,15.73,50.18,3/8/2022,9,maintenance,true,4,true,false,false,auto,67.7,261.11,Lauritz Yonge,64,Male,Ukraine,lyonged9@freewebs.com,400-853-6851,65049 Scoville Lane
+479,98.33,27.89,11/28/2022,9,occupied,false,5,true,false,true,cool,79.0,458.08,Jessalyn Varren,66,Female,Argentina,jvarrenda@harvard.edu,515-429-0281,17 Hagan Court
+480,53.0,16.77,8/13/2022,8,maintenance,true,1,true,true,true,auto,67.7,685.52,Vergil Luquet,74,Male,Colombia,vluquetdb@kickstarter.com,807-980-3746,961 Dottie Terrace
+481,76.6,65.41,10/11/2022,4,vacant,true,5,true,false,true,heat,72.6,787.44,Orly Brownsill,99,Female,Sweden,obrownsilldc@spotify.com,151-829-0520,738 Talmadge Park
+482,5.22,83.1,11/30/2022,7,vacant,true,3,true,true,false,cool,75.3,808.64,Israel Newband,86,Male,Bulgaria,inewbanddd@hostgator.com,888-246-1025,001 Lillian Junction
+483,90.68,87.54,5/17/2022,1,occupied,false,4,true,false,true,heat,78.7,78.02,Auberta Venable,82,Female,Argentina,avenablede@unc.edu,124-838-1560,397 Towne Circle
+484,77.7,81.74,8/25/2022,1,occupied,true,5,false,false,false,auto,75.5,341.27,Bryant Daley,33,Male,France,bdaleydf@vk.com,824-354-5668,04 Blackbird Lane
+485,2.51,48.53,5/26/2022,6,vacant,true,3,true,false,false,auto,78.0,213.85,Rosana Fewtrell,72,Female,Comoros,rfewtrelldg@fda.gov,293-311-9004,7653 Logan Junction
+486,23.85,27.91,5/10/2022,1,vacant,true,3,true,false,true,auto,74.5,959.04,Haleigh Fairfoul,58,Female,Sweden,hfairfouldh@noaa.gov,653-319-7754,13953 Pine View Circle
+487,43.28,21.21,7/5/2022,3,maintenance,false,4,true,true,true,cool,66.3,682.88,Gabi Tourot,33,Male,China,gtourotdi@accuweather.com,656-453-1865,214 Vidon Road
+488,78.88,34.27,1/6/2022,8,vacant,false,2,false,false,true,auto,64.7,617.86,Alfons Baiss,44,Male,Mexico,abaissdj@blogger.com,118-573-2162,84 Loomis Center
+489,2.13,83.24,1/25/2022,9,occupied,true,2,true,false,false,auto,60.3,931.26,Iorgo Romagosa,94,Male,Ethiopia,iromagosadk@blogger.com,421-566-1800,1307 Acker Drive
+490,32.58,34.68,6/15/2022,5,occupied,true,3,true,false,false,cool,61.5,32.92,Gaye Drew-Clifton,78,Agender,Ireland,gdrewcliftondl@sogou.com,592-494-4209,032 Commercial Lane
+491,94.06,84.72,3/30/2022,4,occupied,true,4,false,false,false,cool,61.8,580.41,Loralee Tench,57,Female,North Korea,ltenchdm@columbia.edu,467-356-2655,4366 Prairie Rose Circle
+492,7.43,11.75,6/11/2022,3,occupied,false,4,false,false,false,heat,74.9,575.14,Andriana Maro,45,Female,Indonesia,amarodn@bbb.org,669-141-6853,143 Washington Parkway
+493,20.19,87.08,12/11/2022,4,vacant,false,5,true,true,false,cool,72.6,642.37,Sissy Ayers,61,Female,China,sayersdo@canalblog.com,196-634-7888,462 Amoth Plaza
+494,61.51,17.21,3/23/2022,4,maintenance,true,4,true,false,true,heat,67.2,7.7,Latrina Mattea,78,Female,Czech Republic,lmatteadp@spiegel.de,117-669-7709,8 Brentwood Center
+495,82.37,61.41,9/11/2022,7,occupied,false,5,true,false,true,auto,72.9,696.63,Corbie Dadds,59,Male,United States,cdaddsdq@dmoz.org,727-165-4815,24207 Lakeland Alley
+496,88.34,95.94,7/3/2022,2,vacant,true,1,true,false,false,auto,66.0,679.76,Jocelyne Loving,60,Female,Russia,jlovingdr@google.cn,247-839-5099,265 Debra Terrace
+497,77.26,82.4,9/13/2022,10,occupied,true,2,true,true,true,heat,61.0,609.97,Averil Mascall,58,Agender,France,amascallds@i2i.jp,996-326-9007,075 Dahle Road
+498,31.55,31.77,4/8/2022,8,occupied,false,5,true,true,false,auto,73.9,982.75,Bernardo Gellier,57,Male,France,bgellierdt@mac.com,500-122-2154,11 Macpherson Center
+499,76.46,92.41,2/10/2022,8,occupied,true,5,false,false,false,auto,66.5,428.46,Reagen Ollin,30,Male,Lebanon,rollindu@paginegialle.it,991-261-6457,69 Spenser Road
+500,59.28,45.39,5/20/2022,8,occupied,true,2,false,true,false,auto,70.7,718.22,Elinore Smurthwaite,46,Female,China,esmurthwaitedv@123-reg.co.uk,303-219-2950,06 Cardinal Drive
+501,13.46,27.29,2/14/2022,1,vacant,true,3,false,true,false,heat,71.4,957.63,Jock Haycox,74,Male,China,jhaycoxdw@google.es,744-266-7876,1661 Fordem Pass
+502,98.18,55.61,1/21/2022,1,maintenance,true,3,false,true,false,cool,78.3,933.09,Koenraad Copozio,64,Male,Vietnam,kcopoziodx@wordpress.com,274-736-0285,5 Butterfield Center
+503,96.89,90.81,12/9/2022,5,maintenance,false,3,false,true,false,cool,75.3,251.74,Audi Kirkpatrick,29,Female,Philippines,akirkpatrickdy@utexas.edu,105-443-7143,3 Vahlen Circle
+504,98.37,70.1,5/30/2022,1,vacant,true,3,true,true,true,heat,74.6,696.55,Loreen Ruit,38,Genderfluid,Tajikistan,lruitdz@seesaa.net,830-587-8554,1 High Crossing Alley
+505,52.77,97.53,3/6/2022,9,maintenance,true,5,false,true,false,cool,79.3,17.33,Edee Gason,52,Female,Portugal,egasone0@ebay.com,579-433-5287,9076 Del Sol Way
+506,23.18,73.68,5/30/2022,5,maintenance,true,3,false,true,true,heat,75.5,880.48,Dyan Crosser,91,Female,Russia,dcrossere1@ocn.ne.jp,273-130-1489,98 Iowa Road
+507,89.11,60.36,3/12/2022,1,occupied,false,5,true,false,true,heat,74.3,897.9,Terri Lumbers,89,Female,Argentina,tlumberse2@gizmodo.com,459-526-9776,10117 Monument Crossing
+508,63.02,32.94,4/12/2022,7,occupied,false,1,false,true,false,heat,72.6,967.98,Moise Gartshore,73,Male,Poland,mgartshoree3@dyndns.org,900-254-0698,7 Lerdahl Circle
+509,88.01,27.93,1/10/2022,4,vacant,true,1,true,false,true,cool,61.7,516.46,Penelopa Kadar,30,Female,Indonesia,pkadare4@eventbrite.com,938-598-0126,3 Del Mar Parkway
+510,24.94,85.54,11/23/2022,7,maintenance,true,1,false,true,true,auto,67.4,154.79,Rahal Meffen,33,Polygender,Ukraine,rmeffene5@mozilla.com,573-164-4838,5 Luster Trail
+511,30.98,87.44,11/12/2022,1,occupied,true,5,true,false,true,heat,60.9,7.14,Magnum Vaughan,47,Male,China,mvaughane6@unicef.org,181-472-6490,96 Vahlen Circle
+512,55.52,28.14,11/10/2022,4,vacant,false,3,false,true,true,heat,66.2,245.9,Jolee Veazey,97,Bigender,Russia,jveazeye7@mac.com,399-376-1798,7 Aberg Circle
+513,66.49,62.18,12/14/2022,5,occupied,true,5,false,false,true,cool,77.7,717.02,Urban Lushey,25,Male,Colombia,ulusheye8@wikipedia.org,102-810-2675,17355 6th Alley
+514,82.22,2.5,11/16/2022,5,maintenance,true,2,true,false,true,cool,70.3,172.69,Cassius Fallen,66,Male,Mexico,cfallene9@miibeian.gov.cn,690-232-6546,82 Service Trail
+515,54.83,14.24,11/19/2022,2,vacant,true,1,false,false,true,auto,72.4,382.74,Haroun Griffin,20,Male,Indonesia,hgriffinea@latimes.com,199-397-8587,74 Ruskin Road
+516,49.73,99.99,12/8/2022,4,occupied,true,1,true,true,true,heat,78.9,185.26,Hortensia Dunseith,26,Female,Nigeria,hdunseitheb@php.net,231-943-0983,0796 Quincy Court
+517,1.89,46.17,6/18/2022,3,vacant,true,4,true,false,false,auto,62.4,241.72,Corri Zimmermanns,66,Female,Poland,czimmermannsec@joomla.org,401-436-3600,7714 Carey Parkway
+518,8.06,54.0,6/11/2022,5,occupied,false,3,false,false,false,cool,68.3,321.04,Stefa Kingzett,51,Female,Colombia,skingzetted@imdb.com,485-703-8095,7 Grover Hill
+519,31.89,5.5,6/12/2022,5,maintenance,false,2,true,false,true,heat,65.6,698.57,Dagmar Castanho,54,Female,Brunei,dcastanhoee@nsw.gov.au,380-821-5776,374 Scofield Place
+520,76.33,10.37,6/6/2022,3,vacant,true,3,false,true,false,auto,72.1,940.86,Orren Deverale,71,Male,Brazil,odeveraleef@mayoclinic.com,966-704-5724,7730 Victoria Lane
+521,64.99,67.45,12/17/2022,6,maintenance,true,5,true,false,false,heat,66.3,68.11,Curr Reyson,97,Male,Portugal,creysoneg@studiopress.com,765-662-1942,468 4th Point
+522,70.64,66.7,4/11/2022,3,maintenance,true,1,false,true,true,auto,61.0,437.48,Matty Sarton,93,Genderqueer,Brazil,msartoneh@nydailynews.com,377-268-2921,248 Everett Pass
+523,68.08,34.42,9/16/2022,10,maintenance,false,2,true,false,false,cool,71.1,917.64,Ema Best,96,Female,Japan,ebestei@huffingtonpost.com,618-224-3061,30 Beilfuss Avenue
+524,69.66,3.23,9/1/2022,2,occupied,false,2,true,true,false,auto,66.7,344.72,Washington Nattriss,93,Male,Saudi Arabia,wnattrissej@techcrunch.com,378-905-8311,55757 Superior Point
+525,15.65,77.83,2/5/2022,7,vacant,false,1,false,true,false,heat,65.4,893.63,Kassi Grutchfield,28,Female,China,kgrutchfieldek@bing.com,823-534-2974,1516 Northridge Street
+526,88.36,99.84,6/6/2022,4,vacant,false,3,false,false,true,cool,71.1,674.02,Robbie MacCole,19,Female,Japan,rmaccoleel@senate.gov,258-369-8255,1224 Sunbrook Trail
+527,57.04,24.95,1/19/2022,8,vacant,true,1,false,true,true,auto,62.2,752.88,Imelda Solloway,26,Female,Yemen,isollowayem@mapy.cz,212-114-3259,30320 Spenser Place
+528,82.44,42.0,1/22/2022,1,vacant,false,2,false,false,true,heat,73.5,958.69,Alysia Trengrouse,83,Female,France,atrengrouseen@jimdo.com,347-664-6876,66 Vera Pass
+529,74.11,0.47,5/20/2022,4,occupied,true,3,false,false,false,cool,74.1,835.91,Jacinta Di Dello,31,Female,France,jdieo@merriam-webster.com,925-773-1233,4638 Muir Center
+530,0.32,8.31,7/6/2022,9,vacant,true,2,false,true,true,heat,62.1,512.88,Candie Ovell,41,Female,Argentina,covellep@china.com.cn,914-891-9268,25 Warner Lane
+531,24.79,60.88,9/18/2022,1,maintenance,true,1,true,true,false,heat,73.5,208.32,Velma Barnardo,50,Female,Honduras,vbarnardoeq@squarespace.com,411-936-9245,62418 Debra Circle
+532,92.24,69.68,10/14/2022,5,maintenance,true,3,true,false,true,cool,66.4,928.66,Kally Rolstone,82,Female,Tajikistan,krolstoneer@booking.com,490-438-3002,780 Everett Plaza
+533,14.34,59.2,11/30/2022,10,maintenance,true,3,false,false,true,auto,66.6,923.21,Justis Nerney,48,Male,Madagascar,jnerneyes@barnesandnoble.com,825-306-1231,654 Division Court
+534,60.59,44.01,5/7/2022,3,vacant,false,1,true,true,true,cool,69.0,814.03,Harri Laise,33,Bigender,Morocco,hlaiseet@joomla.org,391-816-1405,45119 Stone Corner Junction
+535,62.52,30.58,4/1/2022,3,occupied,true,2,false,false,false,cool,79.7,606.76,Nannette Cripps,97,Polygender,Philippines,ncrippseu@seattletimes.com,752-399-0416,3 Straubel Junction
+536,97.87,95.53,8/31/2022,10,vacant,true,3,true,true,true,cool,78.1,5.36,Clive Calafato,81,Male,China,ccalafatoev@icio.us,164-129-2821,7 Vahlen Way
+537,55.51,17.22,7/5/2022,5,vacant,false,2,false,false,true,heat,79.0,658.49,Lindsey Marner,91,Female,Ecuador,lmarnerew@moonfruit.com,296-116-8173,18114 Norway Maple Hill
+538,16.66,45.81,6/22/2022,10,maintenance,true,1,false,false,true,auto,68.1,943.5,Janice Ewebank,35,Female,Czech Republic,jewebankex@comcast.net,615-425-6808,84191 Truax Court
+539,79.72,14.49,8/2/2022,1,occupied,false,5,true,true,true,cool,68.5,843.36,Jonah Van der Kruijs,82,Male,China,jvaney@php.net,781-825-2548,82 Bowman Crossing
+540,56.9,55.88,2/19/2022,6,occupied,false,5,true,true,false,heat,66.4,480.71,Paola Windows,88,Female,Philippines,pwindowsez@clickbank.net,872-453-6849,1 Continental Alley
+541,11.54,49.15,12/17/2022,7,vacant,false,2,true,false,false,heat,69.2,609.07,Britte Ruperto,48,Female,Indonesia,brupertof0@joomla.org,695-827-4058,8 Toban Park
+542,22.34,73.0,2/15/2022,10,vacant,false,2,false,false,true,heat,60.2,420.73,Arlina De Few,68,Female,China,adef1@51.la,948-233-2170,7 Oakridge Alley
+543,64.35,24.91,3/7/2022,3,vacant,false,1,true,true,false,heat,72.2,243.0,Nikki Marian,28,Female,Ecuador,nmarianf2@ifeng.com,699-406-1959,158 Caliangt Alley
+544,85.08,38.19,1/21/2022,6,occupied,false,3,true,false,false,cool,63.5,32.5,Belle Breagan,25,Female,Honduras,bbreaganf3@cargocollective.com,515-622-3480,27971 Grim Drive
+545,3.85,7.23,1/24/2022,8,maintenance,true,4,true,true,true,heat,77.8,109.95,Christiana Duligal,63,Female,China,cduligalf4@geocities.jp,576-628-1885,4809 Pond Drive
+546,99.92,59.45,10/15/2022,3,occupied,true,2,true,true,false,cool,70.2,412.01,Kass Calbaithe,39,Female,Peru,kcalbaithef5@flavors.me,688-996-4821,523 Schiller Alley
+547,92.89,54.37,10/18/2022,8,maintenance,false,3,false,true,true,heat,65.1,107.4,Torin Cawsby,43,Male,China,tcawsbyf6@miibeian.gov.cn,464-488-2769,5 Orin Park
+548,27.23,59.61,12/2/2022,3,maintenance,true,2,true,false,false,auto,73.8,710.74,Bianca Giovanetti,26,Female,Russia,bgiovanettif7@sciencedirect.com,651-129-0612,500 7th Center
+549,84.14,59.33,7/27/2022,5,maintenance,true,5,true,true,true,heat,75.4,762.46,Robyn Haily,19,Female,Indonesia,rhailyf8@smugmug.com,872-427-3847,5278 Green Ridge Crossing
+550,69.1,70.92,8/4/2022,10,vacant,false,3,true,false,false,cool,71.6,550.39,Serge Grimley,66,Male,Indonesia,sgrimleyf9@live.com,448-417-8260,87131 Lakewood Gardens Street
+551,53.54,6.01,10/29/2022,8,vacant,true,5,true,true,true,cool,74.0,383.79,Tybalt Castagnet,90,Male,China,tcastagnetfa@senate.gov,752-936-4067,530 School Terrace
+552,98.25,28.19,12/5/2022,5,maintenance,false,3,true,true,true,cool,66.7,622.85,Asher Harmes,18,Male,Portugal,aharmesfb@apache.org,450-657-0091,2 Bluejay Alley
+553,93.93,16.31,1/1/2022,3,maintenance,false,5,false,true,true,auto,60.9,925.63,Carree Kemwal,69,Female,China,ckemwalfc@vkontakte.ru,110-230-5414,8 Dayton Place
+554,97.51,43.28,5/7/2022,3,vacant,true,1,true,true,false,heat,65.0,384.18,Georgetta Manhare,18,Female,Czech Republic,gmanharefd@techcrunch.com,205-570-3809,8 Randy Alley
+555,81.61,76.76,1/25/2022,1,occupied,false,2,false,false,true,cool,78.6,773.78,Salvidor Jouannot,18,Male,Nigeria,sjouannotfe@narod.ru,651-426-7379,626 Toban Hill
+556,4.31,77.38,6/21/2022,6,maintenance,true,2,true,true,false,cool,72.0,390.78,Ginni Luten,35,Female,France,glutenff@51.la,647-684-0268,4936 Sycamore Avenue
+557,41.01,29.4,8/13/2022,4,vacant,false,1,false,false,false,heat,67.6,74.16,Jamill Peinke,94,Male,Ukraine,jpeinkefg@europa.eu,262-327-2494,265 Waxwing Junction
+558,99.32,30.08,5/20/2022,1,vacant,true,1,true,true,true,auto,76.0,98.18,Barbabas Athridge,93,Male,Indonesia,bathridgefh@wisc.edu,486-112-7993,919 Donald Terrace
+559,6.1,63.71,3/26/2022,10,maintenance,false,5,false,true,false,cool,78.8,133.26,Torin Normanton,60,Male,Kosovo,tnormantonfi@aboutads.info,810-912-7669,525 Golf Hill
+560,91.96,99.62,7/10/2022,4,maintenance,false,2,false,true,false,auto,72.6,648.93,Godfree McVee,47,Male,Indonesia,gmcveefj@oakley.com,479-312-8101,4 Mandrake Park
+561,47.65,27.09,7/3/2022,9,vacant,false,4,false,false,false,cool,63.0,946.09,Rogerio Lamble,23,Male,Philippines,rlamblefk@wikia.com,922-653-6136,05 Reinke Point
+562,96.8,57.51,12/7/2022,7,maintenance,true,4,false,true,true,cool,66.9,42.34,Dal Filippazzo,75,Genderqueer,Indonesia,dfilippazzofl@cbc.ca,166-158-4830,50418 Montana Alley
+563,90.9,53.88,12/8/2022,10,vacant,false,2,false,true,false,heat,77.6,424.51,Raimundo Aron,50,Male,Thailand,raronfm@lulu.com,168-268-2685,89230 Onsgard Circle
+564,0.76,46.11,7/23/2022,6,maintenance,false,1,true,true,true,cool,78.7,458.21,Hank Dalliston,73,Male,Sweden,hdallistonfn@etsy.com,378-678-3045,819 Kipling Street
+565,31.22,75.84,12/3/2022,4,occupied,true,4,true,true,false,auto,74.7,448.24,Elisabetta Clemonts,54,Female,Syria,eclemontsfo@columbia.edu,336-566-9284,7 Sommers Junction
+566,15.57,94.81,10/27/2022,4,occupied,true,3,false,false,true,auto,65.0,449.84,Genovera Norridge,73,Genderqueer,China,gnorridgefp@latimes.com,993-117-5930,58821 Redwing Street
+567,89.11,49.9,4/19/2022,10,occupied,true,2,false,true,true,cool,79.6,957.5,Isadore Dederich,34,Male,Colombia,idederichfq@google.com.hk,684-704-0097,161 Warner Street
+568,86.18,59.14,8/19/2022,6,vacant,false,4,false,false,true,auto,73.9,139.75,Frank Corwood,31,Female,Russia,fcorwoodfr@1und1.de,570-604-9883,970 Bartillon Trail
+569,39.4,54.69,12/25/2022,4,vacant,true,3,true,false,false,heat,68.1,792.43,Angelique Kuschel,31,Female,Czech Republic,akuschelfs@studiopress.com,894-688-6387,28257 Iowa Pass
+570,80.83,92.58,4/6/2022,7,maintenance,false,1,true,true,true,auto,65.1,751.49,Idette Ream,60,Female,United States,ireamft@examiner.com,305-163-6690,8 Hermina Point
+571,54.75,90.57,4/9/2022,4,occupied,true,1,true,true,true,cool,70.5,96.42,Berti Somner,34,Female,Russia,bsomnerfu@cbslocal.com,926-128-9429,0380 Algoma Place
+572,47.28,38.38,4/6/2022,4,vacant,true,1,false,true,false,heat,71.9,483.11,Vina Taber,18,Female,Mozambique,vtaberfv@huffingtonpost.com,905-290-0895,96392 Hollow Ridge Pass
+573,27.3,1.72,12/11/2022,6,occupied,false,4,true,true,true,cool,66.8,337.73,Davie Mummery,44,Agender,Sweden,dmummeryfw@nature.com,606-286-5593,37 Stoughton Alley
+574,55.0,82.63,3/23/2022,10,occupied,false,4,true,true,false,auto,69.2,790.76,Dodie Rolfe,90,Female,Comoros,drolfefx@samsung.com,842-413-1176,33092 Anthes Parkway
+575,75.35,51.45,10/10/2022,7,occupied,true,4,true,true,false,heat,78.1,739.91,Haywood Aberdeen,41,Male,Poland,haberdeenfy@comcast.net,420-723-1973,30372 Fulton Pass
+576,39.79,20.0,5/1/2022,8,maintenance,false,3,true,false,true,cool,61.7,944.15,Manolo Dislee,42,Male,Cuba,mdisleefz@arizona.edu,881-212-7503,7420 Autumn Leaf Trail
+577,19.04,77.58,11/2/2022,4,vacant,false,1,false,false,true,auto,68.0,646.89,Vittorio Klasen,60,Male,Ukraine,vklaseng0@jigsy.com,763-786-5307,1 Memorial Parkway
+578,95.93,64.92,1/17/2022,6,maintenance,false,3,false,true,false,auto,62.2,170.74,Paulette Alsopp,45,Female,Peru,palsoppg1@yahoo.co.jp,317-100-4403,40619 Arapahoe Way
+579,45.62,15.86,10/4/2022,1,occupied,false,4,true,true,false,cool,70.7,159.97,Antons Saltmarshe,21,Polygender,Brazil,asaltmarsheg2@webnode.com,945-301-1825,37 Pawling Alley
+580,99.64,3.22,7/30/2022,4,occupied,true,2,true,true,false,cool,77.2,308.64,Darrell Aland,85,Male,Serbia,dalandg3@blogtalkradio.com,276-706-1375,91833 Cordelia Center
+581,20.47,30.4,5/22/2022,5,occupied,false,3,true,true,false,auto,76.5,243.92,Westley Menis,69,Male,Nepal,wmenisg4@dot.gov,740-793-9656,857 Little Fleur Trail
+582,52.4,61.64,10/23/2022,7,vacant,false,1,true,false,false,cool,60.0,545.82,Gabie Huscroft,74,Male,Argentina,ghuscroftg5@yahoo.co.jp,326-414-0086,2 Barby Parkway
+583,51.99,45.7,9/27/2022,3,vacant,false,4,false,true,false,auto,71.5,591.85,Edith Deakin,19,Female,Philippines,edeaking6@ibm.com,242-792-9201,07814 Cody Road
+584,8.61,82.46,7/6/2022,4,vacant,true,5,false,true,true,cool,62.8,232.14,Etheline Switsur,79,Female,Canada,eswitsurg7@ifeng.com,860-293-2922,31 Westerfield Alley
+585,22.85,37.2,7/17/2022,6,occupied,false,5,true,true,false,heat,62.3,192.1,Christa Heller,51,Female,Peru,chellerg8@google.ru,988-523-3016,24 Sycamore Junction
+586,85.99,88.65,12/17/2022,7,vacant,false,2,false,true,true,heat,68.9,220.39,Henry Frankland,62,Male,Brazil,hfranklandg9@europa.eu,730-182-6857,8 Stoughton Center
+587,50.37,46.73,3/6/2022,8,vacant,true,3,true,false,true,cool,72.0,588.62,Celestine Basire,35,Female,Indonesia,cbasirega@about.com,702-618-8516,315 Springview Park
+588,35.65,38.45,9/26/2022,9,vacant,true,5,false,true,true,heat,60.4,650.62,Birgit Rowett,26,Female,Czech Republic,browettgb@163.com,534-673-1833,1 Hanson Avenue
+589,18.15,3.27,10/22/2022,3,maintenance,true,2,true,false,false,cool,72.2,46.93,Chet Gilliam,70,Male,China,cgilliamgc@elegantthemes.com,558-435-9312,3295 Birchwood Plaza
+590,49.1,31.34,2/17/2022,8,vacant,false,4,false,false,false,auto,63.7,218.75,Yurik Ilyukhov,88,Male,Peru,yilyukhovgd@google.co.uk,668-672-7595,56832 Lighthouse Bay Circle
+591,33.69,96.03,11/16/2022,1,maintenance,true,4,true,false,true,cool,61.5,223.36,Persis Harley,89,Female,Belarus,pharleyge@redcross.org,291-895-6071,4 Brentwood Point
+592,32.46,73.19,12/1/2022,6,occupied,true,3,false,false,true,heat,66.4,700.38,Lara Marchant,76,Female,Honduras,lmarchantgf@aol.com,644-331-9389,70 Monument Avenue
+593,50.09,79.73,12/22/2022,10,maintenance,true,4,false,true,false,heat,70.4,41.49,Ambrosio Chaffin,83,Male,Indonesia,achaffingg@sohu.com,556-398-7574,6041 Norway Maple Crossing
+594,61.2,41.93,10/27/2022,8,vacant,false,2,false,true,true,heat,79.1,470.16,Shalna Lynthal,33,Female,United States,slynthalgh@about.com,304-298-9291,3 Manitowish Crossing
+595,38.87,2.76,2/18/2022,8,maintenance,true,1,false,true,true,cool,73.9,408.71,Eugene Chesney,50,Genderfluid,United States,echesneygi@ezinearticles.com,310-484-0206,584 Elmside Street
+596,23.7,31.13,10/11/2022,9,maintenance,true,4,false,true,false,auto,67.6,849.69,Constantino Sisland,75,Male,Brazil,csislandgj@ca.gov,879-910-0344,67 Killdeer Road
+597,80.62,72.19,8/21/2022,7,occupied,true,5,true,true,true,cool,66.5,244.32,Zacharias Instrell,30,Male,Greece,zinstrellgk@walmart.com,120-147-1472,8 Rutledge Point
+598,32.97,56.96,3/5/2022,3,occupied,false,3,true,true,false,cool,62.5,980.37,Mateo Beldon,70,Male,China,mbeldongl@stanford.edu,263-739-5336,8123 Stang Alley
+599,99.33,77.25,11/11/2022,8,vacant,true,1,true,true,false,heat,65.5,562.04,Claudelle Vanyutin,18,Female,China,cvanyutingm@nbcnews.com,300-732-1154,11458 Ilene Hill
+600,48.35,41.77,7/6/2022,5,occupied,true,3,false,false,false,heat,79.3,342.89,Jarret Wannop,82,Male,Belarus,jwannopgn@twitpic.com,215-173-9459,08 Eliot Circle
+601,43.61,77.72,5/15/2022,5,occupied,true,2,false,false,true,auto,65.8,767.97,Antonin MacArte,94,Male,Paraguay,amacartego@tripadvisor.com,693-249-7889,37400 Graceland Drive
+602,33.97,84.67,5/23/2022,9,maintenance,false,2,true,true,false,auto,60.7,22.17,Somerset Aristide,25,Male,China,saristidegp@sciencedirect.com,653-903-0931,85366 Coolidge Avenue
+603,57.77,78.86,4/21/2022,5,maintenance,false,4,false,false,false,auto,77.7,913.54,Lauritz Ramel,75,Non-binary,Japan,lramelgq@newyorker.com,162-415-9898,6 Havey Junction
+604,58.16,75.14,12/16/2022,7,vacant,false,3,false,false,false,heat,75.0,929.66,Rivy Harnetty,98,Female,Uganda,rharnettygr@omniture.com,887-515-2907,6 Clove Way
+605,51.15,69.29,10/1/2022,6,maintenance,true,2,true,false,true,cool,75.2,385.28,Iris Pask,96,Female,Bulgaria,ipaskgs@squarespace.com,316-242-3549,3519 Manufacturers Hill
+606,50.09,7.6,9/6/2022,1,vacant,true,5,true,false,false,auto,74.6,847.48,Kliment Ulyatt,76,Male,China,kulyattgt@oakley.com,132-772-4699,7 Hauk Road
+607,32.4,79.63,9/15/2022,8,maintenance,false,2,false,false,false,heat,62.9,58.07,Cozmo Cozzi,28,Male,Portugal,ccozzigu@google.fr,648-291-1274,08 Shelley Drive
+608,58.46,92.81,4/10/2022,6,maintenance,false,4,true,false,true,auto,75.9,449.5,Had Castaignet,42,Male,Libya,hcastaignetgv@mtv.com,159-117-9338,86667 Sunnyside Terrace
+609,5.8,17.0,8/15/2022,4,vacant,true,4,true,true,true,heat,72.5,184.39,Alexandrina Blackly,99,Female,Tanzania,ablacklygw@163.com,844-741-3257,7 Pine View Way
+610,22.02,4.07,1/28/2022,6,occupied,true,2,false,false,false,cool,71.6,161.7,Immanuel Ubsdell,43,Male,Thailand,iubsdellgx@globo.com,145-966-6086,2166 Oxford Court
+611,45.98,3.57,1/25/2022,2,occupied,true,3,false,false,true,cool,63.4,33.77,Demetri Mahmood,25,Male,Indonesia,dmahmoodgy@youtu.be,991-688-1590,9357 Dahle Circle
+612,74.14,87.82,4/17/2022,5,occupied,false,5,true,true,true,heat,71.1,717.18,Wilt Lamshead,85,Male,Madagascar,wlamsheadgz@weather.com,188-921-3656,37440 Pine View Road
+613,96.11,48.75,2/18/2022,9,occupied,true,2,false,true,false,auto,75.6,123.56,Henryetta Coyish,63,Bigender,Ivory Coast,hcoyishh0@goodreads.com,519-418-9030,63451 Corry Point
+614,67.36,85.67,5/24/2022,5,vacant,false,4,false,true,true,cool,79.5,458.93,Jefferey Goosey,68,Male,Czech Republic,jgooseyh1@scientificamerican.com,803-543-4011,89 Morningstar Alley
+615,56.71,2.83,10/10/2022,8,occupied,false,2,false,true,false,auto,68.2,388.59,Idaline Bastard,60,Genderqueer,United States,ibastardh2@adobe.com,202-350-7290,17 Thompson Court
+616,55.77,32.32,7/7/2022,4,vacant,false,3,true,true,true,cool,77.6,241.92,Reese Dudeney,91,Male,Nigeria,rdudeneyh3@bluehost.com,387-603-9197,6342 Dapin Way
+617,13.71,77.2,7/21/2022,1,maintenance,true,2,false,false,false,auto,72.7,137.52,Hyacintha Wooland,38,Female,Indonesia,hwoolandh4@admin.ch,890-583-4784,10893 Susan Park
+618,34.1,71.43,6/24/2022,2,occupied,false,3,true,true,false,heat,65.5,124.71,Rosabella Kropach,56,Female,Cuba,rkropachh5@example.com,618-282-6642,81934 Waxwing Center
+619,10.24,68.91,8/5/2022,1,vacant,false,3,false,false,false,heat,78.6,320.94,Jone Vanderson,67,Non-binary,Bosnia and Herzegovina,jvandersonh6@bizjournals.com,896-498-3891,9 Montana Circle
+620,5.62,57.53,5/7/2022,10,maintenance,false,3,false,true,true,heat,67.7,543.98,Claudia O' Driscoll,48,Female,Portugal,coh7@unesco.org,844-960-2224,0295 Hovde Circle
+621,39.52,14.64,8/3/2022,8,maintenance,false,5,true,true,true,auto,74.3,484.16,Johann Elecum,89,Male,Mali,jelecumh8@senate.gov,122-127-0695,1810 Westridge Way
+622,88.12,16.4,4/8/2022,6,maintenance,false,2,true,false,false,heat,72.3,92.85,Gan Birdwhistell,96,Male,Mexico,gbirdwhistellh9@godaddy.com,589-812-5344,7786 Raven Plaza
+623,36.73,78.37,1/5/2022,3,occupied,true,4,true,true,false,heat,65.3,883.82,Lisa McCullouch,55,Female,South Africa,lmccullouchha@webnode.com,898-596-3449,12 Waubesa Park
+624,36.54,97.33,4/21/2022,6,vacant,false,2,false,true,true,cool,65.6,224.99,Rouvin Katt,63,Male,Philippines,rkatthb@mapy.cz,375-759-6307,383 Bashford Place
+625,44.45,29.12,4/8/2022,1,vacant,false,1,false,true,true,cool,77.7,582.83,Sunshine Yarnell,83,Female,China,syarnellhc@tinyurl.com,933-837-3633,319 Glacier Hill Lane
+626,31.93,28.9,4/1/2022,1,vacant,false,3,false,false,true,auto,71.6,523.53,Berkeley Steanson,81,Male,Kenya,bsteansonhd@chron.com,434-280-8284,74970 Kedzie Pass
+627,49.85,53.64,12/6/2022,6,vacant,true,5,false,true,true,auto,65.7,126.61,Maurita Godon,26,Female,Israel,mgodonhe@creativecommons.org,631-967-6207,40147 Quincy Alley
+628,82.25,18.01,11/19/2022,5,occupied,false,3,false,false,false,cool,64.0,717.74,Iolanthe Reford,58,Female,China,irefordhf@tinyurl.com,632-879-1688,448 Commercial Alley
+629,36.08,35.41,6/30/2022,4,maintenance,false,5,true,false,true,auto,77.3,673.7,Zacharias Helling,47,Agender,Ireland,zhellinghg@so-net.ne.jp,289-410-5905,61657 Mendota Parkway
+630,66.34,12.66,6/12/2022,10,maintenance,true,2,false,true,false,heat,74.9,723.82,Karney Jailler,31,Male,China,kjaillerhh@wsj.com,988-564-5164,67 Sunnyside Street
+631,18.46,55.86,5/26/2022,4,occupied,false,5,true,false,true,auto,67.5,834.32,Julina Keese,35,Female,Indonesia,jkeesehi@globo.com,155-812-5022,845 Autumn Leaf Lane
+632,92.86,83.86,1/16/2022,8,occupied,false,3,false,false,true,cool,71.6,344.05,Kirsteni Badger,51,Female,Ireland,kbadgerhj@umich.edu,800-281-5761,06 Darwin Hill
+633,50.84,51.9,9/2/2022,3,vacant,false,1,false,false,true,auto,73.8,643.85,Tallie Swedeland,71,Female,Colombia,tswedelandhk@cocolog-nifty.com,284-298-3873,5 International Park
+634,82.74,58.26,5/4/2022,2,occupied,false,5,true,true,true,cool,62.2,430.1,Gael Barringer,53,Male,South Africa,gbarringerhl@sogou.com,654-729-8006,81244 Chinook Way
+635,73.6,87.33,10/28/2022,1,maintenance,false,4,false,false,false,auto,71.6,646.58,Laurens Ing,45,Non-binary,Japan,linghm@techcrunch.com,771-722-6085,9968 Vahlen Alley
+636,30.71,98.99,9/16/2022,4,occupied,true,2,false,false,false,auto,78.9,370.6,Garrett McGhie,75,Male,Croatia,gmcghiehn@go.com,953-597-4006,25579 Manley Pass
+637,91.9,94.51,2/3/2022,9,vacant,false,3,false,true,false,cool,70.1,354.11,Kristofer Hinsche,31,Male,China,khinscheho@phpbb.com,275-856-1097,42 Crest Line Point
+638,55.99,59.15,5/7/2022,1,vacant,true,2,false,true,true,cool,75.2,525.71,Christoph Costanza,34,Male,Nigeria,ccostanzahp@stumbleupon.com,911-554-3405,024 Summerview Point
+639,96.81,4.77,8/8/2022,10,maintenance,true,3,true,true,true,auto,64.4,382.94,Hart Gorwood,89,Male,Greece,hgorwoodhq@slideshare.net,696-930-4777,71928 Menomonie Parkway
+640,32.78,6.46,1/29/2022,8,maintenance,false,1,true,false,true,auto,75.3,556.39,Tyrus Jenoure,93,Male,Ukraine,tjenourehr@wikimedia.org,284-886-3127,49 Superior Court
+641,20.36,89.27,1/4/2022,10,maintenance,true,4,true,true,false,heat,70.8,512.49,Denna Laird-Craig,46,Female,Jamaica,dlairdcraighs@google.ru,157-910-6553,3064 Thompson Park
+642,89.7,96.38,1/19/2022,9,maintenance,false,5,false,false,true,heat,69.9,301.83,Corabella Petegrew,23,Female,Portugal,cpetegrewht@businessinsider.com,742-112-8207,82894 Namekagon Alley
+643,91.27,61.89,8/24/2022,2,maintenance,true,3,true,false,false,auto,64.0,925.34,Tyrus Henzley,26,Male,China,thenzleyhu@de.vu,147-631-3903,2 Mallard Junction
+644,51.18,56.69,10/4/2022,1,maintenance,true,3,false,false,true,auto,71.4,679.0,Ainsley Sindall,40,Female,Indonesia,asindallhv@wikia.com,256-301-6994,1690 Thackeray Road
+645,12.86,50.4,11/23/2022,10,vacant,true,2,false,true,false,cool,63.1,253.96,Tildy Hemphrey,57,Female,Poland,themphreyhw@infoseek.co.jp,864-109-8349,692 Becker Lane
+646,69.74,81.0,1/2/2022,4,maintenance,true,4,false,true,false,heat,63.1,842.16,Brandon Lowrance,38,Male,Brazil,blowrancehx@w3.org,995-917-5399,58 Arkansas Lane
+647,36.44,51.42,7/5/2022,6,vacant,true,1,false,false,false,cool,60.7,367.63,Titus McGhie,39,Male,Portugal,tmcghiehy@trellian.com,226-486-8310,4272 Brentwood Terrace
+648,85.67,49.95,10/30/2022,3,vacant,true,5,true,true,true,auto,75.5,87.14,Rosamund Fowkes,93,Female,Philippines,rfowkeshz@hc360.com,638-282-1505,759 Scofield Street
+649,38.74,60.34,2/12/2022,10,maintenance,true,3,false,false,false,heat,61.8,359.1,Clayson Gummer,45,Male,Peru,cgummeri0@slideshare.net,300-272-9763,9221 Hovde Circle
+650,92.57,87.34,5/14/2022,7,occupied,false,3,false,true,true,heat,61.5,801.83,Hyacinth Pedroli,32,Polygender,Guatemala,hpedrolii1@hugedomains.com,550-921-4882,99266 Pawling Street
+651,76.21,64.28,11/11/2022,3,vacant,false,4,true,false,false,cool,64.1,347.99,Henryetta Bumphrey,79,Female,China,hbumphreyi2@acquirethisname.com,920-627-4467,60 Buell Plaza
+652,70.39,41.14,8/13/2022,4,vacant,true,4,true,true,false,cool,67.1,496.85,Carrie Raggatt,37,Female,Indonesia,craggatti3@google.co.jp,103-782-4459,9640 Schurz Crossing
+653,65.45,18.62,1/28/2022,8,occupied,true,1,true,false,false,heat,68.7,764.51,Richmond Egleton,25,Male,Canada,regletoni4@webeden.co.uk,505-959-0217,96 Chive Court
+654,73.25,44.07,10/30/2022,3,vacant,false,4,true,false,false,auto,67.0,220.52,Terza Gowrich,24,Female,Argentina,tgowrichi5@aol.com,556-497-2186,23952 Melby Center
+655,29.6,87.45,7/26/2022,10,maintenance,false,4,true,false,false,cool,74.6,659.29,Morganne Calender,58,Female,China,mcalenderi6@domainmarket.com,441-238-3905,86308 Green Hill
+656,58.44,46.76,2/9/2022,8,maintenance,false,3,false,true,false,auto,67.8,645.91,Ilka Stitle,59,Female,France,istitlei7@upenn.edu,575-266-0141,8 Loeprich Crossing
+657,17.2,86.61,5/6/2022,7,vacant,true,1,true,false,false,cool,74.8,513.97,Deena Brodley,100,Female,Uganda,dbrodleyi8@google.es,658-707-8053,8 Prairieview Road
+658,15.58,56.14,8/9/2022,2,vacant,false,4,true,true,true,auto,77.8,32.84,Nananne Ledgister,80,Female,Italy,nledgisteri9@wordpress.org,691-297-3416,9 Buena Vista Drive
+659,71.22,82.48,8/8/2022,8,maintenance,false,2,true,false,false,cool,78.1,710.68,Tarrance Somerbell,86,Male,Ukraine,tsomerbellia@virginia.edu,817-561-7320,0550 Summit Point
+660,99.53,36.82,10/16/2022,7,occupied,false,5,false,true,false,heat,76.0,834.51,Elfrida Beaford,28,Female,China,ebeafordib@dion.ne.jp,144-883-0555,420 Dorton Street
+661,77.04,3.83,12/6/2022,7,vacant,false,4,false,true,true,auto,73.3,743.03,Reeta Sturdgess,87,Female,Brazil,rsturdgessic@123-reg.co.uk,434-994-9207,37771 Pierstorff Park
+662,0.43,69.81,11/19/2022,9,vacant,true,4,true,false,false,cool,65.7,708.3,Woody Pattesall,82,Male,China,wpattesallid@behance.net,713-232-6472,40 Ohio Junction
+663,78.71,95.8,1/1/2022,7,vacant,false,5,false,true,true,heat,74.3,591.62,Aeriel Siflet,58,Female,China,asifletie@tuttocitta.it,890-807-5194,1478 Memorial Alley
+664,77.32,30.36,6/13/2022,6,vacant,false,1,false,true,false,auto,73.5,862.43,Burtie Shellsheere,26,Male,China,bshellsheereif@ycombinator.com,546-477-9334,3 Ramsey Hill
+665,20.21,72.65,12/10/2022,10,occupied,true,1,false,false,true,cool,73.5,935.81,Lockwood Lefort,100,Male,Afghanistan,llefortig@seattletimes.com,162-950-4604,0 Bonner Terrace
+666,24.27,61.98,4/8/2022,3,vacant,false,5,false,false,false,cool,70.6,268.61,Othilie Deppe,50,Female,Bosnia and Herzegovina,odeppeih@nhs.uk,272-298-7679,8987 Erie Parkway
+667,20.79,15.35,2/27/2022,3,maintenance,false,2,false,true,false,heat,77.9,266.58,Olav Habbon,84,Male,China,ohabbonii@globo.com,873-622-3995,15827 Katie Alley
+668,78.77,1.09,12/12/2022,6,occupied,true,4,true,true,false,heat,77.7,650.77,Brad Peche,39,Male,Philippines,bpecheij@diigo.com,962-225-1926,60126 Little Fleur Pass
+669,77.89,99.75,4/14/2022,1,vacant,true,2,false,true,true,auto,65.5,807.47,West West,62,Male,Indonesia,wwestik@dagondesign.com,948-632-6077,7021 Lyons Crossing
+670,58.62,92.45,5/30/2022,2,occupied,false,1,true,true,false,cool,78.9,981.16,Farrah Maybery,38,Agender,China,fmayberyil@jigsy.com,253-512-1849,6 Bonner Park
+671,18.2,18.19,9/6/2022,2,maintenance,true,2,false,true,true,auto,63.4,224.14,Hiram Taysbil,26,Male,Thailand,htaysbilim@mail.ru,336-939-9820,580 Carberry Junction
+672,70.75,59.67,4/11/2022,4,occupied,false,2,false,true,true,cool,73.7,254.61,Benedick Berryman,82,Male,American Samoa,bberrymanin@themeforest.net,554-639-0235,2622 Pearson Avenue
+673,61.81,94.98,8/2/2022,9,maintenance,false,3,true,true,true,heat,70.6,205.04,Padraig Sutherns,89,Male,Greece,psuthernsio@xing.com,839-818-2602,927 Westend Pass
+674,71.39,87.33,12/19/2022,3,occupied,false,5,false,false,true,cool,67.9,90.53,Gareth Piddle,91,Male,Thailand,gpiddleip@quantcast.com,964-332-0703,18569 Northland Street
+675,29.25,49.81,7/11/2022,3,vacant,true,3,true,true,true,heat,69.8,877.6,Sherm Lantiff,28,Male,China,slantiffiq@desdev.cn,824-805-0935,803 Johnson Parkway
+676,64.36,95.15,11/26/2022,4,vacant,false,5,false,true,true,auto,76.8,126.59,Vaclav Kennion,87,Bigender,Philippines,vkennionir@senate.gov,968-290-9459,168 Northridge Point
+677,6.4,17.12,4/14/2022,2,vacant,false,4,false,false,true,auto,63.1,762.04,Emanuele Nelthrop,57,Male,Indonesia,enelthropis@blogspot.com,942-294-9373,3 Crest Line Terrace
+678,19.25,24.84,4/2/2022,7,maintenance,true,3,true,false,true,cool,65.5,114.54,Benedikta Stinchcombe,56,Female,South Korea,bstinchcombeit@printfriendly.com,801-802-9544,45 Eagle Crest Center
+679,52.01,58.52,8/26/2022,3,vacant,false,1,false,true,false,heat,64.7,432.24,Latashia Ast,18,Female,Mexico,lastiu@dagondesign.com,443-543-5207,04610 Lakeland Way
+680,4.7,39.68,10/25/2022,7,vacant,false,1,true,false,false,heat,76.3,534.83,Amaleta Booty,33,Female,China,abootyiv@rambler.ru,681-430-1979,3 South Alley
+681,8.24,59.28,3/26/2022,4,maintenance,false,2,false,true,true,heat,69.2,223.17,Brendin Mearns,40,Male,Philippines,bmearnsiw@cafepress.com,853-587-4646,08 Gina Alley
+682,16.23,54.75,12/8/2022,9,occupied,false,4,true,true,false,cool,72.1,910.48,Kellyann Cavalier,49,Female,Brazil,kcavalierix@ehow.com,979-299-0800,0312 Riverside Way
+683,9.75,51.88,2/11/2022,6,occupied,true,1,true,true,false,auto,66.0,789.51,Gawain Thomasen,74,Polygender,Czech Republic,gthomaseniy@google.com.br,463-109-7571,1300 Esch Terrace
+684,72.47,51.5,8/29/2022,2,vacant,true,5,false,false,false,heat,69.3,306.84,Shaun Alenshev,96,Female,China,salensheviz@cloudflare.com,138-996-0891,45 Hallows Crossing
+685,2.27,11.26,6/18/2022,10,vacant,false,3,false,false,false,cool,68.7,730.45,Nap Lotte,54,Male,Norway,nlottej0@gravatar.com,153-617-8545,23819 Helena Circle
+686,4.96,61.45,5/26/2022,6,vacant,false,4,false,true,false,cool,77.4,782.19,Massimiliano Bjorkan,76,Male,Japan,mbjorkanj1@businessweek.com,940-933-4666,24 Cordelia Alley
+687,27.53,48.12,11/18/2022,8,maintenance,true,4,false,true,false,auto,70.6,477.56,Woodie Piesing,47,Male,Indonesia,wpiesingj2@cnet.com,318-722-3541,6950 Maple Wood Drive
+688,9.83,78.15,10/6/2022,5,occupied,true,4,true,false,false,heat,60.8,45.55,Wilhelmina Verey,85,Non-binary,Indonesia,wvereyj3@diigo.com,722-350-4028,91 Bashford Terrace
+689,54.14,59.17,7/22/2022,1,maintenance,false,1,false,false,true,auto,63.6,279.66,Thomasin Pritty,47,Female,China,tprittyj4@cbsnews.com,996-456-0063,5 Messerschmidt Road
+690,90.46,9.82,9/4/2022,1,occupied,true,5,true,false,false,cool,75.5,879.64,Dosi Rattery,77,Non-binary,Netherlands,dratteryj5@economist.com,472-186-7055,6646 Oak Alley
+691,9.32,84.88,5/14/2022,2,occupied,true,3,false,true,true,auto,79.5,343.81,Gelya Flement,64,Female,Tunisia,gflementj6@zdnet.com,524-230-5737,7 Quincy Park
+692,25.92,44.84,5/24/2022,8,vacant,false,2,true,false,true,auto,73.3,113.76,Aimil Folshom,36,Female,Indonesia,afolshomj7@opensource.org,762-969-2227,2 Doe Crossing Center
+693,3.19,89.74,2/11/2022,10,vacant,false,4,true,true,true,cool,80.0,589.05,Kristofor Stegell,100,Genderqueer,North Korea,kstegellj8@php.net,936-517-2509,97191 Ohio Park
+694,63.45,6.22,4/20/2022,1,maintenance,false,4,false,true,true,auto,78.7,740.02,Giulietta Ashbolt,20,Non-binary,Indonesia,gashboltj9@wp.com,662-169-1127,468 Independence Circle
+695,50.71,99.8,9/9/2022,8,maintenance,true,3,false,false,true,cool,79.4,285.01,Henry Rakes,37,Male,Russia,hrakesja@wisc.edu,344-181-3025,6422 Roth Junction
+696,95.35,14.47,7/27/2022,3,occupied,true,4,true,true,false,heat,65.4,939.62,Myrlene Reyburn,45,Female,Philippines,mreyburnjb@imdb.com,251-917-6326,75 High Crossing Terrace
+697,83.7,49.54,2/10/2022,6,maintenance,true,1,false,true,false,heat,70.5,831.65,Marco Rowan,28,Male,Philippines,mrowanjc@ucsd.edu,766-311-8592,29 Grasskamp Way
+698,48.16,80.08,9/28/2022,2,vacant,false,5,false,false,true,auto,69.2,175.78,Lin Olligan,99,Male,Indonesia,lolliganjd@naver.com,937-345-2275,55 Loftsgordon Center
+699,72.9,44.02,12/6/2022,3,vacant,false,5,false,false,false,auto,71.8,748.44,Thomasin Doyley,77,Female,Bulgaria,tdoyleyje@zdnet.com,228-289-6528,80140 4th Terrace
+700,8.87,62.18,12/6/2022,7,occupied,true,5,false,true,false,auto,69.0,398.78,Byran Hush,40,Male,China,bhushjf@narod.ru,684-443-7106,619 Schlimgen Way
+701,96.39,98.35,3/21/2022,6,occupied,true,5,true,false,true,heat,72.9,219.64,Briney Dofty,49,Female,Benin,bdoftyjg@sfgate.com,849-839-6506,57 Blackbird Trail
+702,42.3,69.95,1/12/2022,1,maintenance,false,3,true,false,true,heat,68.7,973.99,Vail Ridehalgh,34,Male,Brazil,vridehalghjh@networksolutions.com,895-347-1896,825 Columbus Plaza
+703,30.31,81.44,10/4/2022,5,occupied,true,4,true,false,false,auto,69.2,182.72,Vassili Kulicke,33,Male,China,vkulickeji@blogtalkradio.com,478-133-7088,292 Pine View Lane
+704,56.69,42.39,7/30/2022,4,occupied,true,3,true,true,false,auto,65.7,521.66,Andonis Rissen,62,Male,Argentina,arissenjj@economist.com,327-188-9733,90 Mesta Point
+705,31.67,10.1,6/21/2022,10,occupied,true,2,true,true,false,auto,69.5,14.26,Larissa Horsewood,95,Female,Indonesia,lhorsewoodjk@1und1.de,899-790-9255,5 Milwaukee Hill
+706,10.35,69.55,12/11/2022,2,occupied,true,4,true,true,false,cool,68.8,716.9,Jonah Hug,28,Male,Morocco,jhugjl@4shared.com,822-207-8513,53036 Starling Place
+707,24.47,63.6,1/9/2022,8,maintenance,true,5,true,true,true,auto,77.2,303.35,Thaine McKeighan,63,Male,Philippines,tmckeighanjm@smh.com.au,379-635-5045,36072 Reinke Park
+708,18.92,55.86,11/8/2022,6,maintenance,true,2,false,false,false,cool,67.5,16.06,Niki Jarman,69,Male,China,njarmanjn@vk.com,187-316-0532,3756 Anhalt Plaza
+709,86.16,14.41,7/3/2022,6,maintenance,true,1,true,true,true,cool,70.0,635.31,Ethelyn Paolotto,20,Female,Vietnam,epaolottojo@mail.ru,596-209-0743,8 Coolidge Lane
+710,41.97,28.96,11/11/2022,1,vacant,true,2,true,false,false,auto,79.4,123.46,Cary Perritt,62,Male,Sudan,cperrittjp@cloudflare.com,806-891-3353,654 Mandrake Hill
+711,61.24,16.64,7/23/2022,5,maintenance,true,3,true,true,true,heat,67.5,410.45,Vincenz Bucksey,34,Male,China,vbuckseyjq@unesco.org,932-772-8806,56 Porter Court
+712,51.63,2.42,4/16/2022,2,vacant,true,4,true,false,true,heat,77.6,433.97,Janek Menis,23,Male,Tanzania,jmenisjr@census.gov,483-449-6281,54693 Maryland Way
+713,0.36,24.96,11/24/2022,2,maintenance,false,5,false,false,false,cool,77.7,438.15,Amity Cocci,84,Female,Central African Republic,acoccijs@cloudflare.com,950-697-8693,9291 Prentice Park
+714,37.89,68.35,4/2/2022,1,occupied,true,5,false,false,false,cool,69.2,833.64,Corbin Izen,34,Male,Russia,cizenjt@cbc.ca,806-320-6503,197 Jana Lane
+715,64.97,30.07,9/16/2022,6,vacant,false,1,false,true,true,cool,62.6,152.28,Inness Van Oord,45,Male,Mauritius,ivanju@intel.com,182-430-9414,537 Wayridge Point
+716,71.31,48.27,9/13/2022,6,vacant,true,3,true,true,false,heat,72.8,937.17,Virginie Lanchberry,25,Genderqueer,Nigeria,vlanchberryjv@google.com.au,695-752-6013,7 Pawling Avenue
+717,6.34,3.68,8/4/2022,1,occupied,false,5,false,true,false,auto,72.3,989.54,Sutherlan Wrettum,94,Male,Bangladesh,swrettumjw@gnu.org,790-424-4829,619 Vidon Court
+718,56.15,86.83,3/3/2022,2,vacant,true,4,true,false,false,heat,61.1,543.77,Rollin Phillott,24,Male,China,rphillottjx@sphinn.com,137-865-8085,666 Randy Terrace
+719,0.25,7.94,9/2/2022,1,occupied,false,1,false,true,false,cool,65.4,864.55,Kalila Moryson,57,Female,Brazil,kmorysonjy@cocolog-nifty.com,593-661-3730,14 Southridge Plaza
+720,90.31,14.21,6/7/2022,7,vacant,false,1,true,true,true,heat,67.3,197.26,Alexander Stillman,64,Male,Philippines,astillmanjz@seesaa.net,181-822-3963,556 6th Street
+721,18.92,2.97,9/26/2022,4,maintenance,true,4,true,false,false,heat,63.8,511.06,Kylen Vaskov,97,Female,Morocco,kvaskovk0@oakley.com,264-261-5504,8166 Sycamore Plaza
+722,55.94,85.95,6/26/2022,9,vacant,false,1,true,false,true,auto,71.8,248.76,Becky Fitzpayn,98,Female,Germany,bfitzpaynk1@discovery.com,511-952-2365,250 Northfield Junction
+723,98.14,35.16,8/12/2022,7,maintenance,true,5,true,false,true,heat,73.4,811.26,Ruben Dorking,57,Non-binary,Iran,rdorkingk2@icio.us,693-164-6051,529 Atwood Avenue
+724,7.81,14.61,2/5/2022,8,maintenance,true,4,false,false,true,cool,75.1,92.03,Eduardo Mosdell,75,Male,Russia,emosdellk3@discuz.net,349-253-0582,4488 Springview Plaza
+725,41.56,51.42,7/1/2022,9,vacant,true,2,true,true,true,cool,64.9,324.89,Basilio Hazelgreave,30,Male,Canada,bhazelgreavek4@elpais.com,832-566-1845,976 Green Ridge Park
+726,31.79,70.51,11/13/2022,8,occupied,false,2,true,true,true,cool,66.1,579.97,Aleece McCawley,100,Female,Ireland,amccawleyk5@mtv.com,902-248-9977,13 Vahlen Terrace
+727,20.7,84.98,10/23/2022,4,maintenance,false,3,false,false,false,auto,79.7,983.12,Chase Downham,37,Male,China,cdownhamk6@boston.com,813-800-9876,85257 Shoshone Alley
+728,88.51,43.72,6/7/2022,2,vacant,true,4,true,false,true,auto,75.6,536.23,Erastus Curd,74,Male,Indonesia,ecurdk7@yahoo.com,530-802-9959,71 Lakeland Plaza
+729,89.76,69.46,10/26/2022,4,occupied,true,1,false,true,false,heat,72.9,445.06,Curr Ollander,78,Male,Zambia,collanderk8@flavors.me,754-403-2798,7690 Arapahoe Avenue
+730,31.62,66.73,6/26/2022,6,vacant,true,3,true,false,false,auto,68.1,478.53,Hashim Jouhan,50,Male,Indonesia,hjouhank9@t-online.de,432-847-1024,1405 Oak Valley Hill
+731,47.25,47.76,3/31/2022,4,vacant,true,3,false,true,false,auto,69.8,82.68,Aleda Niaves,50,Female,China,aniaveska@linkedin.com,807-684-5672,408 Longview Road
+732,12.52,38.45,3/13/2022,5,vacant,false,5,true,true,true,cool,68.1,789.93,Sawyer Gilroy,70,Male,Portugal,sgilroykb@jugem.jp,761-314-9498,96338 Morrow Drive
+733,48.02,87.02,4/28/2022,3,vacant,true,5,true,false,true,heat,73.3,462.68,Al Bittlestone,38,Male,United States,abittlestonekc@elpais.com,303-527-5201,6 Dixon Point
+734,95.4,37.94,10/3/2022,5,occupied,false,4,true,false,true,cool,60.8,137.03,Henryetta Lockett,19,Female,China,hlockettkd@engadget.com,772-416-4655,50 Bonner Park
+735,17.09,56.44,5/29/2022,10,vacant,false,4,true,false,false,heat,75.7,633.92,Jeffy Grime,95,Male,France,jgrimeke@vk.com,770-312-3858,6041 Chinook Center
+736,96.21,84.41,8/3/2022,3,maintenance,false,4,false,false,false,cool,78.9,974.57,Langsdon Reschke,18,Male,Canada,lreschkekf@hhs.gov,561-447-8600,78 Bay Parkway
+737,77.45,22.31,4/30/2022,8,vacant,true,3,true,false,false,heat,69.0,917.11,Marc Dymott,54,Male,Syria,mdymottkg@webeden.co.uk,230-361-5624,5478 Westridge Plaza
+738,68.85,6.17,5/29/2022,10,maintenance,false,1,true,false,false,auto,75.2,852.27,Irena Petyakov,58,Female,Portugal,ipetyakovkh@unblog.fr,819-657-1512,23 Crownhardt Avenue
+739,45.88,74.49,2/6/2022,3,maintenance,false,2,true,true,true,heat,68.6,331.16,Alvy Ollive,99,Male,Philippines,aolliveki@nature.com,819-522-0941,4987 Loftsgordon Crossing
+740,64.79,53.55,1/21/2022,1,vacant,false,5,false,false,false,heat,66.8,584.31,Elle O'Howbane,72,Female,South Africa,eohowbanekj@flickr.com,408-692-1813,98583 Mitchell Avenue
+741,41.7,2.0,5/12/2022,7,vacant,false,4,true,false,false,heat,70.4,631.07,Candida Matisoff,96,Female,China,cmatisoffkk@liveinternet.ru,780-828-1003,557 Leroy Center
+742,87.0,97.16,8/10/2022,2,occupied,false,5,false,true,true,heat,69.4,1.63,Lucretia Bodle,83,Genderfluid,China,lbodlekl@sciencedirect.com,872-920-0787,7 Dwight Center
+743,90.82,42.8,8/16/2022,10,maintenance,false,5,true,true,true,heat,76.7,395.19,Niki Habergham,34,Genderqueer,Brazil,nhaberghamkm@ning.com,167-588-7831,859 Mallory Hill
+744,34.8,65.36,2/9/2022,6,maintenance,true,5,false,true,true,cool,79.7,809.85,Dian Lapslie,37,Female,Trinidad and Tobago,dlapsliekn@furl.net,677-764-8285,5 Mifflin Pass
+745,13.15,90.3,4/30/2022,5,occupied,false,1,false,true,true,cool,73.0,936.01,Ferrel Linstead,90,Male,China,flinsteadko@indiegogo.com,582-789-5253,43278 Fulton Hill
+746,66.51,64.03,1/1/2022,6,vacant,false,5,true,true,false,cool,71.6,687.54,Olenka Weekes,85,Female,Kazakhstan,oweekeskp@uiuc.edu,832-348-1665,10 Stuart Way
+747,75.37,54.2,12/3/2022,2,occupied,false,5,true,true,true,auto,74.7,360.45,June Renac,22,Female,France,jrenackq@craigslist.org,648-397-0733,66 Nova Junction
+748,31.33,21.56,5/4/2022,2,maintenance,true,3,false,false,false,auto,74.5,78.14,Inesita Ashcroft,69,Female,Tanzania,iashcroftkr@etsy.com,319-537-3340,823 Blue Bill Park Parkway
+749,1.14,83.51,12/1/2022,9,occupied,false,1,false,false,true,auto,77.9,851.38,Roseline Dymond,100,Female,Poland,rdymondks@vistaprint.com,774-357-5811,7612 Ruskin Parkway
+750,58.04,66.79,1/15/2022,9,occupied,true,4,false,true,true,cool,63.5,108.55,Avrom Nickels,21,Male,Serbia,anickelskt@youku.com,561-118-4827,44 Forest Run Drive
+751,74.09,72.57,5/3/2022,2,occupied,true,2,true,true,false,cool,65.4,829.39,Paxton Pinn,56,Male,Indonesia,ppinnku@forbes.com,275-220-9124,8996 Merry Center
+752,80.28,26.27,4/10/2022,4,occupied,true,1,true,true,true,cool,78.0,486.27,Freda Eke,77,Female,China,fekekv@merriam-webster.com,736-560-1760,5 Armistice Hill
+753,63.95,84.82,12/16/2022,10,occupied,true,4,false,true,true,heat,61.0,142.72,Rena Shubotham,56,Female,China,rshubothamkw@ycombinator.com,895-265-3628,19 Oakridge Court
+754,57.12,80.9,7/31/2022,5,occupied,false,4,true,false,false,heat,69.2,496.68,Cara Gommes,30,Female,Myanmar,cgommeskx@gmpg.org,755-170-9459,86013 Blaine Terrace
+755,37.46,2.69,4/13/2022,9,occupied,false,3,false,true,true,auto,62.1,442.53,Corena Ashwin,33,Genderqueer,Myanmar,cashwinky@census.gov,666-520-5190,356 Portage Terrace
+756,56.17,41.28,9/17/2022,1,occupied,false,5,false,false,false,heat,75.9,848.3,Norene Oppie,59,Genderqueer,China,noppiekz@cbslocal.com,541-383-5001,8186 Mallory Drive
+757,2.64,95.8,11/7/2022,9,occupied,true,2,true,false,true,cool,73.4,852.57,Stephani O' Hogan,18,Female,China,sol0@histats.com,350-907-8362,525 Nova Court
+758,12.73,85.08,12/3/2022,2,vacant,true,2,false,true,false,heat,73.3,989.76,Katharine McDermot,74,Female,Ivory Coast,kmcdermotl1@mac.com,231-651-7993,0815 Straubel Drive
+759,0.58,50.12,10/25/2022,1,occupied,true,1,true,false,false,cool,72.7,648.2,Sunshine Muehle,42,Female,France,smuehlel2@census.gov,947-422-5678,02 Eliot Trail
+760,37.07,60.16,9/17/2022,9,occupied,false,2,false,true,false,cool,74.4,921.55,Erma Dell Casa,82,Female,Philippines,edelll3@prnewswire.com,342-245-3846,465 Coolidge Park
+761,24.35,51.9,5/22/2022,9,maintenance,true,3,false,false,false,cool,72.2,447.96,Fergus Tipton,24,Male,Uruguay,ftiptonl4@virginia.edu,363-728-9342,8110 Prairieview Park
+762,82.7,83.29,4/6/2022,3,maintenance,false,2,true,false,true,cool,71.0,743.78,Rey Windows,23,Female,China,rwindowsl5@unc.edu,789-361-9633,70071 Farwell Place
+763,14.05,49.04,1/3/2022,10,occupied,true,4,true,true,true,auto,79.0,366.12,Al Davidowsky,50,Male,Croatia,adavidowskyl6@unc.edu,120-717-5509,7268 Norway Maple Point
+764,90.75,11.98,11/20/2022,10,occupied,true,3,false,false,false,heat,77.0,16.6,Ryley Oman,64,Male,Palestinian Territory,romanl7@hao123.com,401-196-5560,2 Graceland Plaza
+765,65.41,38.03,7/17/2022,8,occupied,true,2,false,false,false,heat,77.5,559.58,Ardeen Usher,68,Genderqueer,France,ausherl8@macromedia.com,741-669-8501,209 Cottonwood Trail
+766,11.45,45.6,1/5/2022,5,vacant,true,2,true,false,true,heat,69.1,58.35,Claudia Doiley,61,Female,China,cdoileyl9@ted.com,331-322-4086,00 Graedel Circle
+767,87.31,83.47,8/5/2022,1,occupied,true,4,true,true,true,cool,60.3,997.96,Iorgo Keatch,24,Male,China,ikeatchla@ifeng.com,510-593-8349,26 Butterfield Lane
+768,33.4,83.18,11/18/2022,1,maintenance,true,1,false,true,true,heat,76.1,87.62,Gladys Gatherell,38,Female,China,ggatherelllb@bigcartel.com,564-492-1704,4 Moland Plaza
+769,98.96,11.53,5/16/2022,3,occupied,false,4,true,true,false,auto,66.0,530.21,Shana Raddon,89,Female,Czech Republic,sraddonlc@amazon.co.uk,782-661-7543,9480 Cambridge Trail
+770,37.3,49.86,9/4/2022,3,occupied,true,4,true,true,false,cool,72.9,910.66,Jerry Goslin,54,Male,Norway,jgoslinld@chronoengine.com,552-867-0809,0330 Prairie Rose Crossing
+771,65.33,26.76,11/1/2022,4,maintenance,true,1,true,false,true,auto,62.3,720.28,Allyson Fairburn,62,Female,Poland,afairburnle@youku.com,314-976-2404,917 Kennedy Point
+772,36.94,70.65,1/2/2022,3,occupied,true,3,true,false,false,heat,67.7,873.71,Washington Syalvester,73,Male,China,wsyalvesterlf@newsvine.com,856-380-8477,1 Stephen Street
+773,98.97,86.3,12/23/2022,7,maintenance,true,4,false,true,false,auto,67.3,275.14,Jacquenetta Thurner,94,Female,Portugal,jthurnerlg@dell.com,941-362-8263,0 Erie Parkway
+774,41.23,4.67,7/7/2022,5,maintenance,false,2,false,false,false,heat,78.4,215.89,Celka Kirkbright,96,Female,China,ckirkbrightlh@nba.com,892-407-8660,2 Emmet Pass
+775,8.91,3.48,4/21/2022,9,vacant,false,5,true,false,true,auto,70.3,445.26,Dennie Bilney,22,Female,Bosnia and Herzegovina,dbilneyli@squarespace.com,291-992-5182,8 Crownhardt Parkway
+776,24.0,77.88,10/23/2022,9,vacant,false,2,false,true,true,auto,78.4,519.4,Brigit Dickman,77,Female,Sweden,bdickmanlj@geocities.jp,806-868-9562,07399 Oak Valley Lane
+777,0.27,93.64,1/31/2022,6,occupied,false,1,false,true,false,heat,61.8,129.9,Anne-marie Martins,76,Genderqueer,Tajikistan,amartinslk@wired.com,212-544-1323,0056 Ramsey Street
+778,43.66,82.08,3/23/2022,1,vacant,true,1,true,true,true,cool,73.5,2.25,Den Thys,70,Male,Vietnam,dthysll@howstuffworks.com,174-336-1915,471 Heffernan Crossing
+779,72.65,39.57,11/25/2022,8,occupied,true,5,false,false,true,cool,71.8,761.53,Faun Exter,44,Female,Philippines,fexterlm@prlog.org,626-425-5881,219 Banding Pass
+780,98.22,57.4,7/30/2022,8,maintenance,true,4,true,true,true,heat,73.7,825.61,Molly Howe,83,Female,France,mhoweln@comcast.net,331-244-5941,8311 Trailsway Street
+781,86.2,84.0,11/7/2022,1,vacant,true,5,false,false,true,auto,60.9,558.11,Avrit Lathe,48,Female,Mexico,alathelo@feedburner.com,147-526-3040,0 Miller Parkway
+782,75.63,37.73,8/15/2022,6,maintenance,true,4,false,true,false,cool,71.2,598.56,Amelina Fearnehough,64,Female,Poland,afearnehoughlp@bluehost.com,985-977-3557,8982 Spohn Drive
+783,74.72,89.86,10/23/2022,7,occupied,false,5,false,false,false,auto,75.3,322.64,Olympia Pleming,68,Female,China,opleminglq@shinystat.com,868-386-3333,72 Lyons Crossing
+784,49.57,61.38,2/15/2022,6,vacant,false,2,false,false,false,heat,65.9,793.23,Dev Willbraham,24,Male,Nigeria,dwillbrahamlr@hubpages.com,265-397-0002,64 Barby Way
+785,61.12,85.49,6/15/2022,7,vacant,true,2,false,true,false,heat,70.8,440.65,Dag Crix,63,Male,Bulgaria,dcrixls@dagondesign.com,425-539-8815,05698 Holy Cross Crossing
+786,72.47,66.06,6/29/2022,10,maintenance,false,4,false,false,true,cool,70.0,340.83,Bettine Lead,92,Female,Mongolia,bleadlt@miitbeian.gov.cn,641-581-1759,54530 Pine View Park
+787,78.36,65.53,6/20/2022,3,occupied,false,1,false,true,true,heat,60.7,164.4,Tremaine Ivel,85,Male,Russia,tivellu@lulu.com,396-603-0117,818 Hovde Road
+788,87.21,44.53,9/30/2022,5,vacant,false,3,true,true,true,heat,65.0,981.14,Carlyle Croall,30,Male,Panama,ccroalllv@accuweather.com,799-573-6297,91540 Ryan Park
+789,66.1,24.43,7/3/2022,10,occupied,true,5,true,true,true,cool,79.8,350.44,Breena Grummitt,74,Female,China,bgrummittlw@github.io,276-816-8082,97 Kim Circle
+790,18.6,91.94,10/5/2022,6,vacant,false,4,false,false,true,cool,72.8,466.5,Row Rainsdon,38,Female,China,rrainsdonlx@dagondesign.com,831-155-9822,315 Grim Street
+791,26.61,60.88,6/16/2022,3,vacant,true,4,false,false,false,heat,71.0,458.87,Luci Allcorn,24,Female,China,lallcornly@businessweek.com,715-733-2460,48 Sullivan Parkway
+792,14.94,89.16,1/20/2022,5,vacant,false,4,false,true,true,cool,77.0,577.47,Audrey Osbourn,62,Female,China,aosbournlz@moonfruit.com,179-524-4565,4624 Elka Court
+793,75.78,15.01,8/12/2022,10,maintenance,true,5,true,false,true,auto,78.7,323.16,Inglebert Quilter,93,Male,Thailand,iquilterm0@wufoo.com,568-379-6229,53 Portage Drive
+794,6.25,94.49,6/18/2022,2,maintenance,true,4,false,false,true,auto,69.2,889.34,Mitzi O'Hengerty,60,Non-binary,Malaysia,mohengertym1@goo.ne.jp,563-824-6392,9 Brown Road
+795,69.68,2.41,5/31/2022,5,maintenance,true,3,true,false,false,auto,71.9,430.39,Gavra Guido,47,Female,Argentina,gguidom2@mtv.com,406-434-9879,98 Meadow Vale Place
+796,79.24,3.4,6/8/2022,3,maintenance,true,5,true,false,false,auto,73.1,543.25,Nichols Skilling,70,Male,Poland,nskillingm3@g.co,923-889-2858,265 Sugar Drive
+797,6.34,45.19,1/29/2022,9,vacant,true,1,false,true,false,cool,60.3,613.7,Thurstan Hallwell,64,Male,Finland,thallwellm4@moonfruit.com,100-286-1028,873 Hooker Pass
+798,8.72,88.65,10/14/2022,9,maintenance,true,5,true,false,false,auto,78.3,916.71,Zackariah Rosengarten,48,Male,Uruguay,zrosengartenm5@constantcontact.com,347-481-9571,30 Chive Crossing
+799,34.49,51.73,10/2/2022,1,vacant,true,3,false,false,true,heat,77.5,705.59,Rebeca Shayler,37,Female,Colombia,rshaylerm6@weebly.com,256-101-9065,51 Scoville Trail
+800,20.15,0.98,1/1/2022,10,vacant,false,5,true,true,true,cool,64.1,666.06,Otis Kolak,61,Male,China,okolakm7@devhub.com,165-173-8198,9 Sunfield Road
+801,68.99,83.17,3/29/2022,4,vacant,false,1,false,false,true,heat,78.0,664.47,Ebeneser Scholig,48,Male,Brazil,escholigm8@nationalgeographic.com,479-271-0127,15033 Farwell Parkway
+802,88.17,88.08,6/25/2022,9,maintenance,false,5,false,false,true,cool,72.6,682.37,Kort Willgoss,63,Male,China,kwillgossm9@harvard.edu,121-259-7576,40 Kensington Terrace
+803,10.63,70.61,9/5/2022,10,vacant,true,4,true,true,false,cool,64.5,209.05,Arnie Sauter,90,Male,Brazil,asauterma@ezinearticles.com,765-104-8510,8834 Lindbergh Pass
+804,35.66,29.74,7/24/2022,6,maintenance,false,3,false,true,true,heat,62.4,82.47,Kerry Griffe,90,Genderfluid,China,kgriffemb@webeden.co.uk,307-452-4852,28235 Meadow Vale Way
+805,63.18,4.16,5/23/2022,7,occupied,true,4,true,false,true,cool,71.0,853.44,Reinold Phillot,53,Polygender,Russia,rphillotmc@china.com.cn,494-466-3745,592 Warrior Place
+806,15.81,80.09,1/8/2022,8,occupied,false,1,false,true,true,auto,62.5,824.41,Clement Vedenisov,28,Male,Finland,cvedenisovmd@mit.edu,391-287-6531,11379 Katie Road
+807,80.39,34.26,4/15/2022,1,maintenance,false,3,true,false,true,heat,75.8,240.55,Pier Crecy,37,Female,Burkina Faso,pcrecyme@livejournal.com,548-195-1623,5900 Texas Road
+808,89.28,69.67,9/29/2022,2,maintenance,true,3,true,false,true,heat,62.2,199.01,Jo-anne Edinburgh,91,Female,South Korea,jedinburghmf@eepurl.com,170-158-7474,23 Petterle Trail
+809,3.26,42.66,4/20/2022,10,vacant,true,4,true,false,true,heat,77.5,24.26,Burty Cosson,36,Male,Colombia,bcossonmg@cocolog-nifty.com,131-105-3938,58 Montana Lane
+810,15.5,73.61,8/22/2022,7,maintenance,true,2,false,true,false,cool,74.7,398.54,Myles Longshaw,72,Male,Yemen,mlongshawmh@webmd.com,447-563-2396,50 Meadow Vale Avenue
+811,47.64,98.91,10/21/2022,8,vacant,true,5,true,false,false,cool,74.0,861.62,Berte Melia,42,Female,Brazil,bmeliami@epa.gov,429-702-7381,539 Dahle Center
+812,9.21,28.24,8/10/2022,3,maintenance,false,3,true,false,false,auto,68.9,28.18,Marnia Palek,82,Female,China,mpalekmj@wix.com,152-679-4196,84864 Pleasure Park
+813,0.04,58.8,5/26/2022,1,occupied,true,2,false,false,true,heat,67.0,751.42,Ranique Shorthouse,48,Female,Egypt,rshorthousemk@mozilla.com,569-473-5331,2174 Rusk Hill
+814,18.81,37.3,9/14/2022,9,occupied,false,3,true,true,false,auto,76.7,764.82,Sergei Hedin,25,Male,Thailand,shedinml@trellian.com,591-472-1566,756 Waxwing Lane
+815,93.66,19.44,5/3/2022,7,vacant,true,4,false,false,false,heat,64.6,160.1,Luci Trayhorn,60,Female,China,ltrayhornmm@opera.com,796-290-9742,54529 Mayer Terrace
+816,82.68,77.55,8/28/2022,7,maintenance,false,4,true,false,true,cool,73.6,216.43,Alexis Teare,48,Male,Brazil,atearemn@slideshare.net,830-824-2736,4045 Maple Parkway
+817,0.61,72.51,10/27/2022,9,vacant,false,1,true,true,true,auto,69.1,775.41,Stefania Fronek,53,Female,Germany,sfronekmo@feedburner.com,374-108-4358,920 Ronald Regan Lane
+818,46.15,95.06,3/29/2022,4,maintenance,false,1,true,true,true,cool,68.8,120.31,Jeanna Douty,19,Female,Russia,jdoutymp@creativecommons.org,267-884-1184,23 Morningstar Parkway
+819,89.83,62.52,4/2/2022,10,occupied,true,1,false,false,true,heat,62.5,212.67,Avram Copplestone,38,Genderfluid,China,acopplestonemq@symantec.com,652-850-3298,641 Graedel Trail
+820,87.94,37.0,2/25/2022,4,vacant,false,1,false,false,true,cool,68.1,855.85,Mia Probat,77,Female,Syria,mprobatmr@ask.com,451-441-5237,2 Muir Park
+821,37.4,33.87,9/3/2022,5,vacant,false,1,false,true,true,cool,73.7,981.75,Cal Edgcombe,99,Female,Poland,cedgcombems@elegantthemes.com,505-665-3488,498 Columbus Crossing
+822,64.63,5.77,7/3/2022,1,maintenance,true,5,true,false,true,auto,76.5,646.07,Giraldo Mahmood,79,Male,Colombia,gmahmoodmt@yellowbook.com,214-699-6525,65 Leroy Crossing
+823,94.63,28.35,9/12/2022,9,maintenance,true,3,false,true,true,auto,76.5,57.25,Cloe Sandwith,41,Female,Indonesia,csandwithmu@nih.gov,296-234-7054,18980 Cody Drive
+824,51.48,16.35,3/19/2022,4,vacant,true,5,false,false,false,cool,70.4,656.38,Ann Druhan,71,Female,Brazil,adruhanmv@epa.gov,294-930-9672,545 Calypso Lane
+825,89.83,96.84,9/20/2022,5,occupied,false,5,true,true,false,heat,64.0,416.2,Kameko Gaule,47,Female,Bangladesh,kgaulemw@usnews.com,250-238-8729,13 Acker Avenue
+826,94.08,10.95,5/31/2022,8,maintenance,false,2,true,true,false,cool,65.1,192.5,Winna Chaloner,74,Non-binary,Brazil,wchalonermx@guardian.co.uk,414-229-2548,28 Emmet Circle
+827,0.4,69.14,6/4/2022,4,maintenance,false,4,false,true,true,auto,74.9,806.95,Baryram Kuschek,98,Male,Kenya,bkuschekmy@deviantart.com,405-985-8397,4 Sugar Pass
+828,27.6,65.9,9/28/2022,6,occupied,true,3,false,false,true,heat,66.3,878.67,Cathleen Dewicke,38,Female,Indonesia,cdewickemz@phpbb.com,954-919-4962,8 Farmco Place
+829,72.74,0.44,9/11/2022,1,maintenance,true,2,true,true,true,cool,70.1,695.17,Quinton Goane,57,Agender,Burkina Faso,qgoanen0@dyndns.org,679-176-0121,655 Caliangt Junction
+830,8.51,75.56,3/29/2022,5,maintenance,true,1,false,false,true,cool,75.9,925.09,Kaleb Gooda,85,Male,Russia,kgoodan1@reddit.com,426-916-5288,51163 Pierstorff Road
+831,76.59,30.39,8/1/2022,7,occupied,true,4,false,true,true,heat,76.8,475.36,Flem McKag,78,Male,South Korea,fmckagn2@slate.com,674-517-1293,92620 Crescent Oaks Junction
+832,89.29,58.57,11/10/2022,10,occupied,true,2,true,true,false,heat,67.8,260.29,Moe Muzzlewhite,93,Male,Indonesia,mmuzzlewhiten3@cornell.edu,273-599-9644,7 Victoria Place
+833,36.93,65.98,8/10/2022,2,occupied,true,3,true,false,true,heat,73.5,826.67,Lina Frazier,30,Female,China,lfraziern4@baidu.com,342-274-8029,7 Amoth Avenue
+834,32.17,30.42,1/11/2022,3,maintenance,false,5,false,false,false,heat,78.0,343.97,Winnah Macieja,22,Female,Myanmar,wmaciejan5@google.com,458-240-6654,3 Grover Crossing
+835,59.13,45.48,10/26/2022,5,vacant,true,2,true,false,true,cool,62.2,568.07,Sigfried Leftley,38,Male,Laos,sleftleyn6@desdev.cn,853-405-0260,7 Mallory Hill
+836,68.39,98.27,10/22/2022,6,maintenance,false,5,false,true,false,cool,65.4,978.76,Jerri Bampfield,22,Male,Norway,jbampfieldn7@imdb.com,318-716-4986,0200 Granby Drive
+837,67.28,89.22,9/10/2022,5,maintenance,false,1,true,false,false,auto,63.5,891.06,Ardys Lavrick,30,Female,Portugal,alavrickn8@abc.net.au,517-460-9023,9 Goodland Parkway
+838,66.43,19.44,6/4/2022,4,vacant,false,5,false,true,false,heat,71.5,469.84,Dag Dwire,21,Male,Indonesia,ddwiren9@patch.com,406-924-5062,9218 Talmadge Road
+839,29.45,55.28,1/22/2022,2,occupied,true,5,true,false,false,heat,63.1,843.02,Pincas Cribbin,77,Male,France,pcribbinna@un.org,291-606-2635,46122 Westport Crossing
+840,3.92,86.28,1/5/2022,8,vacant,true,4,true,false,false,auto,78.3,925.78,Asia Hillum,79,Bigender,China,ahillumnb@webeden.co.uk,341-714-6018,4486 Stuart Street
+841,27.93,5.1,1/22/2022,7,vacant,true,4,true,false,true,heat,79.7,584.36,Moshe Westbury,90,Male,Colombia,mwestburync@paginegialle.it,379-784-8999,6 Commercial Hill
+842,54.12,65.72,3/24/2022,5,maintenance,true,5,false,false,true,heat,68.8,220.01,Aggi Brok,54,Female,Indonesia,abroknd@gizmodo.com,399-685-9785,238 Muir Trail
+843,14.06,63.66,5/19/2022,4,maintenance,false,2,true,false,true,auto,72.9,389.89,Jaimie Birley,93,Male,Argentina,jbirleyne@51.la,280-550-8025,3 Tony Pass
+844,20.86,26.69,7/4/2022,10,vacant,false,1,false,false,false,cool,66.2,92.19,Aloysius Gaggen,63,Male,Nigeria,agaggennf@networksolutions.com,898-425-6236,28217 Carey Parkway
+845,46.81,50.77,7/23/2022,9,maintenance,true,3,true,false,true,cool,63.8,293.64,Steffie Crichten,48,Female,China,scrichtenng@godaddy.com,481-929-2770,166 Homewood Court
+846,60.95,70.84,1/7/2022,2,vacant,true,4,false,false,false,cool,61.7,566.65,Issi Di Franceschi,32,Female,Liberia,idinh@amazon.co.uk,224-957-9130,29671 Declaration Drive
+847,35.62,76.54,3/13/2022,8,occupied,false,4,false,true,false,auto,75.2,944.59,Benji Casazza,34,Male,Macedonia,bcasazzani@huffingtonpost.com,500-874-2301,7 Heath Lane
+848,54.45,72.1,5/16/2022,9,vacant,true,5,true,true,true,auto,60.4,573.87,Nannette Dagon,85,Female,Indonesia,ndagonnj@people.com.cn,611-382-4791,3 Anniversary Crossing
+849,43.62,10.17,9/8/2022,4,vacant,false,3,true,true,false,auto,72.2,919.79,Germain Graith,89,Male,Indonesia,ggraithnk@skype.com,961-708-4245,2 David Point
+850,10.71,2.01,4/11/2022,6,maintenance,false,4,true,false,false,heat,62.3,238.05,Lanna Freezor,60,Female,China,lfreezornl@nationalgeographic.com,860-356-9246,95932 Eastlawn Street
+851,92.29,56.87,12/4/2022,5,vacant,true,1,false,false,false,auto,71.7,386.94,Bevon Morl,76,Male,Poland,bmorlnm@quantcast.com,609-988-9009,718 Dryden Place
+852,82.29,53.08,2/8/2022,1,occupied,false,5,false,false,true,auto,71.3,863.08,Winnifred Bickford,85,Female,Brazil,wbickfordnn@tiny.cc,415-729-4722,6023 Leroy Crossing
+853,30.56,80.71,8/17/2022,1,occupied,true,2,true,true,true,heat,66.8,652.41,Belita Van Schafflaer,81,Female,Australia,bvanno@diigo.com,990-316-1875,6 Cambridge Crossing
+854,5.83,37.96,11/6/2022,2,vacant,true,1,true,false,true,auto,72.3,96.66,Zachary Lodovichi,35,Male,China,zlodovichinp@webeden.co.uk,290-811-6672,00692 Lakewood Gardens Avenue
+855,9.15,24.78,12/12/2022,10,occupied,false,5,true,true,false,heat,78.0,132.78,Evie Chown,77,Agender,Philippines,echownnq@shutterfly.com,608-282-1470,3 Village Green Place
+856,0.14,67.82,9/8/2022,4,maintenance,false,5,true,false,false,auto,73.2,957.44,Carling Batrim,40,Male,Russia,cbatrimnr@oracle.com,556-876-2849,2365 Harper Plaza
+857,54.09,57.67,2/24/2022,10,occupied,true,2,true,false,true,cool,78.1,530.89,Kenn Bollard,91,Male,Brazil,kbollardns@marriott.com,905-835-7648,8637 Canary Park
+858,95.41,2.42,6/3/2022,7,occupied,true,2,false,true,true,cool,74.6,532.97,Patric Giaomozzo,62,Bigender,Indonesia,pgiaomozzont@cdc.gov,564-654-9707,22 Hintze Lane
+859,19.75,35.2,11/24/2022,6,occupied,true,1,true,false,true,auto,73.5,684.82,Kimmie Iacovone,99,Female,Brazil,kiacovonenu@wisc.edu,110-948-2465,46 Spaight Crossing
+860,0.35,79.19,1/22/2022,10,occupied,false,4,true,false,true,heat,72.1,966.63,Lion Mandeville,64,Male,Philippines,lmandevillenv@dedecms.com,354-108-2270,3459 Hanson Drive
+861,40.04,39.12,5/8/2022,7,maintenance,true,1,true,false,false,cool,61.3,20.0,Denny Rasor,65,Female,Slovenia,drasornw@amazonaws.com,921-760-3263,02766 Village Street
+862,8.84,65.09,6/6/2022,2,occupied,true,3,false,true,false,heat,79.3,418.01,Henry Broy,29,Male,Italy,hbroynx@biglobe.ne.jp,317-795-3571,86 Wayridge Point
+863,13.37,26.49,3/5/2022,4,maintenance,false,4,true,false,true,heat,63.8,752.86,Sena Manktelow,97,Genderqueer,Indonesia,smanktelowny@webeden.co.uk,948-525-2312,309 Merrick Road
+864,41.29,67.99,8/24/2022,7,maintenance,false,5,false,false,true,heat,72.3,825.96,Allissa Lynd,34,Genderfluid,France,alyndnz@twitter.com,394-682-8393,91 Mayer Court
+865,25.86,53.1,9/4/2022,10,vacant,true,1,true,true,true,cool,65.0,352.73,Sherman Anan,54,Male,Portugal,sanano0@umn.edu,981-981-5563,7508 Eagle Crest Way
+866,89.01,9.47,7/19/2022,1,occupied,true,4,true,true,false,auto,62.3,625.63,Bernadine Goard,77,Genderfluid,Micronesia,bgoardo1@mac.com,144-476-0977,60675 Mcguire Junction
+867,59.27,56.41,4/9/2022,6,maintenance,false,1,true,false,false,auto,68.9,216.54,Lora Mc Queen,97,Female,Czech Republic,lmco2@goodreads.com,107-261-6751,79670 Westridge Point
+868,46.89,62.39,4/2/2022,6,vacant,true,3,false,true,false,heat,72.6,822.64,Madalena Kopje,60,Female,Sweden,mkopjeo3@123-reg.co.uk,638-861-8477,5921 Calypso Circle
+869,54.0,57.81,1/5/2022,7,vacant,false,4,false,false,true,auto,79.9,622.37,Goran Sommerlie,21,Male,Indonesia,gsommerlieo4@umn.edu,151-378-4106,55 Brickson Park Way
+870,23.1,79.68,8/3/2022,4,occupied,true,1,false,true,false,cool,68.7,532.28,Sorcha Emilien,97,Female,Peru,semilieno5@macromedia.com,233-325-8349,38158 Jackson Terrace
+871,77.75,92.65,5/19/2022,5,occupied,false,5,true,true,false,auto,73.9,750.39,Gilbertine Winram,32,Female,Finland,gwinramo6@virginia.edu,861-851-4356,294 Red Cloud Way
+872,27.76,97.5,6/15/2022,9,occupied,true,1,false,false,true,heat,66.9,979.86,Aaron Vedenichev,34,Male,Macedonia,avedenichevo7@noaa.gov,826-911-0935,016 Cherokee Court
+873,14.31,46.83,10/24/2022,7,maintenance,true,2,true,false,true,heat,65.6,685.0,Grenville Ackery,86,Male,Colombia,gackeryo8@businesswire.com,447-769-8339,70 Golf View Park
+874,31.52,94.29,6/13/2022,5,vacant,false,2,false,true,true,cool,77.2,971.04,Simona Highman,57,Female,China,shighmano9@utexas.edu,988-286-7429,65 Coolidge Drive
+875,8.01,17.38,10/19/2022,1,maintenance,false,3,true,true,true,heat,73.2,333.96,Dredi Aumerle,28,Female,United States,daumerleoa@ebay.co.uk,412-938-9911,75986 Dovetail Park
+876,25.94,67.73,12/24/2022,7,vacant,false,3,true,false,true,cool,77.4,334.13,Jobie Philippart,68,Female,Philippines,jphilippartob@shinystat.com,942-407-6135,981 Kim Drive
+877,54.68,50.61,2/15/2022,4,vacant,false,2,false,false,true,auto,63.5,229.38,Danice Oakshott,75,Female,China,doakshottoc@go.com,742-915-5297,38 Elmside Terrace
+878,86.8,64.11,9/25/2022,3,vacant,false,4,false,false,true,heat,77.1,628.54,Rorie Haysom,75,Female,Peru,rhaysomod@mediafire.com,553-332-7997,854 Debra Junction
+879,47.11,0.43,12/3/2022,7,vacant,false,4,true,false,true,heat,63.8,669.23,Constantine Paddick,48,Male,Russia,cpaddickoe@chicagotribune.com,998-244-7356,7 Service Junction
+880,63.48,69.09,6/17/2022,3,vacant,false,1,true,true,true,auto,69.1,662.25,Teodoro Slemmonds,91,Male,Germany,tslemmondsof@mac.com,663-806-8850,18 Daystar Avenue
+881,76.39,51.16,1/26/2022,2,maintenance,true,2,false,false,false,cool,75.2,510.29,Lemuel Roome,99,Male,Peru,lroomeog@icq.com,640-876-6017,220 Morningstar Point
+882,69.08,8.91,12/8/2022,10,occupied,true,2,true,true,true,cool,69.0,270.04,Cher De Santos,30,Female,Brazil,cdeoh@furl.net,182-310-8083,873 Kensington Way
+883,55.64,74.7,3/31/2022,6,occupied,false,3,true,false,true,heat,75.2,892.69,Nerte Wilne,52,Agender,Sweden,nwilneoi@census.gov,389-697-5996,9 Birchwood Hill
+884,35.18,32.74,3/23/2022,7,maintenance,false,3,false,true,true,heat,65.7,441.23,Aleen Lyptrade,39,Female,Cameroon,alyptradeoj@kickstarter.com,613-279-8127,89 Nelson Street
+885,28.04,85.59,10/1/2022,7,occupied,true,1,false,false,true,cool,77.6,451.37,Joeann Harse,27,Female,Colombia,jharseok@cisco.com,149-175-4713,3587 Summerview Avenue
+886,0.12,32.82,10/11/2022,4,occupied,false,5,true,false,false,cool,67.4,227.37,Leela MacConneely,47,Polygender,Cambodia,lmacconneelyol@posterous.com,631-759-6031,2836 Weeping Birch Street
+887,75.26,87.62,3/22/2022,6,vacant,false,2,false,true,true,cool,69.7,591.61,Neala Bennetto,81,Female,Austria,nbennettoom@stumbleupon.com,222-508-8412,25555 Green Ridge Avenue
+888,69.85,5.91,7/31/2022,9,vacant,false,1,false,true,false,auto,79.4,90.47,Pearline Khrishtafovich,27,Female,Indonesia,pkhrishtafovichon@usnews.com,519-402-6774,4761 Green Ridge Trail
+889,82.03,68.22,7/26/2022,4,maintenance,false,1,false,true,false,cool,62.6,157.36,Sherry Jakubczyk,69,Genderfluid,Ghana,sjakubczykoo@army.mil,806-169-1193,8292 New Castle Point
+890,71.08,28.42,3/15/2022,6,vacant,false,5,false,false,true,auto,66.0,657.04,Zedekiah Laterza,53,Male,Portugal,zlaterzaop@booking.com,659-362-7279,5845 Pawling Point
+891,84.45,58.39,12/9/2022,2,vacant,true,2,false,false,false,auto,76.9,904.7,Lynelle Perrin,24,Female,Indonesia,lperrinoq@mtv.com,291-977-1810,82 Ruskin Alley
+892,71.38,93.84,11/26/2022,9,vacant,true,1,true,true,true,auto,76.6,54.23,Patrica Reimer,22,Female,Democratic Republic of the Congo,preimeror@webmd.com,270-592-4256,63068 John Wall Drive
+893,22.6,53.5,11/6/2022,9,occupied,false,3,false,false,false,heat,66.0,761.7,Kylila Gages,57,Female,Indonesia,kgagesos@java.com,546-737-5706,2425 Sommers Parkway
+894,81.16,46.52,4/15/2022,10,maintenance,true,2,true,true,false,heat,73.0,548.2,Harry Carlisle,27,Male,China,hcarlisleot@oracle.com,174-663-2717,91581 Nobel Point
+895,39.37,22.6,7/23/2022,6,maintenance,true,3,false,false,false,heat,71.0,810.36,Kathleen Scamadine,56,Female,Afghanistan,kscamadineou@myspace.com,567-733-9507,017 Loomis Court
+896,84.95,67.46,5/25/2022,9,vacant,false,4,false,true,true,cool,75.5,15.61,Paule Kliche,31,Female,Russia,pklicheov@cdc.gov,400-666-6784,3304 Rowland Pass
+897,44.62,36.53,5/26/2022,8,vacant,true,5,false,false,false,cool,64.5,481.56,Cosimo Phethean,89,Male,Brazil,cphetheanow@theguardian.com,196-401-0047,28 Oakridge Hill
+898,12.79,77.17,11/30/2022,7,maintenance,true,5,false,false,false,cool,65.1,691.0,Tawnya Spours,99,Female,Philippines,tspoursox@bigcartel.com,545-358-9310,679 Waubesa Point
+899,35.42,92.89,11/3/2022,1,maintenance,true,2,false,false,false,auto,65.8,755.4,Lauryn Fance,96,Female,Poland,lfanceoy@buzzfeed.com,693-627-8111,6 Portage Avenue
+900,89.02,95.48,11/26/2022,3,occupied,false,3,true,true,false,auto,75.2,861.09,Jeni Belchambers,31,Female,Brazil,jbelchambersoz@storify.com,919-359-3017,60 Stephen Avenue
+901,65.88,64.36,12/21/2022,7,occupied,true,2,false,true,false,auto,76.7,725.29,Stephani Haxby,95,Female,China,shaxbyp0@fda.gov,774-447-7615,1949 Arkansas Way
+902,74.15,28.03,1/1/2022,4,occupied,false,1,true,false,false,auto,78.9,847.09,Trenton Gleder,23,Male,South Africa,tglederp1@google.cn,104-187-2291,742 Paget Avenue
+903,86.23,76.92,7/12/2022,2,occupied,false,5,true,false,false,auto,77.8,519.18,Mellisa Gillison,45,Female,Israel,mgillisonp2@latimes.com,248-471-9968,92953 Atwood Terrace
+904,46.86,91.36,3/27/2022,10,vacant,false,3,false,false,false,cool,60.7,850.37,Baxie Childerhouse,80,Male,Greece,bchilderhousep3@washington.edu,372-232-7528,981 Miller Place
+905,62.36,64.77,6/3/2022,6,maintenance,false,5,false,false,false,cool,69.1,414.29,Dall Moscon,61,Male,United States,dmosconp4@amazon.com,336-265-2825,06 Acker Way
+906,83.63,83.73,4/12/2022,7,vacant,false,1,false,false,false,cool,78.5,873.54,Wiatt Dundon,35,Male,China,wdundonp5@xing.com,512-540-4718,7 Holmberg Center
+907,19.49,34.51,5/18/2022,9,occupied,true,3,true,false,true,auto,60.2,819.73,Doro Bromage,43,Female,China,dbromagep6@va.gov,288-490-3311,89 Forest Dale Place
+908,73.99,94.1,7/21/2022,8,maintenance,true,4,true,false,true,auto,73.5,353.66,Lyman Gianneschi,30,Male,Poland,lgianneschip7@reddit.com,321-659-6629,6 Schlimgen Hill
+909,61.38,4.74,9/14/2022,1,occupied,false,3,false,false,true,heat,60.1,783.88,Idalina Brannon,82,Female,China,ibrannonp8@skype.com,475-566-2376,442 Alpine Pass
+910,72.26,12.17,10/20/2022,4,vacant,true,2,true,false,true,heat,63.2,849.93,Chrystal Chaudhry,53,Female,Indonesia,cchaudhryp9@storify.com,386-327-7998,577 La Follette Center
+911,56.35,0.37,5/29/2022,9,maintenance,false,2,false,true,false,heat,79.2,873.45,Dylan Draycott,87,Male,Philippines,ddraycottpa@vistaprint.com,661-358-3441,01357 Rieder Avenue
+912,93.3,58.82,2/6/2022,7,maintenance,true,2,false,true,false,cool,62.3,659.95,Chicky Rao,39,Female,Portugal,craopb@ftc.gov,973-713-7498,1 Tennessee Place
+913,64.81,21.06,8/4/2022,3,vacant,true,3,false,false,true,heat,70.8,703.18,Vonnie Stuttman,47,Female,Greece,vstuttmanpc@delicious.com,829-939-5587,4111 Luster Point
+914,83.35,11.34,10/22/2022,4,occupied,false,5,true,false,true,heat,68.6,297.55,Miof mela Legat,82,Female,North Korea,mmelapd@tripadvisor.com,168-988-3616,8963 Anhalt Center
+915,12.78,7.64,8/25/2022,4,maintenance,false,5,true,true,true,auto,72.4,762.44,Alexio Brunt,55,Male,Russia,abruntpe@utexas.edu,322-430-5731,54547 Ridgeway Place
+916,38.77,75.06,2/26/2022,2,occupied,true,4,true,true,false,heat,72.9,844.05,Shellie Leason,76,Female,Portugal,sleasonpf@zimbio.com,264-566-8902,34108 Crownhardt Street
+917,32.4,77.45,1/24/2022,10,maintenance,false,5,false,false,true,cool,69.6,782.79,Robinia Winnister,44,Female,Russia,rwinnisterpg@ft.com,246-650-1485,894 Upham Center
+918,47.3,89.36,11/20/2022,9,maintenance,true,4,false,true,false,auto,79.1,702.38,Sylvester Ludewig,89,Male,Iraq,sludewigph@harvard.edu,644-156-5846,1141 Tennyson Trail
+919,71.34,87.7,2/20/2022,5,occupied,false,1,false,true,false,cool,76.0,383.11,Gerrard Conochie,53,Male,Philippines,gconochiepi@cdbaby.com,991-741-4867,4942 Grim Road
+920,99.54,70.6,11/8/2022,10,occupied,false,5,false,false,true,auto,76.3,203.27,Mikey Mieville,27,Agender,Colombia,mmievillepj@foxnews.com,326-203-5122,90 Pine View Circle
+921,20.88,84.93,11/16/2022,2,occupied,true,5,false,true,true,heat,70.5,713.33,Derron Reddoch,45,Male,China,dreddochpk@opensource.org,847-256-0837,80 Arkansas Pass
+922,98.21,36.4,11/7/2022,9,vacant,false,5,true,true,false,cool,73.1,185.2,Melisa Jendas,59,Genderqueer,Poland,mjendaspl@cnn.com,539-168-8745,55 Rockefeller Circle
+923,7.65,92.66,5/12/2022,10,maintenance,true,3,true,false,false,cool,69.1,798.48,Kienan Stamp,93,Male,Portugal,kstamppm@naver.com,432-943-2352,4726 Hayes Hill
+924,91.53,52.7,7/28/2022,5,vacant,true,3,true,true,false,heat,67.2,468.79,Merill Gookes,59,Male,United States,mgookespn@chron.com,352-116-2733,796 Melby Park
+925,50.2,70.53,1/21/2022,8,vacant,true,3,false,true,true,heat,74.9,411.02,Salli Crowdson,44,Female,Ireland,scrowdsonpo@nbcnews.com,928-900-2798,54368 Killdeer Center
+926,73.11,94.24,3/20/2022,1,occupied,true,1,false,false,false,cool,70.0,599.34,Ameline Riddlesden,20,Female,Indonesia,ariddlesdenpp@behance.net,869-356-9383,9476 Kingsford Circle
+927,11.84,0.93,5/21/2022,7,maintenance,false,2,true,true,true,auto,74.4,430.59,Fancy Brisland,88,Female,Indonesia,fbrislandpq@disqus.com,361-663-5705,718 Helena Parkway
+928,2.93,20.67,3/26/2022,5,occupied,false,1,false,false,true,heat,69.9,743.28,Tye Emmet,87,Male,Somalia,temmetpr@cisco.com,149-997-2398,102 Claremont Circle
+929,3.67,77.39,1/26/2022,2,maintenance,true,3,true,true,true,heat,79.5,593.15,Gino Widmore,83,Bigender,Ecuador,gwidmoreps@arizona.edu,800-461-8863,1404 Hollow Ridge Pass
+930,31.33,48.67,11/2/2022,5,occupied,true,3,true,false,false,auto,63.7,696.25,Harland Berrane,26,Male,Honduras,hberranept@paypal.com,232-991-9944,778 Morning Point
+931,26.02,67.51,10/8/2022,7,occupied,false,3,true,true,true,auto,67.9,797.61,Othello Newsome,32,Male,China,onewsomepu@hostgator.com,252-772-6039,01 Longview Lane
+932,2.73,51.06,9/6/2022,4,maintenance,false,3,true,false,false,heat,72.9,641.57,Gregorius Glazebrook,57,Male,Poland,gglazebrookpv@businesswire.com,171-375-4262,62 Sunnyside Court
+933,79.77,4.6,4/23/2022,2,maintenance,true,1,true,false,true,auto,76.1,613.61,Eugene Wycliffe,50,Male,China,ewycliffepw@epa.gov,741-294-3556,3311 Thierer Park
+934,12.23,40.37,9/27/2022,4,maintenance,false,2,true,true,false,cool,77.6,808.93,Heather Boys,96,Female,Serbia,hboyspx@ucoz.ru,434-885-6672,25411 Dixon Parkway
+935,29.1,85.78,8/11/2022,8,occupied,false,5,true,true,true,cool,61.9,279.76,Verna Swabey,69,Female,Indonesia,vswabeypy@cam.ac.uk,318-546-7361,8167 Mitchell Drive
+936,66.19,12.65,7/7/2022,8,vacant,false,5,false,true,false,cool,67.5,222.15,Cloris Allen,28,Female,Philippines,callenpz@moonfruit.com,625-125-8677,86 Linden Place
+937,77.64,1.47,7/8/2022,7,vacant,false,3,true,true,false,cool,69.0,384.64,Constancia Dabes,94,Female,China,cdabesq0@smh.com.au,795-920-8511,33 Eliot Trail
+938,85.07,5.36,4/6/2022,6,vacant,false,3,true,true,true,cool,67.2,527.37,Sampson Gounard,28,Male,Pakistan,sgounardq1@bloglines.com,732-388-8365,242 Union Court
+939,67.43,63.97,7/20/2022,9,maintenance,false,3,false,false,true,heat,64.5,529.79,Davida Anshell,88,Female,China,danshellq2@about.com,742-370-9845,22248 Sunfield Park
+940,71.32,38.25,4/19/2022,5,occupied,true,3,false,true,true,auto,76.0,883.92,Giorgia Critchell,76,Female,Brazil,gcritchellq3@canalblog.com,280-354-2139,04 Pearson Terrace
+941,12.46,93.83,4/15/2022,1,maintenance,true,2,true,true,true,heat,72.1,55.81,Carroll Alcorn,65,Male,Portugal,calcornq4@bizjournals.com,854-790-4957,78541 Elka Center
+942,73.26,84.96,7/13/2022,8,maintenance,true,2,true,true,false,heat,63.5,711.4,Roland Lade,39,Male,Argentina,rladeq5@state.tx.us,174-840-4922,3 Maple Wood Parkway
+943,79.45,76.06,11/17/2022,3,occupied,true,4,true,true,true,auto,67.6,454.15,Gretel Jouning,82,Female,China,gjouningq6@photobucket.com,740-823-0481,51367 Beilfuss Avenue
+944,21.31,83.28,7/13/2022,9,maintenance,false,5,true,false,true,cool,64.1,937.6,Whitney Chatin,73,Male,Argentina,wchatinq7@people.com.cn,520-740-5089,456 Ilene Point
+945,0.28,15.15,4/12/2022,2,occupied,false,4,false,false,true,heat,71.7,834.81,Baudoin Taplin,70,Genderfluid,Sweden,btaplinq8@infoseek.co.jp,585-326-3798,34 Eagan Parkway
+946,91.08,35.06,5/23/2022,7,vacant,false,1,false,false,true,cool,67.2,381.96,Molli Skyme,87,Female,Brazil,mskymeq9@unicef.org,386-355-7707,1 Thackeray Parkway
+947,99.64,72.22,8/9/2022,2,vacant,false,3,false,true,true,heat,78.4,331.46,Mead Loiterton,76,Female,China,mloitertonqa@liveinternet.ru,418-114-4477,06 Melby Lane
+948,67.62,32.31,10/29/2022,3,maintenance,false,2,false,false,false,heat,77.2,725.06,Rodrique Judkin,76,Male,Portugal,rjudkinqb@amazon.com,746-698-0238,66 Butterfield Park
+949,69.94,13.21,7/9/2022,2,vacant,true,2,true,false,true,auto,75.1,164.47,Bunnie Everson,29,Female,Afghanistan,beversonqc@cnet.com,668-816-6244,399 Hanson Court
+950,78.57,92.31,8/17/2022,8,maintenance,false,2,false,false,true,heat,66.6,44.83,Kinna Brumble,26,Female,Sweden,kbrumbleqd@google.com,492-569-5009,165 Continental Lane
+951,83.4,51.26,2/21/2022,2,occupied,false,2,true,false,false,auto,70.9,476.04,Bernarr Bowditch,97,Male,Indonesia,bbowditchqe@amazon.co.uk,549-700-9845,642 Hayes Terrace
+952,34.05,40.15,6/30/2022,6,maintenance,true,4,false,false,false,heat,70.0,511.34,Mariya Leeson,90,Female,Finland,mleesonqf@gnu.org,799-949-2370,8294 Farmco Junction
+953,27.84,56.18,3/17/2022,8,occupied,true,5,false,true,true,auto,66.0,973.18,Konstantine Domek,80,Male,China,kdomekqg@reddit.com,847-642-9652,8680 Stang Alley
+954,69.4,60.47,8/22/2022,4,vacant,true,4,true,false,true,auto,76.7,951.4,Stefan Korda,76,Male,Slovenia,skordaqh@yahoo.co.jp,272-846-5497,74 Jenifer Plaza
+955,73.24,21.1,11/20/2022,10,occupied,false,2,false,false,false,heat,60.1,177.1,Reynolds Francey,89,Male,China,rfranceyqi@hatena.ne.jp,952-258-3624,70 Independence Court
+956,18.06,73.77,9/12/2022,10,maintenance,false,2,false,false,false,heat,73.7,44.81,Frankie Joost,32,Male,China,fjoostqj@skyrock.com,534-786-8932,9304 Morning Park
+957,62.04,79.03,8/19/2022,1,vacant,false,2,true,true,false,heat,62.8,258.56,Virge Keddey,88,Male,Russia,vkeddeyqk@cpanel.net,332-874-3828,24712 Stephen Hill
+958,30.04,80.51,10/14/2022,9,maintenance,false,2,false,true,false,auto,63.4,60.27,Othella Kirtlan,97,Female,Pakistan,okirtlanql@paginegialle.it,658-116-4383,16 Hollow Ridge Circle
+959,41.44,1.84,10/13/2022,7,occupied,true,3,false,true,false,cool,61.7,338.85,Buddy Henkens,31,Male,France,bhenkensqm@list-manage.com,243-116-0379,92342 Hovde Place
+960,1.01,24.36,6/26/2022,6,occupied,false,4,true,true,false,auto,63.2,683.95,Bertram Agnew,48,Male,France,bagnewqn@si.edu,278-431-7160,964 Knutson Crossing
+961,39.16,33.02,1/16/2022,5,maintenance,false,4,true,true,false,cool,69.0,700.14,Grazia Wooldridge,72,Female,Ukraine,gwooldridgeqo@virginia.edu,717-485-8185,2 Sherman Way
+962,79.05,34.98,12/25/2022,1,occupied,false,3,true,true,true,auto,66.9,122.62,Georgeanna Soal,58,Female,Kazakhstan,gsoalqp@ft.com,189-539-3196,06255 Mesta Alley
+963,29.42,0.96,9/12/2022,8,maintenance,true,1,true,true,false,cool,66.2,705.51,Lenee Pottle,20,Female,China,lpottleqq@infoseek.co.jp,746-541-6162,440 Arapahoe Alley
+964,82.09,95.68,9/5/2022,5,vacant,false,3,true,false,true,cool,65.6,599.55,Lucille Dooland,73,Female,Sweden,ldoolandqr@rediff.com,161-274-4577,39690 Vidon Drive
+965,5.01,37.39,3/29/2022,6,vacant,false,5,true,true,false,heat,60.6,707.76,Johnette Ciccarelli,67,Female,China,jciccarelliqs@twitpic.com,322-976-6291,239 Gerald Road
+966,82.2,25.32,3/25/2022,6,occupied,true,4,true,true,false,cool,78.7,987.09,Enoch Jaze,76,Male,Indonesia,ejazeqt@examiner.com,139-625-9525,36 Hovde Alley
+967,43.31,31.99,8/3/2022,7,maintenance,false,3,false,true,true,cool,73.8,144.02,Leroy Kaesmans,38,Male,China,lkaesmansqu@washingtonpost.com,992-409-5372,3219 Fordem Trail
+968,39.86,82.26,2/3/2022,10,occupied,false,3,true,false,true,heat,66.1,217.78,Nikolaos Furley,26,Male,Morocco,nfurleyqv@pcworld.com,584-299-3538,46324 Fremont Alley
+969,94.76,75.38,4/17/2022,10,vacant,false,4,false,false,true,heat,69.5,469.06,Sophie Dornin,63,Female,Iran,sdorninqw@newsvine.com,996-331-1752,4067 Sommers Lane
+970,62.92,49.87,3/2/2022,6,maintenance,false,2,false,true,true,auto,65.3,792.23,Chere Treppas,99,Female,Portugal,ctreppasqx@aol.com,178-797-0166,4279 2nd Place
+971,60.41,58.26,8/25/2022,2,maintenance,false,2,false,true,true,auto,60.4,563.88,Gus Gerriet,95,Polygender,Indonesia,ggerrietqy@hhs.gov,601-550-6550,6 Pine View Crossing
+972,10.26,28.85,9/3/2022,5,maintenance,false,2,false,false,false,auto,79.4,131.46,Leupold Escalera,73,Male,France,lescaleraqz@state.tx.us,950-792-6252,6 Eastlawn Junction
+973,40.41,98.98,12/18/2022,6,maintenance,true,1,true,false,true,heat,69.5,926.88,Fiorenze Cancellor,39,Female,Mauritania,fcancellorr0@netlog.com,107-938-1604,728 Meadow Vale Alley
+974,42.67,12.47,5/19/2022,1,vacant,true,4,false,false,false,heat,61.8,669.36,Bud Karpenya,49,Male,Indonesia,bkarpenyar1@tiny.cc,758-936-5195,47864 Moulton Avenue
+975,23.23,86.54,3/28/2022,10,occupied,true,2,false,true,true,auto,71.6,67.8,Genovera MacArthur,19,Female,China,gmacarthurr2@topsy.com,186-147-9323,195 West Way
+976,20.32,10.87,6/27/2022,9,vacant,false,4,true,true,true,auto,67.3,774.1,Fred Nijssen,54,Female,Ireland,fnijssenr3@drupal.org,572-325-5604,18 Columbus Hill
+977,56.4,67.8,1/26/2022,3,maintenance,false,4,true,true,false,auto,61.3,16.76,Mollie Leeke,78,Female,Vietnam,mleeker4@nba.com,209-499-8091,50804 Merrick Pass
+978,84.6,61.83,3/5/2022,3,maintenance,true,2,true,true,false,heat,62.5,830.88,Lisbeth Panchen,46,Female,Poland,lpanchenr5@i2i.jp,440-525-0098,146 Vahlen Park
+979,62.15,56.68,1/22/2022,7,vacant,true,2,true,true,true,heat,65.9,359.78,Rosaline Threadgill,35,Female,France,rthreadgillr6@hibu.com,360-873-7726,79 Kings Terrace
+980,79.87,74.54,1/14/2022,5,maintenance,false,3,true,false,false,cool,70.7,888.85,Jewel Osorio,40,Female,Canada,josorior7@google.de,491-662-2835,28035 Hagan Parkway
+981,4.56,43.36,2/1/2022,9,vacant,false,2,true,false,true,heat,68.4,202.88,Rois Dunstone,79,Female,Kazakhstan,rdunstoner8@dot.gov,384-619-0619,12987 Larry Terrace
+982,93.82,3.16,12/7/2022,2,vacant,true,3,false,true,false,auto,73.0,599.79,Ricca Rusling,20,Polygender,China,rruslingr9@wufoo.com,274-853-3521,283 Ridge Oak Terrace
+983,75.6,68.86,8/15/2022,7,occupied,true,5,false,true,true,cool,61.6,505.89,Archibold Kittoe,82,Male,Indonesia,akittoera@webmd.com,232-760-6994,5 Daystar Crossing
+984,87.79,36.37,9/8/2022,6,vacant,true,5,true,false,false,heat,79.9,798.66,Barn Farn,35,Male,Nigeria,bfarnrb@moonfruit.com,408-415-6277,27 Clemons Park
+985,22.29,10.05,3/3/2022,7,vacant,false,3,false,true,false,cool,67.9,689.78,Benn Acarson,63,Male,Colombia,bacarsonrc@wordpress.com,908-324-3579,2 Holy Cross Plaza
+986,35.51,78.63,12/30/2022,2,occupied,false,3,true,false,true,heat,75.0,375.16,Galvan Gommey,85,Male,Portugal,ggommeyrd@europa.eu,905-543-9105,00 Mayer Drive
+987,69.04,23.66,1/24/2022,9,vacant,false,5,false,true,true,cool,75.4,648.97,Thaddeus Martelet,78,Male,Philippines,tmarteletre@yelp.com,606-672-9185,23289 Toban Terrace
+988,0.22,50.16,7/2/2022,1,vacant,true,2,true,false,false,cool,76.3,335.92,Maura Foskew,57,Female,China,mfoskewrf@guardian.co.uk,570-759-7811,45 Troy Crossing
+989,12.84,28.32,8/28/2022,1,maintenance,false,4,true,false,false,auto,67.4,121.59,Worth Crevy,21,Male,Palestinian Territory,wcrevyrg@jalbum.net,374-418-8987,15751 Canary Point
+990,98.96,74.81,7/21/2022,1,maintenance,true,4,true,true,false,auto,73.1,288.44,Tommy Brooks,78,Female,Japan,tbrooksrh@toplist.cz,894-709-5183,4944 Shoshone Crossing
+991,38.36,28.27,11/5/2022,5,maintenance,false,2,false,true,true,auto,71.2,150.38,Eadie Frow,28,Female,Czech Republic,efrowri@reverbnation.com,110-701-1446,47 Briar Crest Plaza
+992,36.04,52.49,5/6/2022,8,maintenance,false,2,true,false,true,cool,69.3,180.35,Lorettalorna Dinsdale,31,Female,China,ldinsdalerj@businesswire.com,692-726-1870,75704 Sachs Point
+993,32.11,57.57,8/23/2022,10,vacant,true,3,true,false,true,heat,70.4,40.62,Amelie Sullly,76,Female,Indonesia,asulllyrk@chronoengine.com,946-698-3151,4 Londonderry Park
+994,9.73,88.37,11/5/2022,10,maintenance,true,4,false,true,false,heat,72.8,346.97,Hercules Martinek,58,Male,Afghanistan,hmartinekrl@cbsnews.com,250-549-4028,9 Kim Avenue
+995,4.8,83.66,3/4/2022,1,maintenance,true,4,false,true,false,heat,62.5,610.4,Casie Bonnin,54,Female,China,cbonninrm@weibo.com,392-639-2059,4 Clove Circle
+996,82.72,98.11,7/13/2022,10,vacant,true,4,true,false,true,heat,68.6,930.94,Paola McGeorge,45,Female,China,pmcgeorgern@pinterest.com,825-728-8357,8 Roxbury Lane
+997,91.68,35.19,2/6/2022,3,occupied,false,1,true,false,true,cool,65.6,403.76,Florentia Klaggeman,44,Female,Norway,fklaggemanro@thetimes.co.uk,155-328-2283,94 Elka Drive
+998,60.58,96.39,6/15/2022,8,occupied,false,5,false,true,false,cool,71.8,964.42,Tisha Kensley,30,Female,China,tkensleyrp@apple.com,328-990-5461,24398 Goodland Trail
+999,52.71,95.83,4/15/2022,6,vacant,false,1,false,true,true,cool,65.9,853.57,Melvin Barhem,99,Male,China,mbarhemrq@fema.gov,846-919-0725,5 Eagan Park
+1000,30.41,5.71,10/26/2022,4,vacant,false,1,true,false,true,heat,60.6,788.24,Ira Rablen,85,Male,Laos,irablenrr@surveymonkey.com,246-637-5159,22958 Fairview Circle
